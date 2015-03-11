@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="junit-maven-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GS_JUnit_6_Maven/target/junit-maven-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

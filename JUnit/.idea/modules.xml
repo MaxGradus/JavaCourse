@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/junit.iml" filepath="$PROJECT_DIR$/junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_3_Annotation/junit-annotation.iml" filepath="$PROJECT_DIR$/GS_JUnit_3_Annotation/junit-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_2_Assert/junit-assert.iml" filepath="$PROJECT_DIR$/GS_JUnit_2_Assert/junit-assert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_4_Exception/junit-exception.iml" filepath="$PROJECT_DIR$/GS_JUnit_4_Exception/junit-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_6_Maven/junit-maven.iml" filepath="$PROJECT_DIR$/GS_JUnit_6_Maven/junit-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_8_Mockito/junit-mockito.iml" filepath="$PROJECT_DIR$/GS_JUnit_8_Mockito/junit-mockito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_5_Parameters/junit-parameters.iml" filepath="$PROJECT_DIR$/GS_JUnit_5_Parameters/junit-parameters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_1_Simple/junit-simple.iml" filepath="$PROJECT_DIR$/GS_JUnit_1_Simple/junit-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_7_Suite/junit-suite.iml" filepath="$PROJECT_DIR$/GS_JUnit_7_Suite/junit-suite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_7_Suite/src/main/main.iml" filepath="$PROJECT_DIR$/GS_JUnit_7_Suite/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_6_Maven/src/main/main1.iml" filepath="$PROJECT_DIR$/GS_JUnit_6_Maven/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_5_Parameters/src/main/main2.iml" filepath="$PROJECT_DIR$/GS_JUnit_5_Parameters/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_4_Exception/src/main/main3.iml" filepath="$PROJECT_DIR$/GS_JUnit_4_Exception/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_8_Mockito/src/main/main4.iml" filepath="$PROJECT_DIR$/GS_JUnit_8_Mockito/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_1_Simple/src/main/main5.iml" filepath="$PROJECT_DIR$/GS_JUnit_1_Simple/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_3_Annotation/src/main/main6.iml" filepath="$PROJECT_DIR$/GS_JUnit_3_Annotation/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_6_Maven/src/test/test.iml" filepath="$PROJECT_DIR$/GS_JUnit_6_Maven/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_2_Assert/src/test/test1.iml" filepath="$PROJECT_DIR$/GS_JUnit_2_Assert/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_5_Parameters/src/test/test2.iml" filepath="$PROJECT_DIR$/GS_JUnit_5_Parameters/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_7_Suite/src/test/test3.iml" filepath="$PROJECT_DIR$/GS_JUnit_7_Suite/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_8_Mockito/src/test/test4.iml" filepath="$PROJECT_DIR$/GS_JUnit_8_Mockito/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_1_Simple/src/test/test5.iml" filepath="$PROJECT_DIR$/GS_JUnit_1_Simple/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_3_Annotation/src/test/test6.iml" filepath="$PROJECT_DIR$/GS_JUnit_3_Annotation/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_JUnit_4_Exception/src/test/test7.iml" filepath="$PROJECT_DIR$/GS_JUnit_4_Exception/src/test/test7.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+
+
+    //External module dependencies
+
+    runtime group: 'org.springframework', name: 'spring-core', version: '2.5'
+    runtime 'org.springframework:spring-aop:2.5'
+
+    compile "log4j:log4j:1.2.17"
+
+
+//    // project dependency
+    runtime project(':Gradle_Jar')
+//
+//    //files
+//    runtime files('libs/a.jar', 'libs/b.jar')
+//    runtime fileTree(dir: 'libs', include: '*.jar')
+
+}
+
+jar {
+    from configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) }
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+}

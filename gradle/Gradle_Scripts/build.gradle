@@ -1,0 +1,28 @@
+
+task compile << {
+    println 'compiling source'
+}
+
+task compileTest(dependsOn: compile) << {
+    println 'compiling unit tests'
+}
+
+task mytest(dependsOn: [compile, compileTest]) << {
+    println 'running unit tests'
+}
+
+task dist(dependsOn: [compile, mytest]) << {
+    println 'building the distribution'
+}
+
+task printStandartVariables << {
+    println("project = " + project)
+    println("name = " + name)
+    println("path = " + path)
+    println("description =" + description)
+    println("projectDir = " + projectDir)
+    println("buildDir = " + buildDir)
+    println("group = " + group)
+    println("version = " + version)
+}
+

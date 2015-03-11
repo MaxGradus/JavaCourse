@@ -1,0 +1,3 @@
+http://mkblog.exadel.com/2009/08/learning-jsf2-managed-beans/
+http://balusc.blogspot.ru/2011/09/communication-in-jsf-20.html
+http://javaevangelist.blogspot.ru/2011/08/jsf-tip-of-day-managedproperty-set.html

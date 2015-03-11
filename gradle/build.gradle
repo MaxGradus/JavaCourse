@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':Gradle_Jar')
+    compile project(':New_Jar')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+jar {
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+}
+

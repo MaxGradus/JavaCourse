@@ -1,0 +1,15 @@
+rootProject.name = 'Gradle'
+
+include 'Gradle_Jar'
+include 'New_Jar'
+
+include 'Gradle_War'
+
+include 'Gradle_Scripts'
+
+include 'Gradle_Copy'
+
+include 'Gradle_Ear'
+
+include 'Gradle_Dependency'
+
