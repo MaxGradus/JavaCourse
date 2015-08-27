@@ -3,25 +3,42 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_7_DB/servlet/src/main/main.iml" filepath="$PROJECT_DIR$/GS_EJB_7_DB/servlet/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Servlet/servlet/src/main/main.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Servlet/servlet/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Remote/client/src/main/main1.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Remote/client/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_6_Async/src/main/main1.iml" filepath="$PROJECT_DIR$/GS_EJB_6_Async/src/main/main1.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_4_Bean_Injection/ejb/src/main/main10.iml" filepath="$PROJECT_DIR$/GS_EJB_4_Bean_Injection/ejb/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_First/src/main/main10.iml" filepath="$PROJECT_DIR$/GS_EJB_1_First/src/main/main10.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_4_Bean_Injection/servlet/src/main/main11.iml" filepath="$PROJECT_DIR$/GS_EJB_4_Bean_Injection/servlet/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Remote/ejb/src/main/main11.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Remote/ejb/src/main/main11.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Remote/ejb/src/main/main12.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Remote/ejb/src/main/main12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Servlet/ejb/src/main/main12.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Servlet/ejb/src/main/main12.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Servlet/ejb/src/main/main13.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Servlet/ejb/src/main/main13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Statefull/ejb/src/main/main13.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Statefull/ejb/src/main/main13.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Servlet/servlet/src/main/main14.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Servlet/servlet/src/main/main14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_5_Interceptors/src/main/main14.iml" filepath="$PROJECT_DIR$/GS_EJB_5_Interceptors/src/main/main14.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_3_Servlet_JNDI/ejb/src/main/main15.iml" filepath="$PROJECT_DIR$/GS_EJB_3_Servlet_JNDI/ejb/src/main/main15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_4_Bean_Injection/servlet/src/main/main15.iml" filepath="$PROJECT_DIR$/GS_EJB_4_Bean_Injection/servlet/src/main/main15.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_Callbacks/src/main/main2.iml" filepath="$PROJECT_DIR$/GS_EJB_1_Callbacks/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_7_DB/servlet/src/main/main2.iml" filepath="$PROJECT_DIR$/GS_EJB_7_DB/servlet/src/main/main2.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Statefull/ejb/src/main/main3.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Statefull/ejb/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_7_DB/ejb/src/main/main3.iml" filepath="$PROJECT_DIR$/GS_EJB_7_DB/ejb/src/main/main3.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_6_Async/src/main/main4.iml" filepath="$PROJECT_DIR$/GS_EJB_6_Async/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_3_Servlet_JNDI/ejb/src/main/main4.iml" filepath="$PROJECT_DIR$/GS_EJB_3_Servlet_JNDI/ejb/src/main/main4.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_5_Interceptors/src/main/main5.iml" filepath="$PROJECT_DIR$/GS_EJB_5_Interceptors/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Remote/client/src/main/main5.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Remote/client/src/main/main5.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_3_Servlet_JNDI/servlet/src/main/main6.iml" filepath="$PROJECT_DIR$/GS_EJB_3_Servlet_JNDI/servlet/src/main/main6.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_First/src/main/main7.iml" filepath="$PROJECT_DIR$/GS_EJB_1_First/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_Callbacks/src/main/main7.iml" filepath="$PROJECT_DIR$/GS_EJB_1_Callbacks/src/main/main7.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_2_Statefull/servlet/src/main/main8.iml" filepath="$PROJECT_DIR$/GS_EJB_2_Statefull/servlet/src/main/main8.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_7_DB/ejb/src/main/main9.iml" filepath="$PROJECT_DIR$/GS_EJB_7_DB/ejb/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_4_Bean_Injection/ejb/src/main/main9.iml" filepath="$PROJECT_DIR$/GS_EJB_4_Bean_Injection/ejb/src/main/main9.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_5_Interceptors/src/test/test.iml" filepath="$PROJECT_DIR$/GS_EJB_5_Interceptors/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_First/src/test/test.iml" filepath="$PROJECT_DIR$/GS_EJB_1_First/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_Callbacks/src/test/test1.iml" filepath="$PROJECT_DIR$/GS_EJB_1_Callbacks/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_5_Interceptors/src/test/test1.iml" filepath="$PROJECT_DIR$/GS_EJB_5_Interceptors/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_6_Async/src/test/test2.iml" filepath="$PROJECT_DIR$/GS_EJB_6_Async/src/test/test2.iml" />
       <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_First/src/test/test3.iml" filepath="$PROJECT_DIR$/GS_EJB_1_First/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GS_EJB_1_Callbacks/src/test/test3.iml" filepath="$PROJECT_DIR$/GS_EJB_1_Callbacks/src/test/test3.iml" />
     </modules>
   </component>
 </project>

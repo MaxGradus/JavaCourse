@@ -7,13 +7,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="main4" />
-    <orderEntry type="module" module-name="main5" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module" module-name="main2" />
     <orderEntry type="module" module-name="main9" />
-    <orderEntry type="module" module-name="main10" />
+    <orderEntry type="module" module-name="main14" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="main4" />
     <orderEntry type="module" module-name="main6" />
-    <orderEntry type="module" module-name="main" />
     <orderEntry type="module" module-name="main15" />
-    <orderEntry type="module" module-name="main11" />
+    <orderEntry type="module" module-name="main3" />
   </component>
 </module>

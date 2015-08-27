@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="ejb-callbacks:ejb">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ejb-callbacks-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="ejb-callbacks:ejb exploded" />
+    </root>
+  </artifact>
+</component>

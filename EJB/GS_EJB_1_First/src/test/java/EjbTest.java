@@ -10,20 +10,17 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
 public class EjbTest {
 
 
-    static EJBContainer ec = null;
-    static Context ctx = null;
+    static EJBContainer ec = null; //создаю пустой контейнер для EJB
+    static Context ctx = null; // создаю контекст (технология JNDI) у него я буду спрашивать наши объекты по имнеи
 
     @BeforeClass
     public static void initContainer() throws Exception {
         Map<String, Object> props = new HashMap<String, Object>();
-        props.put(EJBContainer.MODULES, new File("target/classes"));
+        props.put(EJBContainer.MODULES, new File("target/classes")); // указываю где их искать
         // props.put("org.glassfish.ejb.embedded.glassfish.instance.root","./src/test/testing-domain");
         //props.put("org.glassfish.ejb.embedded.glassfish.web.http.port","");
         //props.put("org.glassfish.ejb.embedded.glassfish.installation.root","c:\\Java\\glassfish4\\glassfish\\domains\\domain1\\");
@@ -47,7 +44,7 @@ public class EjbTest {
 
     @Test
     public void test1() throws Exception {
-        TestBean bean = (TestBean) ctx.lookup("java:global/classes/TestBean");
+        TestBean bean = (TestBean) ctx.lookup("java:global/classes/TestBean"); // поднимаем наш Bean по имени (java:global - специальный префикс)
         bean.sayHello();
 
     }

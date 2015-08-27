@@ -8,9 +8,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.util.Hashtable;
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
+
 public class Main {
 
     public static void main(String[] args) throws Exception {

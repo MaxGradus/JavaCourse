@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="ejb-callbacks:ejb exploded">
+    <output-path>$PROJECT_DIR$/target/ejb-callbacks-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ejb-callbacks/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="E:\JAVAcourse\LessonEE\EJB\GS_EJB_1_Callbacks\target/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="ejb-callbacks" />
+    </root>
+  </artifact>
+</component>
