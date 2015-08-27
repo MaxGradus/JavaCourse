@@ -7,11 +7,13 @@ import javax.ejb.Stateless;
 @Stateless
 public class StateLessBean {
 
+    // вызовится перед конструктором
     @PostConstruct
     public void init() {
         System.out.println("Init sateless bean");
     }
 
+    // вызовится перед удалением объекта
     @PreDestroy
     public void destroy() {
         System.out.println("Destroy sateless bean");

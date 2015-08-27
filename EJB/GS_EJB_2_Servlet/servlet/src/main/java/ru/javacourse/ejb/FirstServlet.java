@@ -12,17 +12,16 @@ import java.io.PrintWriter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
 //http://localhost:8080/servlet/first
 @WebServlet(name = "firstServlet", urlPatterns = "/first")
 public class FirstServlet extends HttpServlet {
 
     private Logger log = Logger.getLogger(getClass().getName());
 
-    // Пример механизма injection
+    // Пример механизма injection (мы в ручну не прописываем. не используем технологию JNDI)
+    // теперь не обязательно делать так: SayHelloBean bean = (SayHelloBean) ctx.lookup("java:global/classes/SayHelloBean")
+    // достаточно объявить анотацию. И тогда ApplicationServer заинжектид объект sayHelloBean
     @EJB
     SayHelloBean sayHelloBean;
 

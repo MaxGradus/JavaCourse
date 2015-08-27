@@ -7,9 +7,10 @@ import javax.ejb.PostActivate;
 import javax.ejb.PrePassivate;
 import javax.ejb.Stateful;
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
+/** у стэйтфул бина появляется еще 2 анотации
+ * У Stateful бина есть еще два состояния в жизненом цикле:
+ * перед тем как он сохраняется в промежуточное состояние
+ * и после того как он выходит из промежуточного состояния*/
 @Stateful
 public class StateFulBean {
 
@@ -23,12 +24,12 @@ public class StateFulBean {
         System.out.println("Destroy sateful bean");
     }
 
-    @PostActivate
+    @PostActivate // вызывается после выхода Бина из "сна"
     public void activate() {
         System.out.println("Activate stateful bean");
     }
 
-    @PrePassivate
+    @PrePassivate // вызывается перед входом Бина в "сон"
     public void passivate() {
         System.out.println("Passivate stateful bean");
     }
