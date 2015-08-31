@@ -15,18 +15,16 @@ import java.io.PrintWriter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
 //http://localhost:8080/servlet-stateful/first
 @WebServlet(name = "firstServlet", urlPatterns = "/first")
 public class FirstServlet extends HttpServlet {
 
     private Logger log = Logger.getLogger(getClass().getName());
 
-    @EJB
-    StateFulCart cart; // dont!
+//    @EJB
+//    StateFulCart cart; // dont!
+      /** StateFul бины НЕ НУЖНО инжектить анотацией @EJB, т.к. сервлет один для всех*/
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -110,8 +108,12 @@ public class FirstServlet extends HttpServlet {
 
     private ShopCart getStateFulCart(HttpServletRequest request) {
         try {
+//            ShopCart cart;
 
-            HttpSession session = request.getSession(true);
+            /**чтобы StateFulCart бин накапливал записи, нужно помещать его в Сервлет-сессию,
+             * тем самым бин сохраняет своё состояние (накапливал записи)*/
+
+             HttpSession session = request.getSession(true);
             ShopCart cart = (ShopCart) session.getAttribute("stateFulCart");
             if (cart == null) {
                 System.out.println("Lookup stateFulCart cart...");

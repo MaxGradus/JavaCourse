@@ -4,9 +4,7 @@ import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Georgy Gobozov on 05.02.2015.
- */
+
 public class NoEjbCart implements ShopCart {
 
     List<String> items = new ArrayList<String>();
