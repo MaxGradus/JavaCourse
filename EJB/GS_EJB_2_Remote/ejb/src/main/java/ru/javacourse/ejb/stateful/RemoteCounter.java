@@ -2,10 +2,8 @@ package ru.javacourse.ejb.stateful;
 
 import javax.ejb.Remote;
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
-@Remote
+
+@Remote // удаленно, в этом примере мы помечаем аннотацией весь интерфейс (поэтому класс-реализацию (CounterBean) не нужно помечать)
 public interface RemoteCounter {
 
     void increment();

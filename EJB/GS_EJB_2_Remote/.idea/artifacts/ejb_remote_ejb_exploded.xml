@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="ejb-remote:ejb exploded">
+    <output-path>$PROJECT_DIR$/ejb/target/ejb-remote</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ejb-remote/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="E:\JAVAcourse\LessonEE\EJB\GS_EJB_2_Remote\ejb\target/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="ejb-remote" />
+    </root>
+  </artifact>
+</component>

@@ -3,9 +3,6 @@ package ru.javacourse.ejb.stateful;
 import javax.ejb.Remote;
 import javax.ejb.Stateful;
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
 
 @Stateful
 public class CounterBean implements RemoteCounter {

@@ -9,6 +9,14 @@ import javax.naming.NamingException;
 import java.util.Hashtable;
 
 
+/**Суть теста: У нас есть 2 модуля: ejb и client. В ejb  у нас 2 интерфеса-бинов и их реализации.
+ * Далее мы их деплоим (их jar-ник) на аппсервер. В модуле client у нас обычный класс-маин в котором
+ * мы вызываем бины () сначало StatelessBean потом StatefulBean. Смотри логику как они отработают.
+ * Получается, из нашего обычного Маин-класса (приложения) мы вызываем методы (у Бинов), который находятся
+ * удаленно на сервере!
+ * */
+
+
 public class Main {
 
     public static void main(String[] args) throws Exception {

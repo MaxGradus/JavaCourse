@@ -1,16 +1,14 @@
 package ru.javacourse.ejb.stateless;
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
+
 import javax.ejb.Local;
 import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
 
 @Stateless
-//@Remote(RemoteCalculator.class)
-@Local(RemoteCalculator.class)
+@Remote(RemoteCalculator.class) /**вызов бина УДАЛЕННО (в этом примере мы пишем аннотацию только для класса-реализации)*/
+//@Local(RemoteCalculator.class) /**вызов бина на ЭТОЙ JVM (на этом компе), стоит по умолчанию*/
 public class CalculatorBean implements RemoteCalculator {
 
     @Override
