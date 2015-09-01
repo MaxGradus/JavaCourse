@@ -2,10 +2,8 @@ package edu.javacourse.ejb;
 
 import javax.ejb.Stateless;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
+
 @Stateless(name = "ByeBye")
 public class SayByeBean implements SayBye{
 

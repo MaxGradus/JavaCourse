@@ -12,10 +12,9 @@ import java.io.PrintWriter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
+
+
 //http://localhost:8080/servlet-jndi/first
 @WebServlet(name = "firstServlet", urlPatterns = "/first")
 public class FirstServlet extends HttpServlet {
