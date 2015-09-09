@@ -1,5 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>edu.javacourse</groupId>
@@ -7,13 +8,10 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<url>http://maven.apache.org</url>
-
 
     <build>
         <finalName>sayHello</finalName>
     </build>
-
 
     <dependencies>
         <dependency>
@@ -21,6 +19,23 @@
             <artifactId>jaxws-rt</artifactId>
             <version>2.2.8</version>
         </dependency>
+
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>codehaus-mule-repo</id>
+            <name>codehaus-mule-repo</name>
+            <url>
+                https://repository-master.mulesoft.org/nexus/content/groups/public/
+            </url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
 </project>
+
+<!--
+new repository location!!!!!
+https://www.codehaus.org/mechanics/maven/
+-->
