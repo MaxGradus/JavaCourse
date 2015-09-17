@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd4ab780-d2bc-43cc-8a72-691106c1f9d9" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHello.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHelloResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHelloService.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHelloServiceService.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\checkstyle-idea.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\TEST.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\TEST\pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="cd4ab780-d2bc-43cc-8a72-691106c1f9d9" name="Default" comment="" />
     <ignored path="webservice-jax-ws.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -595,12 +575,12 @@
       <workItem from="1442404472841" duration="46000" />
       <workItem from="1442408409163" duration="220000" />
       <workItem from="1442408642211" duration="33000" />
-      <workItem from="1442472163164" duration="179000" />
+      <workItem from="1442472163164" duration="397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16117000" />
+    <option name="totallyTimeSpent" value="16335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
