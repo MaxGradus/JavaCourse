@@ -22,10 +22,7 @@ public class ClassInterceptor {
     @AroundInvoke
     public Object onInvoke(InvocationContext ctx) throws Exception {
         System.out.println("Class interceptor method invoked" + ctx.getMethod().getName());
-
-
         Object o = ctx.proceed();
-
         System.out.println("Class interceptor method finished");
         return o;
     }

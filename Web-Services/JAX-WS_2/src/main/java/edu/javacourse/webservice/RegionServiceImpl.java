@@ -10,10 +10,7 @@ import javax.jws.WebParam;
 import javax.jws.WebService;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 14.07.13
- */
+
 @WebService (endpointInterface = "edu.javacourse.webservice.RegionService")
 public class RegionServiceImpl implements RegionService {
 

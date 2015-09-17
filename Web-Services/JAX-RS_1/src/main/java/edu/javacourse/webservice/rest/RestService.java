@@ -3,10 +3,7 @@ package edu.javacourse.webservice.rest;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
-/**
- * Author: Georgy Gobozov
- * Date: 14.07.13
- */
+
 
 @Path("/hello")
 public class RestService {

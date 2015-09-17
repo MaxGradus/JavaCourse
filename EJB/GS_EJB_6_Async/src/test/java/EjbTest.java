@@ -13,10 +13,8 @@ import java.util.Random;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
+
 public class EjbTest {
 
 

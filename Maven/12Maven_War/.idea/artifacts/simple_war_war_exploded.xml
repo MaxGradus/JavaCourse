@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="simple-war:war exploded">
+    <output-path>$PROJECT_DIR$/target/simple-war-1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="simple-war" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="E:\JAVAcourse\LessonEE\Maven\12Maven_War\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="simple-war/web/Web" />
+    </root>
+  </artifact>
+</component>

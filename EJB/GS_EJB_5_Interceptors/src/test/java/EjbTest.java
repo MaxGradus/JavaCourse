@@ -9,10 +9,8 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.07.13
- */
+
+
 public class EjbTest {
 
 

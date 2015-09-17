@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ear-jndi:ear exploded">
+    <output-path>$PROJECT_DIR$/ear/target/ear-jndi</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ear-jndi/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear/target/ear-jndi/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="ejb-jndi.jar">
+        <element id="artifact" artifact-name="ejb-jndi:ejb exploded" />
+      </element>
+      <element id="archive" name="servlet-jndi.war">
+        <element id="artifact" artifact-name="servlet-jndi:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

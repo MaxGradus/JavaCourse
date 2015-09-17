@@ -4,11 +4,13 @@
              xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
              xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://webservice.javacourse.edu/"
              xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/"
-             targetNamespace="http://webservice.javacourse.edu/" name="RegionServiceImplService">
+             targetNamespace="http://webservice.javacourse.edu/" name="RegionServiceImplService"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd ">
     <types>
         <xsd:schema>
             <xsd:import namespace="http://webservice.javacourse.edu/"
-                        schemaLocation="http://localhost:8888/ws/regionService?xsd=1"></xsd:import>
+                        schemaLocation="http://localhost:9000/ws/regionService?xsd=1"></xsd:import>
         </xsd:schema>
     </types>
     <message name="getRegionByName">

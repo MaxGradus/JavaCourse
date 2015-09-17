@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78a02f19-487d-4d0f-9139-9467ced5d302" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_2_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_org_apache_xml_internal_resolver_20050927.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_3_20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_stream_buffer_streambuffer_1_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_rt_2_2_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__com_sun_xml_ws_policy_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_ejb_injection_ejb_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_servlet_injection_war_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2_b03.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/libraries/Maven__javax_javaee_api_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_jws_jsr181_api_1_0_MR1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_3_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_xml_soap_saaj_api_1_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_glassfish_external_management_api_3_0_0_b012.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_glassfish_gmbal_gmbal_api_only_3_1_0_b001.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_glassfish_ha_ha_api_3_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_jboss_jandex_1_2_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-RS_2/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/client/client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/ejb-inject.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/ejb-interceptors.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/ejb/src/main/main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/servlet/src/main/main1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_1/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/webservice-builder.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/client/webservice-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/ear/webservice-ear.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/webservice-jax-ws.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-RS_2/webservice-rest-2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/service/webservice.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/artifacts/webservice_client_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/artifacts/webservice_client_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/artifacts/webservice_ear_ear.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/artifacts/webservice_ear_ear_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/artifacts/webservice_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/artifacts/webservice_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetAllRegions.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetAllRegions.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetAllRegionsResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetAllRegionsResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetRegionByName.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetRegionByName.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetRegionByNameResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\GetRegionByNameResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\Region.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\Region.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\RegionService.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\RegionService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\RegionServiceImplService.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\RegionServiceImplService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\edu\javacourse\webservice\regionService.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHello.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHelloResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHelloService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\SayHelloServiceService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_2\client\src\ru\javacourse\webservice\package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_4\client\src\wsdl\Calculator.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_4\client\src\wsdl\CalculatorPortType.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Services\JAX-WS_4\client\src\wsdl\CalculatorPortType_schema1.xsd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/src/main/java/edu/javacourse/client/Client.java" afterPath="$PROJECT_DIR$/../JAX-WS_2/src/main/java/edu/javacourse/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_5_Interceptors/src/test/java/EjbTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_6_Async/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_6_Async/src/test/java/EjbTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/Main.java" afterPath="$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/src/main/java/edu/javacourse/endpoint/RegionEndpoint.java" afterPath="$PROJECT_DIR$/../JAX-WS_2/src/main/java/edu/javacourse/endpoint/RegionEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/src/main/java/edu/javacourse/webservice/RegionServiceImpl.java" afterPath="$PROJECT_DIR$/../JAX-WS_2/src/main/java/edu/javacourse/webservice/RegionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-RS_1/src/main/java/edu/javacourse/webservice/rest/RestService.java" afterPath="$PROJECT_DIR$/../JAX-RS_1/src/main/java/edu/javacourse/webservice/rest/RestService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_1/src/main/java/ru/javacourse/webservice/SayHello.java" afterPath="$PROJECT_DIR$/../JAX-WS_1/src/main/java/ru/javacourse/webservice/SayHello.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_1/src/main/java/ru/javacourse/webservice/SayHelloService.java" afterPath="$PROJECT_DIR$/../JAX-WS_1/src/main/java/ru/javacourse/webservice/SayHelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Statefull/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Statefull/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_3_Servlet_JNDI/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_3_Servlet_JNDI/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb-builder.iml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb-builder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/ejb-builder.iml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/ejb-builder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/ear/ejb-ear.iml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/ear/ejb-ear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/ejb-remote.iml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/ejb-remote.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/servlet/ejb-servlet.iml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/servlet/ejb-servlet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/ejb/ejb.iml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/ejb/ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/artifacts/ejb_ear_ear_exploded.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/artifacts/ejb_ear_ear_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/artifacts/ejb_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/artifacts/ejb_ejb_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/.idea/artifacts/ejb_remote_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/.idea/artifacts/ejb_remote_ejb_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/artifacts/ejb_servlet_war_exploded.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Servlet/.idea/artifacts/ejb_servlet_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../JAX-WS_2/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/ejb/pom.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_4_Bean_Injection/ejb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-RS_1/pom.xml" afterPath="$PROJECT_DIR$/../JAX-RS_1/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-RS_2/pom.xml" afterPath="$PROJECT_DIR$/../JAX-RS_2/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/pom.xml" afterPath="$PROJECT_DIR$/../JAX-WS_2/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_1/readme.txt" afterPath="$PROJECT_DIR$/../JAX-WS_1/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/out/production/client/edu/javacourse/webservice/regionService.wsdl" afterPath="$PROJECT_DIR$/../JAX-WS_2/out/production/client/edu/javacourse/webservice/regionService.wsdl" />
+    </list>
+    <ignored path="webservice-jax-ws_import.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="webservice-jax-ws_import" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16877152">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="userSettingsFile" value="E:\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-jax-ws_import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-jax-ws_import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-jax-ws_import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-jax-ws_import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-jax-ws_import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="configurable.group.build" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OtherTests/TicketServiceClient" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.javacourse.webservice.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.javacourse.webservice.client.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="webservice-jax-ws_import" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\gms\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a02f19-487d-4d0f-9139-9467ced5d302" name="Default" comment="" />
+      <created>1442213169596</created>
+      <option name="number" value="Default" />
+      <updated>1442213169596</updated>
+      <workItem from="1442213172541" duration="633000" />
+      <workItem from="1442403104399" duration="26000" />
+      <workItem from="1442408677041" duration="1475000" />
+      <workItem from="1442469715937" duration="210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2344000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11748927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46659243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/airport.asmx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/GetAirportInformationByAirportCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/webservice/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16877152">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

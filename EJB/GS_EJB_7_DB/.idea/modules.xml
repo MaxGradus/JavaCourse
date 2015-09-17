@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejb-builder.iml" filepath="$PROJECT_DIR$/ejb-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/ejb-database.iml" filepath="$PROJECT_DIR$/ear/ejb-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/ejb-database-ejb.iml" filepath="$PROJECT_DIR$/ejb/ejb-database-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/ejb-database-servlet.iml" filepath="$PROJECT_DIR$/servlet/ejb-database-servlet.iml" />
+    </modules>
+  </component>
+</project>

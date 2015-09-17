@@ -5,10 +5,11 @@ import javax.ejb.Asynchronous;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
-/**
- * Author: Georgy Gobozov
- * Date: 08.07.13
- */
+
+
+
+
+
 @Stateless
 @LocalBean // http://piotrnowicki.com/2013/03/defining-ejb-3-1-views-local-remote-no-interface/
 public class AsynchTestBean {

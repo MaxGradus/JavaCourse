@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="webservice-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/ear/target/webservice-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="webservice-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear/target/webservice-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="webservice.war">
+        <element id="artifact" artifact-name="webservice:war exploded" />
+      </element>
+      <element id="archive" name="webservice-client.war">
+        <element id="artifact" artifact-name="webservice-client:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

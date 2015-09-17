@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejb-builder.iml" filepath="$PROJECT_DIR$/ejb-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/ejb-ear-sateteful.iml" filepath="$PROJECT_DIR$/ear/ejb-ear-sateteful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/ejb-servlet-stateful.iml" filepath="$PROJECT_DIR$/servlet/ejb-servlet-stateful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/ejb-stateful.iml" filepath="$PROJECT_DIR$/ejb/ejb-stateful.iml" />
+    </modules>
+  </component>
+</project>

@@ -24,7 +24,7 @@ Glassfish/Jboss
 
 1) создать класс веб-сервиса
 5)Генерация клиента
-wsimport.exe http://localhost:8080/sayHello/SayHelloService?wsdl -s client/src -d target/classes
+wsimport.exe http://localhost:8080/sayHello/sayHello/SayHelloService?wsdl -s client/src -d target/classes
 
 
 6) Запуск клиента

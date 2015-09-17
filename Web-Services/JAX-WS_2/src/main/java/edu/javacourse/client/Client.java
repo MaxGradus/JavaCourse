@@ -8,10 +8,7 @@ import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 import java.net.URL;
 
-/**
- * Author: Georgy Gobozov
- * Date: 14.07.13
- */
+
 public class Client {
 
 
@@ -27,7 +24,7 @@ public class Client {
 
         RegionService regionService = service.getPort(RegionService.class);
 
-        System.out.println(regionService.getRegionByName("Voronezh"));
+        System.out.println(regionService.getRegionByName("Nord-East"));
 
         Region[] regions = regionService.getAllRegions();
         for (Region region : regions) {

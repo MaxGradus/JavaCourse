@@ -21,9 +21,7 @@ import java.util.List;
  *
  */
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
+
 @Stateless
 @LocalBean
 @TransactionManagement(TransactionManagementType.CONTAINER) // default value

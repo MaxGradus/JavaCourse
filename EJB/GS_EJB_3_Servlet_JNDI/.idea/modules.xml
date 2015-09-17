@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ear/ear-jndi.iml" filepath="$PROJECT_DIR$/ear/ear-jndi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb-builder.iml" filepath="$PROJECT_DIR$/ejb-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/ejb-jndi.iml" filepath="$PROJECT_DIR$/ejb/ejb-jndi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet-jndi.iml" filepath="$PROJECT_DIR$/servlet/servlet-jndi.iml" />
+    </modules>
+  </component>
+</project>
