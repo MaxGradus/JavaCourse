@@ -19,7 +19,7 @@ public class RestService {
     @GET
     @Path("/query") // query parameter
     public Response queryParams(
-                                @QueryParam("from") int from,
+                                @QueryParam("from") @DefaultValue("182") int from,
                                 @QueryParam("to") @DefaultValue("10") int to){
         return Response.status(200).entity("from = " + from + " to = " + to).build();
     }

@@ -5,10 +5,6 @@ import javax.ws.rs.core.Response;
 import java.io.File;
 import java.net.URISyntaxException;
 
-/**
- * Author: Georgy Gobozov
- * Date: 14.07.13
- */
 
 @Path("/get")
 public class RestService {
@@ -34,11 +30,4 @@ public class RestService {
         response.header("Content-Disposition", "attachment; filename='" + file.getName()+ "'");
         return response.build();
     }
-
-
-
-
-
-
-
 }

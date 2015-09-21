@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/webservice-builder.iml" filepath="$PROJECT_DIR$/webservice-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/webservice-ear.iml" filepath="$PROJECT_DIR$/ear/webservice-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/webservice-ejb.iml" filepath="$PROJECT_DIR$/service/webservice-ejb.iml" />
+    </modules>
+  </component>
+</project>

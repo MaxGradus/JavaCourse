@@ -11,12 +11,10 @@ import javax.ejb.Stateless;
 //@Local(RemoteCalculator.class) /**вызов бина на ЭТОЙ JVM (на этом компе), стоит по умолчанию*/
 public class CalculatorBean implements RemoteCalculator {
 
-    @Override
     public int add(int a, int b) {
         return a + b;
     }
 
-    @Override
     public int subtract(int a, int b) {
         return a - b;
     }
