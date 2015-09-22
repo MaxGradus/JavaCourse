@@ -4,10 +4,7 @@ import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
-/**
- * Author: Georgy Gobozov
- * Date: 15.07.13
- */
+
 @XmlRootElement
 @Entity
 @Table(name = "jc_region")

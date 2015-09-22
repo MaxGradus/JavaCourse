@@ -2,54 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a39dbb8-6749-4f65-bd1c-cdd63e841364" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_ejb_injection_ejb_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_servlet_injection_war_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb-inject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/ejb-interceptors.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/servlet/src/main/main1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/test/java/EjbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/src/test/java/EjbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb-builder.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb-builder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb/ejb-remote.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb/ejb-remote.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ejb_callbacks_ejb.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ejb_callbacks_ejb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/artifacts/ejb_remote_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/artifacts/ejb_remote_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/pom.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__asm_asm_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/webservice-rest-3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/artifacts/webservice_rest_3_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/artifacts/webservice_rest_3_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\EJB\GS_EJB_4_Bean_Injection\.idea\libraries\Maven__edu_javacourse_ejb_injection_ejb_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\EJB\GS_EJB_4_Bean_Injection\.idea\libraries\Maven__edu_javacourse_servlet_injection_war_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/model/Region.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/model/Region.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/dao/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/RegionDaoImpl.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/RegionDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/edu/javacourse/webservice/rest/RegionService.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/edu/javacourse/webservice/rest/RegionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/service/src/main/java/ru/javacourse/rest/RestApplication.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/service/src/main/java/ru/javacourse/rest/RestApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ear/target/application.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ear/target/application.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb-inject.iml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb-inject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/jax-rs-ejb.iml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/jax-rs-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/main.iml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/modules.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_First/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_First/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Statefull/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Statefull/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" />
     </list>
     <ignored path="ejb-callbacks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,19 +73,11 @@
       <file leaf-file-name="StateFulBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateFulBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44262296">
+            <state vertical-scroll-proportion="0.5063146">
               <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
                 <element signature="e#919#920#0" expanded="true" />
                 <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,9 +179,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,6 +285,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +296,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_EJB_2_Statefull" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web-Services/JAX-WS_1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
@@ -597,6 +587,8 @@
       <workItem from="1441007634127" duration="332000" />
       <workItem from="1441013565652" duration="58000" />
       <workItem from="1441717118989" duration="170000" />
+      <workItem from="1442839526417" duration="9000" />
+      <workItem from="1442901650062" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="EJB adaptation for Me">
       <created>1440675794738</created>
@@ -608,15 +600,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2121000" />
+    <option name="totallyTimeSpent" value="2145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -624,11 +616,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50757575" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -637,14 +628,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50757575" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -676,18 +669,82 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateFulBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateLessBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EjbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateFulBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateLessBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EjbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateFulBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,16 +779,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,16 +815,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,19 +880,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/javacourse/ejb/StateFulBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44262296">
+        <state vertical-scroll-proportion="0.5063146">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
           </folding>
         </state>
       </provider>

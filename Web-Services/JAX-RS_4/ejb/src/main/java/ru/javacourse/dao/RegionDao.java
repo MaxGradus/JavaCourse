@@ -6,9 +6,7 @@ import javax.ejb.Local;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by Georgy Gobozov on 06.02.2015.
- */
+
 @Local
 public interface RegionDao {
 

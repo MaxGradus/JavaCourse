@@ -2,48 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46bbd707-d781-4d01-b7cb-f49647a1b44d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_ejb_injection_ejb_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_servlet_injection_war_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb-inject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/ejb-interceptors.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/servlet/src/main/main1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/test/java/EjbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/src/test/java/EjbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/pom.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__asm_asm_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/webservice-rest-3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/artifacts/webservice_rest_3_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/artifacts/webservice_rest_3_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/model/Region.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/model/Region.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/dao/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/RegionDaoImpl.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/RegionDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/edu/javacourse/webservice/rest/RegionService.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/edu/javacourse/webservice/rest/RegionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/service/src/main/java/ru/javacourse/rest/RestApplication.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/service/src/main/java/ru/javacourse/rest/RestApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ear/target/application.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ear/target/application.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/jax-rs-ejb.iml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/jax-rs-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_First/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_First/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Statefull/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Statefull/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" />
     </list>
     <ignored path="ejb-builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,12 +81,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding>
-                <element signature="e#173#174#0" expanded="false" />
-                <element signature="e#210#211#0" expanded="false" />
-                <element signature="e#254#255#0" expanded="false" />
-                <element signature="e#304#305#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,19 +91,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#126#127#0" expanded="false" />
-                <element signature="e#165#166#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servlet/src/main/java/edu/javacourse/ejb/FirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6648531">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -127,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servlet/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -188,8 +177,19 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="userSettingsFile" value="E:\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -225,7 +225,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,8 +346,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,6 +361,8 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -559,6 +561,9 @@
       <workItem from="1441092011087" duration="1912000" />
       <workItem from="1441107966545" duration="1235000" />
       <workItem from="1441693577557" duration="44000" />
+      <workItem from="1442839478845" duration="10000" />
+      <workItem from="1442840078929" duration="26000" />
+      <workItem from="1442901082830" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="More EJB">
       <created>1441109086175</created>
@@ -570,19 +575,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4905000" />
+    <option name="totallyTimeSpent" value="4980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20202559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -637,6 +643,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ejb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/target/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayBye.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -649,12 +687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -662,10 +695,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#126#127#0" expanded="false" />
-            <element signature="e#165#166#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,12 +751,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayHelloBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/src/main/java/edu/javacourse/ejb/FirstServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/target/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayBye.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayByeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayHelloBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/src/main/java/edu/javacourse/ejb/FirstServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/target/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayBye.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejb/src/main/java/edu/javacourse/ejb/SayByeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,10 +903,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#126#127#0" expanded="false" />
-            <element signature="e#165#166#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,12 +935,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,10 +959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#126#127#0" expanded="false" />
-            <element signature="e#165#166#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -855,10 +997,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#126#127#0" expanded="false" />
-            <element signature="e#165#166#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,35 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ear/target/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -909,8 +1019,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet/src/main/java/edu/javacourse/ejb/FirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6648531">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/target/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>

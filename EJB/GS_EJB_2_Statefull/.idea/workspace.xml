@@ -2,63 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b90dafd-014f-4a72-99dc-030f4e8b2268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_ejb_injection_ejb_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/libraries/Maven__edu_javacourse_servlet_injection_war_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb-inject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/ejb-interceptors.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/artifacts/ejb_inject_ear_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/artifacts/ejb_interceptors_ejb_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/servlet/src/main/main1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/src/main/java/edu/javacourse/ejb/AsynchTestBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/main/java/edu/javacourse/ejb/interceptor/ClassInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/src/test/java/EjbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/src/test/java/EjbTest.java" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/src/test/java/EjbTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_extras_glassfish_embedded_all_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/dao/RegionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/ejb/src/main/java/edu/javacourse/ejb/RegionServiceManual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/servlet/src/main/java/edu/javacourse/ejb/RegionsServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/src/main/java/edu/javacourse/ejb/Say.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb-builder.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb-builder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/ejb-builder.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/ejb-builder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/ear/ejb-ear.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/ear/ejb-ear.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb/ejb-remote.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/ejb/ejb-remote.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/servlet/ejb-servlet.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/servlet/ejb-servlet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/ejb/ejb.iml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/ejb/ejb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/artifacts/ejb_callbacks_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/artifacts/ejb_ear_ear_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/artifacts/ejb_ear_ear_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/artifacts/ejb_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/artifacts/ejb_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/artifacts/ejb_remote_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/artifacts/ejb_remote_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/artifacts/ejb_servlet_war_exploded.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/artifacts/ejb_servlet_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/pom.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/ejb/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__asm_asm_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/webservice-rest-3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/artifacts/webservice_rest_3_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/artifacts/webservice_rest_3_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/model/Region.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/model/Region.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/dao/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/RegionDaoImpl.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/src/main/java/ru/javacourse/RegionDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/edu/javacourse/webservice/rest/RegionService.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_3/src/main/java/edu/javacourse/webservice/rest/RegionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/service/src/main/java/ru/javacourse/rest/RestApplication.java" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/service/src/main/java/ru/javacourse/rest/RestApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ear/target/application.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ear/target/application.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/jax-rs-ejb.iml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/ejb/jax-rs-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_Callbacks/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_1_First/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_1_First/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Remote/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_2_Servlet/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_4_Bean_Injection/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_5_Interceptors/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_6_Async/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_EJB_7_DB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_EJB_7_DB/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" />
     </list>
     <ignored path="ejb-builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,8 +117,8 @@
       <file leaf-file-name="FirstServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servlet/src/main/java/ru/javacourse/ejb/FirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4214047">
-              <caret line="121" column="53" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.42250288">
+              <caret line="126" column="32" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,6 +249,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,7 +402,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -431,7 +413,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_EJB_2_Remote" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_EJB_3_Servlet_JNDI" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
@@ -815,6 +797,8 @@
       <workItem from="1441108871078" duration="160000" />
       <workItem from="1441717290511" duration="11000" />
       <workItem from="1441717669104" duration="420000" />
+      <workItem from="1442839577983" duration="202000" />
+      <workItem from="1442901070278" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="EJB">
       <created>1441028081410</created>
@@ -826,7 +810,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12099000" />
+    <option name="totallyTimeSpent" value="12312000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -850,10 +834,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -864,7 +849,7 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -954,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1368,7 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23411371">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,14 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1471,8 +1442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet/src/main/java/ru/javacourse/ejb/FirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4214047">
-          <caret line="121" column="53" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.42250288">
+          <caret line="126" column="32" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

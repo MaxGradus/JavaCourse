@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/ejb" />
     <file type="javaeeApplication" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet" />
   </component>
   <component name="IdProvider" IDEtalkID="C8429E1D41058B1530303DDB1967D311" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ejb/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet/pom.xml" />
       </list>
     </option>
   </component>

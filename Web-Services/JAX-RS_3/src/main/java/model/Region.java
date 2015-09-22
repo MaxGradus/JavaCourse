@@ -3,16 +3,13 @@ package model;
 
 import javax.xml.bind.annotation.*;
 
-/**
- * Author: Georgy Gobozov
- * Date: 15.07.13
- */
+
 @XmlRootElement(name = "region")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType
 public class Region {
 
-    //    @XmlAttribute
+    //    @XmlAttribute  // если оставить эту аннотац и убрать @XmlElement то regionId будет в xml'e в качестве атрибута
     @XmlElement(name = "id")
     private Integer regionId;
 

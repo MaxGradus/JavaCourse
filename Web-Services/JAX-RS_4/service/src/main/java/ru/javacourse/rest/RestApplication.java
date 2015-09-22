@@ -5,7 +5,7 @@ import javax.ws.rs.core.Application;
 import java.util.Set;
 
 /**
- * Created by Georgy Gobozov on 11.02.2015.
+ * Этот класс нужен обязательно для app-server'a, чтобы наши REST сервисы поехали
  */
 @ApplicationPath("/rest")
 public class RestApplication extends Application{

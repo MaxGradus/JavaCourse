@@ -10,10 +10,6 @@ import java.io.File;
 import java.net.URISyntaxException;
 import java.util.*;
 
-/**
- * Author: Georgy Gobozov
- * Date: 14.07.13
- */
 
 @Path("/regions")
 public class RegionService {
@@ -32,7 +28,7 @@ public class RegionService {
 
     @GET
     @Path("/id/{id}")
-    @Produces(MediaType.APPLICATION_XML)
+    @Produces(MediaType.APPLICATION_XML) /**ФОРМАТ В КОТОРОМ БУДЕТ ОТОБРАЖАТЬСЯ МОЙ ОТВЕТ(return region) Т.Е. ОБЪЕКТ region БУДЕТ В ВИДЕ XML*/
     public Region getRegion(@PathParam("id") String id) {
         Region region = regions.get(id);
         return region != null ? region : null;
@@ -55,10 +51,18 @@ public class RegionService {
         return getAll();
     }
 
+    /**чтобы использовать данный метод нужно передать ему xml с помощью RESTClient из IntelliJ.
+     * тип запроса POST, во вкладке Body пишем:
+     * <region>
+     *     <id>5</id>
+     *     <name>San-Francisco</name>
+     *     <population>9999999</population>
+     * </region>
+     * Во вкладке Headers добавляем Key - Content-Type, Value - application/xml */
     @POST
     @Path("/add")
     @Produces(MediaType.APPLICATION_XML)
-    @Consumes(MediaType.APPLICATION_XML)
+    @Consumes(MediaType.APPLICATION_XML) /**тип который должен принимать метод*/
     public Collection<Region> addRegion(Region region) throws URISyntaxException {
         int next = regions.size() + 1;
         regions.put(String.valueOf(next), region);
@@ -73,5 +77,8 @@ public class RegionService {
         return getAll();
     }
 
+    /**чтобы потестить в плагине REST Client нужно прописать в Host/port - http:\\localhost:8080
+     * а в Path - /rest/regions/delete/номер id
+     * */
 
 }
