@@ -17,7 +17,10 @@ public class SpringExample {
 
         ContextAware ca = context.getBean("contextAware", ContextAware.class);
 
+        // здесь мы использовали "оригинальный" контекст
         //BeanAware ba = context.getBean("beanAware", BeanAware.class);
+
+        // здесь мы использовали контекст сохраненный Spring'om с помощью ApplicationContextAware
         BeanAware ba = ca.getApplicationContext().getBean("beanAware", BeanAware.class);
 
 

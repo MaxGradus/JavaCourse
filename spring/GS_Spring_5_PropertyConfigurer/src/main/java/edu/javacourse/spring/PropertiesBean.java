@@ -1,9 +1,7 @@
 package edu.javacourse.spring;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
+
 public class PropertiesBean {
 
     private String url;

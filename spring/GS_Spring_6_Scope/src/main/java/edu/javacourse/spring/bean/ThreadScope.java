@@ -6,10 +6,7 @@ import org.springframework.beans.factory.config.Scope;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class ThreadScope implements Scope {
 
     private final ThreadLocal threadScope = new ThreadLocal() {

@@ -13,13 +13,14 @@ public class SpringExample {
     }
     
     public void demoSpring() {
+
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"springExample.xml"});
 
         // Обратить внимание на то. что объект создается через вызов метода
         BeanExample be = context.getBean(BeanExample.class);
-        System.out.println("Basic string:" + be.getBasicString());
-        System.out.println("Other String:" + be.getOtherString());
-        System.out.println("Spring test:" + be.getSpringTest());
+        System.out.println("Basic string: " + be.getBasicString());
+        System.out.println("Other String: " + be.getOtherString());
+        System.out.println("Spring test: " + be.getSpringTest());
         
         System.out.println();
 

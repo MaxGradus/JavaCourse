@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e19a52-1c46-4524-b37c-86ffe0cf3287" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-ioc-1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/bean/init/InitBean2.java" afterPath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/bean/init/InitBean2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/SpringExample.java" afterPath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/SpringExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/bean/SpringList.java" afterPath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/bean/SpringList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/bean/SpringTestChild.java" afterPath="$PROJECT_DIR$/src/main/java/edu/javacourse/spring/bean/SpringTestChild.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test0.xml" afterPath="$PROJECT_DIR$/src/main/resources/test0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test1.xml" afterPath="$PROJECT_DIR$/src/main/resources/test1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test2.xml" afterPath="$PROJECT_DIR$/src/main/resources/test2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Services/JAX-RS_4/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-ioc-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -266,7 +249,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_Spring_2_Annotation" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -549,15 +532,15 @@
       <option name="number" value="Default" />
       <updated>1442990373466</updated>
       <workItem from="1442990384758" duration="64000" />
-      <workItem from="1442990531427" duration="8004000" />
+      <workItem from="1442990531427" duration="8114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8068000" />
+    <option name="totallyTimeSpent" value="8178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

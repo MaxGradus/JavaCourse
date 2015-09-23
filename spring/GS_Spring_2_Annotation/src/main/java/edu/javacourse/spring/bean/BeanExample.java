@@ -15,11 +15,14 @@ public class BeanExample {
     // Expression Language
     @Value("#{springProperties.initialize}")
     private String otherString;
-    //
 
     @Autowired
-    //@Qualifier(value="testSpringBean")  // Без указания конкретного бина Spring запутается
+//    @Qualifier(value="testSpringBean")  // Без указания конкретного бина Spring запутается
     private SpringTest springTest;
+
+
+
+
 
     public String getBasicString() {
         return basicString;
