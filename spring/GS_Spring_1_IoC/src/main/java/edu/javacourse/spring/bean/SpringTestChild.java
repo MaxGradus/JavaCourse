@@ -10,6 +10,7 @@ public class SpringTestChild {
         return hello;
     }
 
+    /**сэттер обязательно нужен, чтобы в конфиг фаиле можно было задать значение полю (тэг <property>)*/
     public void setHello(String hello) {
         this.hello = hello;
     }

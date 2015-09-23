@@ -17,23 +17,25 @@ public class SpringExample {
 
 
         // пример, показывающий каким образом можно проинициализировать бины и уничтожить их.
-        //test0();
 
-       // test1();
+        // test0();
 
-       // test2();
+        // test1();
 
-       // test3();
+        // test2();
+
+        // test3();
 
         // test4();
 
-       test5();
+         test5();
 
 
     }
 
     private void test0() {
-        ApplicationContext context =  new ClassPathXmlApplicationContext(new String[]{"test0.xml"});
+        ApplicationContext context =  new ClassPathXmlApplicationContext(new String[]{"test0.xml"}); // главный интерфейс фреймворка
+        // Создаем контекст, который обращается к нашему конфигурационному фаилу test0.xml
         // Вызов бинов с постинициализацией и преддестроем
         // Получение бина способом приведения
 
@@ -82,7 +84,7 @@ public class SpringExample {
 
     private void test4() {
         ApplicationContext context =  new ClassPathXmlApplicationContext(new String[]{"test4.xml"});
-        // Создание обхекта с указанием параметров в конструкторе
+        // Создание объекта с указанием параметров в конструкторе
         SpringTestConstructor test4 = context.getBean("constructorBean", SpringTestConstructor.class);
         System.out.println(test4.getNumber());
         System.out.println(test4.getName());
