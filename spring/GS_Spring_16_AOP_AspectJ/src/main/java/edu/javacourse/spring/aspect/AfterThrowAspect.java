@@ -5,10 +5,7 @@ import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.aop.ThrowsAdvice;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 @Aspect
 public class AfterThrowAspect {
 

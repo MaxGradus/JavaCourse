@@ -6,10 +6,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 
-/**
- * Author: Georgy Gobozov
- * Date: 19.07.13
- */
+
 @Aspect
 public class Logging {
 

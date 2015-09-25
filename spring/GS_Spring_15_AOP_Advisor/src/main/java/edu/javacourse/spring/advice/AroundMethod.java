@@ -5,10 +5,7 @@ import org.aopalliance.intercept.MethodInvocation;
 
 import java.util.Arrays;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class AroundMethod implements MethodInterceptor {
 
     @Override

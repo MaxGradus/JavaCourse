@@ -1,10 +1,13 @@
 package edu.javacourse.spring;
 
+
+/**http://habrahabr.ru/post/114649/
+ * Œ◊≈Õ‹ œŒÀ≈«Õ¿ﬂ —¿“‹ﬂ*/
 import edu.javacourse.spring.bean.RegionManager;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class SpringExample {
+public  class SpringExample {
 
     public static void main(String[] args) {
 
@@ -16,7 +19,7 @@ public class SpringExample {
         System.out.println(regionManager.getNumber());
 
 
-        regionManager.throwException();
+       // regionManager.throwException();
 
         regionManager.sayHello("Vova");
         regionManager.getInfo();

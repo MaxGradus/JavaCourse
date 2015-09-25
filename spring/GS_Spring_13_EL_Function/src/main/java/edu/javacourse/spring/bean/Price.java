@@ -3,11 +3,8 @@ package edu.javacourse.spring.bean;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-/**
- * Author: Georgy Gobozov
- * Date: 22.07.13
- */
-@Component("priceBean")
+
+@Component("priceBean") // вид бина
 public class Price {
 
     private int price;

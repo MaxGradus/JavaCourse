@@ -4,10 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 22.07.13
- */
+
 public class UserGroup {
 
     @Value("#{systemProperties['user.name'] + ' company' }")

@@ -34,6 +34,8 @@ public class SpringExample {
         region1.setPopulation(10000000);
 
         dao.createRegion(region1);
+        System.out.println("=============================" + "\n");
+
 
         Region region2 = new Region();
         region2.setRegionId(1);
@@ -41,6 +43,7 @@ public class SpringExample {
         region2.setPopulation(-1);
 
         dao.createRegion(region2);
+        System.out.println("=============================" + "\n");
 
 
     }

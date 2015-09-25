@@ -1,9 +1,6 @@
 package edu.javacourse.spring.bean;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class RegionManager {
 
     private String name;
@@ -27,7 +24,7 @@ public class RegionManager {
     }
 
     public void getInfo(){
-        System.out.println("Name = " + name + " number= " + number);
+        System.out.println("Name = " + name + "\n" + "Number = " + number);
     }
 
     public void sayHello(String name) {

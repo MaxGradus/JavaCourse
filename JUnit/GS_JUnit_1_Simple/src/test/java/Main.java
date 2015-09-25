@@ -4,9 +4,7 @@ import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;
 
-/**
- * Created by Georgy Gobozov on 12.01.2015.
- */
+
 public class Main {
 
     public static void main(String[] args) {

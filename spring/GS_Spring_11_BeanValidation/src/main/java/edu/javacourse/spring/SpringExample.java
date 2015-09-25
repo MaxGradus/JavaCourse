@@ -29,14 +29,15 @@ public class SpringExample {
 //        region1.setRegionId(1);
 //        region1.setRegionName("SPB");
 //        region1.setPopulation(10000000);
+//        region1.setEmail("gradus182@mail.ru");
+//
 //        dao.createRegion(region1);
 
         Region region2 = new Region();
         region2.setRegionName("ow");
         region2.setPopulation(100);
+        region2.setEmail("nevernyi.em@il.com e on");
 
         dao.createRegion(region2);
-
-
     }
 }

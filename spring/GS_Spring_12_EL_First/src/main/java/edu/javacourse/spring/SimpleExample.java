@@ -14,7 +14,7 @@ public class SimpleExample {
      */
     public static void main(String[] args) {
         SpELDemo1();
-        SpELDemo2();
+        //SpELDemo2();
     }
 
     private static void SpELDemo1() {

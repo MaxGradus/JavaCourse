@@ -19,7 +19,7 @@
 
 
 
-    <!-- оперделяет метод входа -->
+    <!-- оперделяет метод входа (это понятно из имени метода NameMatchMethodPointcut) -->
     <bean id="regionPointcut" class="org.springframework.aop.support.NameMatchMethodPointcut">
         <property name="mappedName" value="getInfo" />
     </bean>
@@ -60,7 +60,7 @@
 
 
 
-    <!-- перехват по регулярному выражению -->
+    <!-- перехват по регулярному выражению ==> означает, что advice будет во всех методах, начинающихся с get -->
     <bean id="regexpAdvisor"  class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="patterns">
             <list>

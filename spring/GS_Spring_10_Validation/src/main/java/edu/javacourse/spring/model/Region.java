@@ -1,9 +1,6 @@
 package edu.javacourse.spring.model;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class Region {
 
     private Integer regionId;

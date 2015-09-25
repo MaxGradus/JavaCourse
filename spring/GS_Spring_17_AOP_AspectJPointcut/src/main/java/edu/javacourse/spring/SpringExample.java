@@ -13,14 +13,14 @@ public class SpringExample {
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"springExample.xml"});
 
 
-       // pointcut1(context);
+//        pointcut1(context);
 
-        //pointcut2(context);
+        pointcut2(context);
 
 
-        pointcut3(context);
+//        pointcut3(context);
 
-       // pointcut4(context);
+//        pointcut4(context);
 
     }
 

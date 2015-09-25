@@ -26,11 +26,11 @@ public class SpringExample {
 
 
     private static void beforeAspect(ApplicationContext context) {
-        RegionManager regionManager = (RegionManager) context.getBean("regionManager");
-        System.out.println("===============================================");
-        System.out.println(regionManager.getNumber());
-        System.out.println("===============================================");
-        regionManager.createRegion("SPB");
+             RegionManager regionManager = (RegionManager) context.getBean("regionManager");
+             System.out.println("===============================================");
+/*1 method*/ System.out.println(regionManager.getNumber());
+             System.out.println("===============================================");
+/*2 method*/ regionManager.createRegion("SPB");
     }
 
 

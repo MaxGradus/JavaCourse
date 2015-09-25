@@ -1,8 +1,6 @@
 package ru.javacourse;
 
-/**
- * Created by Georgy Gobozov on 11.01.2015.
- */
+
 public class Calculator {
 
     public int sum(int a, int b){

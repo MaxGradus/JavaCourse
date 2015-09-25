@@ -8,10 +8,7 @@ import org.aspectj.lang.annotation.Aspect;
 
 import java.util.Arrays;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 @Aspect
 public class AroundAspect {
 

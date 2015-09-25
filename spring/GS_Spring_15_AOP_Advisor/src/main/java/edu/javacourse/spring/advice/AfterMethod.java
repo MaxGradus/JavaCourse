@@ -5,10 +5,7 @@ import org.springframework.aop.MethodBeforeAdvice;
 
 import java.lang.reflect.Method;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class AfterMethod implements AfterReturningAdvice {
 
     @Override

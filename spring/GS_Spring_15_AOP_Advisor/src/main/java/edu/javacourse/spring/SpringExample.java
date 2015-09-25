@@ -11,12 +11,12 @@ public class SpringExample {
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"springExample.xml"});
 
 
-       // simpleAdvisor(context);
+//        simpleAdvisor(context);
 
-        //anotherAdvisor(context);
+        anotherAdvisor(context);
 
 
-       regexpAdvisor(context);
+//       regexpAdvisor(context);
 
 
     }

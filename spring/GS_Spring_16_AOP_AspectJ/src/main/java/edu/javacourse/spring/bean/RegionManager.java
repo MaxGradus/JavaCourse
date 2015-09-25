@@ -1,9 +1,6 @@
 package edu.javacourse.spring.bean;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class RegionManager {
 
     private String name;

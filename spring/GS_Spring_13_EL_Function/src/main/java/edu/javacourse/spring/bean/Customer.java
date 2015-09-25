@@ -1,9 +1,6 @@
 package edu.javacourse.spring.bean;
 
-/**
- * Author: Georgy Gobozov
- * Date: 22.07.13
- */
+
 public class Customer {
 
 

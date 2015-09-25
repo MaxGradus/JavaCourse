@@ -5,10 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class RegionValidator implements Validator{
 
     @Override

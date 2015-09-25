@@ -7,10 +7,7 @@ import org.springframework.aop.AfterReturningAdvice;
 
 import java.lang.reflect.Method;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 @Aspect
 public class AfterAspect  {
 

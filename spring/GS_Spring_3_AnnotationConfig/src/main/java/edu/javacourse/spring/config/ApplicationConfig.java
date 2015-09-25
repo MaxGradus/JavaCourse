@@ -22,5 +22,4 @@ public class ApplicationConfig {
         return new SimpleImpl();
     }
 
-
 }

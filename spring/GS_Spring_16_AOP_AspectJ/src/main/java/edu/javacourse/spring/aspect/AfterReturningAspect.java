@@ -5,10 +5,7 @@ import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 @Aspect
 public class AfterReturningAspect {
 

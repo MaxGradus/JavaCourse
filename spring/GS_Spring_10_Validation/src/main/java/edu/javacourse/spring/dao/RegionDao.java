@@ -9,10 +9,7 @@ import org.springframework.validation.ObjectError;
 
 import java.util.Locale;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class RegionDao {
 
     @Autowired
@@ -29,10 +26,11 @@ public class RegionDao {
             for (ObjectError e :errors.getAllErrors()){
                 System.out.println(e.getCode() + " "  + e.getDefaultMessage());
                 System.out.println(messageSource.getMessage(e, Locale.getDefault()));
+                System.out.println(region.getRegionName() + " NOT SAVED");
             }
             return;
         }
-        System.out.println("Region Saved...");
+        System.out.println(region.getRegionName() + " Region Saved...");
 
     }
 

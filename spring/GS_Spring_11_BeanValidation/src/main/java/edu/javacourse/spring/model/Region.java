@@ -7,10 +7,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-/**
- * Author: Georgy Gobozov
- * Date: 18.07.13
- */
+
 public class Region {
 
     @NotNull(message="ID должно быть задано")
@@ -21,7 +18,7 @@ public class Region {
     @Size(min = 3, message="Длина имени региона должна быть больше трех")
     private String regionName;
 
-    @Range(min = 1000, max = 1500000)
+    @Range(min = 1000, max = 15000000)
     private int population;
 
 

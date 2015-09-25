@@ -2,23 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adec7617-7da6-4320-95ee-db5af479f7fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/client/target/classes/ru/javacourse/ejb/client/Main.class" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/client/target/classes/ru/javacourse/ejb/client/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/client/target/ejb-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/client/target/ejb-client-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/target/ejb-remote.jar" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/target/ejb-remote.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_4/ear/target/webservice-ear/webservice-client.war" afterPath="$PROJECT_DIR$/../JAX-WS_4/ear/target/webservice-ear/webservice-client.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_4/ear/target/webservice-ear.ear" afterPath="$PROJECT_DIR$/../JAX-WS_4/ear/target/webservice-ear.ear" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_4/ear/target/webservice-ear/webservice.war" afterPath="$PROJECT_DIR$/../JAX-WS_4/ear/target/webservice-ear/webservice.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/src/main/java/ru/javacourse/ejb/stateless/CalculatorBean.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/src/main/java/ru/javacourse/ejb/stateless/CalculatorBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/src/main/java/ru/javacourse/ejb/stateful/CounterBean.java" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/src/main/java/ru/javacourse/ejb/stateful/CounterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_First/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_First/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_First/.idea/artifacts/ejb_first_ejb_exploded.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_First/.idea/artifacts/ejb_first_ejb_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/client/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/client/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/ejb/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_1_First/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_1_First/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../EJB/GS_EJB_2_Remote/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JAX-WS_2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JAX-WS_3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JAX-WS_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JAX-WS_4/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/AfterMethod.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/AfterMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/src/main/java/edu/javacourse/spring/config/ApplicationConfig.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/src/main/java/edu/javacourse/spring/config/ApplicationConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/AroundMethod.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/AroundMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/BeforeMethod.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/BeforeMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/java/edu/javacourse/spring/bean/Customer.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/java/edu/javacourse/spring/bean/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_12_EL_First/src/main/java/edu/javacourse/spring/spel/ExpressionExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_12_EL_First/src/main/java/edu/javacourse/spring/spel/ExpressionExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/java/edu/javacourse/spring/bean/Price.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/java/edu/javacourse/spring/bean/Price.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/java/edu/javacourse/spring/bean/Product.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/java/edu/javacourse/spring/bean/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/model/Region.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/model/Region.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/model/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/dao/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/dao/RegionDao.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/dao/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/bean/RegionManager.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/bean/RegionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/validation/RegionValidator.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/validation/RegionValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/validation/RegionValidator.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/validation/RegionValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_12_EL_First/src/main/java/edu/javacourse/spring/SimpleExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_12_EL_First/src/main/java/edu/javacourse/spring/SimpleExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/SpringExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/java/edu/javacourse/spring/SpringExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/SpringExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_11_BeanValidation/src/main/java/edu/javacourse/spring/SpringExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/SpringExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/SpringExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_9_Resource/src/main/java/edu/javacourse/spring/SpringExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_9_Resource/src/main/java/edu/javacourse/spring/SpringExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/ThrowException.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_14_AOP_Advice/src/main/java/edu/javacourse/spring/advice/ThrowException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_12_EL_First/src/main/java/edu/javacourse/spring/bean/UserGroup.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_12_EL_First/src/main/java/edu/javacourse/spring/bean/UserGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_8_Aware/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_8_Aware/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/resources/springExample.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_10_Validation/src/main/resources/springExample.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/resources/springExample.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_13_EL_Function/src/main/resources/springExample.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_9_Resource/src/main/resources/springExample.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_9_Resource/src/main/resources/springExample.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_9_Resource/src/main/resources/edu/javacourse/spring/resource/test2.txt" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_9_Resource/src/main/resources/edu/javacourse/spring/resource/test2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_5_PropertyConfigurer/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_5_PropertyConfigurer/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_8_Aware/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_8_Aware/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/webservice-ejb.iml" afterPath="$PROJECT_DIR$/service/webservice-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_1_IoC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_1_IoC/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_2_Annotation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_2_Annotation/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_3_AnnotationConfig/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_5_PropertyConfigurer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_5_PropertyConfigurer/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_6_Scope/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_6_Scope/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_8_Aware/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_8_Aware/.idea/workspace.xml" />
     </list>
     <ignored path="webservice-builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +67,20 @@
     <favorites_list name="webservice-builder" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CalculatorService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/ru/javacourse/webservice/CalculatorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1446613">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -106,6 +144,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,11 +163,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAX-WS_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,9 +268,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAX-WS_4" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
@@ -247,29 +373,31 @@
       <updated>1442493384269</updated>
       <workItem from="1442493387306" duration="160000" />
       <workItem from="1442493732202" duration="36000" />
+      <workItem from="1443167692177" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196000" />
+    <option name="totallyTimeSpent" value="284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09115139" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09115139" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1359275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -305,12 +433,26 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/ru/javacourse/webservice/CalculatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1446613">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,9 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import ru.javacourse.Calculator;
 
-/**
- * Created by Georgy Gobozov on 11.01.2015.
- */
+
 
 public class CalcTest {
 

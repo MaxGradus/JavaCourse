@@ -47,7 +47,7 @@ public class ExpressionExample {
         System.out.println(value);
     }
 
-    // Обратиться к полю обхекта
+    // Обратиться к полю объекта
     public void field() {
         User jobs = new User("Steve", "Jobs", 56);
         Expression exp1 = parser.parseExpression("firstName");
