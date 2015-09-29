@@ -6,10 +6,6 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-/**
- * Author: Georgy Gobozov
- * Date: 22.07.13
- */
 @Repository
 public class HibernateRegionDao implements RegionDao {
 

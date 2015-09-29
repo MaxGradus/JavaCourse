@@ -6,10 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.07.13
- */
+//Различные проверки и операции с данными должны проходить здесь а не в DAOImpl, здесь наша бизнес логика
+//DAOImpl должен только лишь доставать/удалять/обнавлять и тп данные.
 //http://www.tutorialspoint.com/spring/spring_transaction_management.htm
 @Transactional
 public class RegionServiceImpl implements RegionService {

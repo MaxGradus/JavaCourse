@@ -6,10 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.sql.DataSource;
 import java.sql.*;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.07.13
- */
+
 public class JdbcRegionDao implements RegionDao {
 
     @Autowired

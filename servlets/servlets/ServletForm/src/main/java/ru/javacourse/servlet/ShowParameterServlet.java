@@ -11,8 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Приме для демонстрации получения параметров из запроса
- *
- * @author ASaburov
+ * =================================================================================
+ * После запуска приложения мы попадаем на вэб страницу, на ней 2 формы get & post
+ * 1) заполняем данными get жмем го и данные летят на наш сервлет
+ * 2) сервлет строит вэб страницу, ее архитектура в блоке try-catch-finally ниже
  */
 public class ShowParameterServlet extends HttpServlet {
 
@@ -27,12 +29,12 @@ public class ShowParameterServlet extends HttpServlet {
     throws ServletException, IOException {
 
         // Получаем параметры из запроса по имени
-        String param1 = request.getParameter("parameter1");
-        String param2 = request.getParameter("parameter2");
-        String param3 = request.getParameter("parameter3");
-        String param4 = request.getParameter("text");
-        String param5 = request.getParameter("select");
-        String param6 = request.getParameter("check");
+        String param1 = request.getParameter("parameter1"); // в этот стринг попадает параметр
+        String param2 = request.getParameter("parameter2"); // в этот стринг попадает параметр
+        String param3 = request.getParameter("parameter3"); // в этот стринг попадает параметр
+        String param4 = request.getParameter("text"); // в этот любой текст
+        String param5 = request.getParameter("select"); // в этот какойто селект
+        String param6 = request.getParameter("check"); // что то из чек бокса
 
         // Вариант для просмотра всех параметров взапросе
         for(Enumeration en = request.getParameterNames(); en.hasMoreElements();) {

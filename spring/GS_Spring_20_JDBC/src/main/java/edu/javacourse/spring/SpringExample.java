@@ -24,11 +24,11 @@ public class SpringExample {
 
         JdbcTemplate jdbc = context.getBean("jdbcTemplate", JdbcTemplate.class);
 
-        //test1(jdbc);
-        //test2(jdbc);
-        //test3(jdbc);
-        //test4(jdbc);
-        //test5(jdbc);
+//        test1(jdbc);
+//        test2(jdbc);
+//        test3(jdbc);
+//        test4(jdbc);
+//        test5(jdbc);
         test6(jdbc);
 
 
@@ -84,14 +84,14 @@ public class SpringExample {
     }
 
     private static void test3(JdbcTemplate jdbc) {
-        // Пример вызова вставки
-        jdbc.update("insert into jc_region (region_name) values (?)", "HMAO 2");
+        // Пример вызова вставки (UPDATE)
+        jdbc.update("insert into jc_region (region_name) values (?)", "HMAO");
     }
 
     private static void test2(JdbcTemplate jdbc) {
         // Пример вызова возврата объекта с указанием массива параметров
-        String regionName = jdbc.queryForObject("select region_name from jc_region where region_id = ? and region_name = ?", new Object[]{1L, "Moscow"}, String.class);
-        Region region = jdbc.queryForObject("select * from jc_region where region_id = ? and region_name = ?", new Object[]{1L, "Moscow"}, new RowMapper<Region>() {
+        String regionName = jdbc.queryForObject("select region_name from jc_region where region_id = ? and region_name = ?", new Object[]{12, "Moscow"}, String.class);
+        Region region = jdbc.queryForObject("select * from jc_region where region_id = ? and region_name = ?", new Object[]{12, "Moscow"}, new RowMapper<Region>() {
             @Override
             public Region mapRow(ResultSet resultSet, int i) throws SQLException {
                 return new Region(resultSet.getInt("region_id"), resultSet.getString("region_name"));

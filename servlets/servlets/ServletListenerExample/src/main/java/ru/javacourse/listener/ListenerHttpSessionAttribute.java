@@ -3,6 +3,8 @@ package ru.javacourse.listener;
 import javax.servlet.http.HttpSessionAttributeListener;
 import javax.servlet.http.HttpSessionBindingEvent;
 
+/**Реагирует когда в сессию помещается/удаляется атрибут*/
+
 public class ListenerHttpSessionAttribute implements HttpSessionAttributeListener {
 
     public void attributeAdded(HttpSessionBindingEvent event) {

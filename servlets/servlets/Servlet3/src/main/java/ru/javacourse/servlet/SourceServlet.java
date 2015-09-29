@@ -11,9 +11,9 @@ public class SourceServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
 
-        if(request.getParameter("redirect")!=null) {
+        if(request.getParameter("redirect")!=null) { // проерка, если параметр равен "redirect" то тогда происходит переход на TargetServlet
             response.sendRedirect("TargetServlet");
-        } else {
+        } else { // если параметра redirect нет, то переходим к TargetServlet(тот же ресурс)
             getServletContext().getRequestDispatcher("/TargetServlet").forward(request, response);
         }
     } 

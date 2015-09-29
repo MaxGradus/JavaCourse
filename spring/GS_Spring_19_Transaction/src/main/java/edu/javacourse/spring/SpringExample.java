@@ -15,10 +15,10 @@ public class SpringExample {
 
         RegionService regionService = (RegionService) context.getBean("regionService");
 
-        //test1(regionService);
-        //test2(regionService);
-       // test3(regionService);
-        test4(regionService);
+//        test1(regionService);
+//        test2(regionService);
+        test3(regionService);
+//        test4(regionService);
 
 
 
