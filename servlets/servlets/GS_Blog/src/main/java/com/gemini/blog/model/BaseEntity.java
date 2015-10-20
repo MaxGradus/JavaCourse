@@ -1,9 +1,6 @@
 package com.gemini.blog.model;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
+
 public class BaseEntity {
 
     protected Integer id;

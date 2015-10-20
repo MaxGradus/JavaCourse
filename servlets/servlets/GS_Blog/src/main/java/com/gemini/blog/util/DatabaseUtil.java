@@ -10,12 +10,8 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.util.Properties;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
-public class DatabaseUtil {
 
+public class DatabaseUtil {
 
     Properties queries;
 
@@ -43,10 +39,7 @@ public class DatabaseUtil {
         String q = queries.getProperty(name);
         System.out.println("q = " + q);
         return q;
-
-
     }
-
 
     private void loadProperties(){
         InputStream is = null;
@@ -60,6 +53,4 @@ public class DatabaseUtil {
             e.printStackTrace();
         }
     }
-
-
 }

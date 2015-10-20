@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Sep 7, 2011, 1:42:13 PM
-    Author     : ASaburov
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

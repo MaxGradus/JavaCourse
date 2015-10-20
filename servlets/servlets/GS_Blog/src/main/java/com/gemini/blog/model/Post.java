@@ -5,10 +5,7 @@ import com.gemini.blog.dao.impl.CategoryDao;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
+
 public class Post extends BaseEntity{
 
 

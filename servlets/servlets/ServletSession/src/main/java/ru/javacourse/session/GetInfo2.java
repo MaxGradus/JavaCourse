@@ -7,10 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author ASaburov
- */
+
 public class GetInfo2 extends HttpServlet {
    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

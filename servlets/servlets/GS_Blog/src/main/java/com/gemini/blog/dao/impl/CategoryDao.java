@@ -9,10 +9,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
+
 public class CategoryDao extends AbstractDaoImpl<Category> {
 
 

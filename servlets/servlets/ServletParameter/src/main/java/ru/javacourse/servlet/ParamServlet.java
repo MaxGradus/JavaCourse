@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Сервлет для демонстрации работы с параметрами в web.xml
- * @author ASaburov
+ * Мы объявляем значения параметров в web.xml
+ * а потом инициализируем их в классе сервлета, ну и конечно помещаем их в респонс (в try-catch-finally)
  */
 public class ParamServlet extends HttpServlet {
 

@@ -4,9 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServlet;
 import java.io.IOException;
 
-/**
- * Created by Georgy Gobozov on 25.02.2015.
- */
+
 public class EncodingFilter implements Filter {
 
     private static final String ENCODING = "UTF-8";

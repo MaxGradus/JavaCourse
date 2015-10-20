@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**Основной посыл примера - в жизненном цикле сервлета есть несколько точек к которым мы можем прицепиться
+ * на то или иное событие и за каждое такое событие отвечает определенный Listener*/
+
 public class TestServlet extends HttpServlet {
     
     @Override

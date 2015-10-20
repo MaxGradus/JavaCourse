@@ -12,7 +12,6 @@
         <%
             String name = request.getAttribute("name").toString();
             String surname = request.getAttribute("surname").toString();
-
         %>
 
         <h3>Name is <%=name%></h3><br/>

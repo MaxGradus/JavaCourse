@@ -10,10 +10,6 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
 public abstract class  AbstractDaoImpl<T extends BaseEntity>  implements AbstractDao<T> {
 
     DatabaseUtil dbUtil = new DatabaseUtil();

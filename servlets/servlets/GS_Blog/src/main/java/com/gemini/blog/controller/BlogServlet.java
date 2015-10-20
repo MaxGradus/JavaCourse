@@ -15,10 +15,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.ResourceBundle;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
+
 public class BlogServlet extends HttpServlet {
 
 

@@ -9,10 +9,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
+
 public class PostDao extends AbstractDaoImpl<Post> {
 
     @Override
@@ -60,7 +57,7 @@ public class PostDao extends AbstractDaoImpl<Post> {
         List<Post> posts = new ArrayList<Post>();
         Category category = categoryDao.getById(categoryId);
         try (Connection connection = dbUtil.getConnection();
-             PreparedStatement pstmt = connection.prepareStatement("SELECT * FROM posts WHERE categoryId=?");) {
+             PreparedStatement pstmt = connection.prepareStatement("SELECT * FROM posts WHERE categoryId=?")) {
 
             pstmt.setInt(1, categoryId);
             try (ResultSet resultSet = pstmt.executeQuery();){

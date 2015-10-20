@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>JSP-4</title>
     </head>
     <body>
 
@@ -16,8 +16,9 @@
         %>
 
         Employee list:
+
         <ul>
-        <%for (Person p: persons){%>
+        <%for (Person p: persons){ %>
 
         <li><%=p.getName() + " " + p.getSurname()%> <a href="FormServlet?delete=<%=p.getName()%>">Удалить</a></li>
 

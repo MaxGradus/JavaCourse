@@ -28,6 +28,6 @@ INSERT INTO `posts` (`id`, `title`, `summary`, `body`, `categoryId`) VALUES
   (1,'Test title', 'Test summary', 'Test body', 1);
 
 INSERT INTO `posts` (`id`, `title`, `summary`, `body`, `categoryId`) VALUES
-  (2,'Заголовок', 'Test summary', 'Test body', 1);
+  (2,'Title', 'Test summary', 'Test body', 1);
 
 COMMIT;

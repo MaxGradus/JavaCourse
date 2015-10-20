@@ -37,7 +37,6 @@
 
         %>
 
-
         <c:forEach items="${array}" var="s">
             ${s}
         </c:forEach>
@@ -57,11 +56,5 @@
         param2 = ${param.param2}
 
         <br/>
-
-        
-
-
-
     </body>
-
 </html>

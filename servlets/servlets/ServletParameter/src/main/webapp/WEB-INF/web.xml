@@ -6,11 +6,11 @@
         <servlet-class>ru.javacourse.servlet.ParamServlet</servlet-class>
         <init-param>
             <param-name>parameter1</param-name>
-            <param-value>value1</param-value>
+            <param-value>MYvalue1</param-value>
         </init-param>
         <init-param>
             <param-name>parameter2</param-name>
-            <param-value>value2</param-value>
+            <param-value>MYvalue2</param-value>
         </init-param>
     </servlet>
 

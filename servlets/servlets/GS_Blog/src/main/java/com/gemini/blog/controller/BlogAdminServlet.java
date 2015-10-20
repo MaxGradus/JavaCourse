@@ -14,10 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 21.04.13
- */
 public class BlogAdminServlet extends HttpServlet {
 
     AbstractDao<Post> postDao = new PostDao();

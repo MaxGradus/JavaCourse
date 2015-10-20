@@ -18,7 +18,7 @@
     </servlet-mapping>
 
     <session-config>
-        <session-timeout>
+        <session-timeout> <!--длительность сессии в минутах-->
             30
         </session-timeout>
     </session-config>
