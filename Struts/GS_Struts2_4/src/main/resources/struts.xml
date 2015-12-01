@@ -7,18 +7,18 @@
     <package name="action" extends="struts-default">
 
         <interceptors>
-            <interceptor name="Timer" class="interceptor.TimerInterceptor"/>
-            <interceptor name="Login" class="interceptor.LoginInterceptor"/>
-            <interceptor-stack name="myStack">
+            <interceptor name="Timer" class="interceptor.TimerInterceptor"/> <!--определяем сам интерсептр-->
+            <interceptor name="Login" class="interceptor.LoginInterceptor"/> <!--определяем сам интерсептр-->
+            <interceptor-stack name="myStack"> <!--определяем стек интерсептеров в составе:-->
                 <interceptor-ref name="Timer"/>
                 <interceptor-ref name="Login"/>
-                <interceptor-ref name="params" />
+                <interceptor-ref name="params" /> <!--родной интерсептр стратса. В данном случае отвечает за точ тобы значения из поля страницы попали в наш класс экшен-->
             </interceptor-stack>
         </interceptors>
 
         <action name="Login" class="action.LoginAction">
             <interceptor-ref name="Timer"/>
-            <interceptor-ref name="params"/>
+            <interceptor-ref name="params"/> <!--родной интерсептр стратса. В данном случае отвечает за точ тобы значения из поля страницы попали в наш класс экшен-->
             <result name="login">/login.jsp</result>
             <result name="success">/index.jsp</result>
         </action>
