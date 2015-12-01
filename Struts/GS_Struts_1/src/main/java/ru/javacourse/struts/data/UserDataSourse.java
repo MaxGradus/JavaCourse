@@ -5,13 +5,7 @@ import ru.javacourse.struts.form.UserForm;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: gb
- * Date: 23.03.13
- * Time: 15:30
- * To change this template use File | Settings | File Templates.
- */
+
 public class UserDataSourse {
 
     private static List<UserForm> users = null;
@@ -26,7 +20,10 @@ public class UserDataSourse {
 
     public static void add(UserForm form) throws Exception{
         if (form.getId() < 1)
-            throw new Exception();
+            throw new Exception("errors.negative.id");
+        if (getById(form.getId()) != null) {
+            throw new Exception("errors.exist.id");
+        }
         users.add(form);
     }
 

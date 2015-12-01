@@ -6,6 +6,10 @@ import java.util.List;
 import students.dao.ProfessionDAO;
 import students.entity.Profession;
 
+
+/**Не очень удачное названия класса. Facade представляет другую концепцию паттерна. В данном случае, ProfessionFacade -
+ * это класс "Manager", он делегирует работу объекту класса ProfessionDAO, который добавляет/удаляет и тп. */
+
 public class ProfessionFacade {
     private ProfessionDAO dao;
 

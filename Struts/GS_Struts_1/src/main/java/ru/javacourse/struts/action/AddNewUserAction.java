@@ -28,7 +28,7 @@ public class AddNewUserAction extends Action {
             e.printStackTrace();
             target = FAILURE;
             ActionErrors errors = new ActionErrors();
-            errors.add(ActionErrors.GLOBAL_MESSAGE, new ActionMessage("errors.negative.id"));
+            errors.add(ActionErrors.GLOBAL_MESSAGE, new ActionMessage(e.getMessage()));
             saveErrors(request, errors);
         }
         return mapping.findForward(target);

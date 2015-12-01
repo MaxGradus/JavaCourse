@@ -10,7 +10,7 @@
          <!-- http://www.mkyong.com/struts/struts-validator-framework-example/ -->
          <!-- http://viralpatel.net/blogs/struts-validation-framework-tutorial-example-validator-struts-validation-form-validation/ -->
 
-
+<!--В этом фаиле мы описываем некие "правила". Например, указываем наш бин UserForm и задаем рейндж от -10 до 10000-->
         <form name="lookupForm">
             <field property="id" depends="required, intRange">
                 <msg name="required" key="errors.id.required" />
@@ -31,9 +31,9 @@
 
             </field>
 
-            <!--<field property="name" depends="required">-->
-                <!--<msg name="required" key="errors.name.required" />-->
-            <!--</field>-->
+            <field property="name" depends="required">
+                <msg name="required" key="errors.name.required" />
+            </field>
         </form>
 
 

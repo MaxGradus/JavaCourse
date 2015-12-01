@@ -3,16 +3,14 @@ package data;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 14.04.13
- */
+
 public class UserDataSource {
 
     private static List<User> users;
 
     static {
         users = new ArrayList<User>();
+        users.add(new User("admin", "admin")); // просто прикалолся и добавил сюда админа :)
     }
 
     public static void addUser(String login, String pass){

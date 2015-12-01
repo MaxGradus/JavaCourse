@@ -68,6 +68,7 @@ public class LoginAction extends ActionSupport {
             setMessage("User not registred!");
             return INPUT;
         }
+
         setMessage("You are logged in!");
         return SUCCESS;
     }
@@ -94,7 +95,10 @@ public class LoginAction extends ActionSupport {
    }
 
     public boolean validateRegister(String username, String password){
-        if (username.equals("vova") || username.equals("ivan")) return false;
+        if (username.equals("vova") || username.equals("ivan")) {
+            addFieldError("username", "User Name must be not fckng ivan or vova!");
+            return false;
+        }
         return validateLogin(username, password);
     }
 

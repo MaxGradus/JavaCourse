@@ -22,15 +22,20 @@ public class JSPAttributesServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-            
-//        request.setAttribute("name", "Georgy");
-//        request.setAttribute("surname", "Gobozov");
 
-        String name = request.getParameter("name");
-        String surname= request.getParameter("surname");
+/**http://localhost:8080/JSPAttributesServlet*/
 
-        request.setAttribute("name", name);
-        request.setAttribute("surname", surname);
+        request.setAttribute("name", "Georgy");
+        request.setAttribute("surname", "Gobozov");
+
+/**если раскоментировать код внизу, то при обращении к http://localhost:8080/form.jsp
+ * мы попадем на форму, заполнив поля параметры  попадут через сервлет на страницу index.jsp*/
+
+//        String name = request.getParameter("name");
+//        String surname= request.getParameter("surname");
+//
+//        request.setAttribute("name", name);
+//        request.setAttribute("surname", surname);
 
         RequestDispatcher dispatcher =  getServletContext().getRequestDispatcher("/index.jsp");
         dispatcher.forward(request, response);

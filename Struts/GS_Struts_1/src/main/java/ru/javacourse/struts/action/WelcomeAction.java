@@ -14,6 +14,10 @@ import java.io.IOException;
 
 public class WelcomeAction extends Action {
 
+/**Начинает работать класс WelcomeAction(как сервлет). Запускается метод execute, в котором в request
+ * передается список Юзеров с ключом "users". Далее идет форвард (переход) на таргет "success", который
+ * в свою очередь определен в конфигуриционном фаиле struts-config (т.е. переход на страницу index.jsp) */
+
     @Override
     public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
@@ -23,5 +27,6 @@ public class WelcomeAction extends Action {
         return mapping.findForward("success");
 
     }
+
 
 }

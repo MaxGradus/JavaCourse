@@ -4,14 +4,14 @@
      <filter>
            <filter-name>struts2</filter-name>
            <filter-class>
-               org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+               org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter <!--в стратс1 основой (управлял всеми запросами) был ActionServlet, теперь этот фильтр-->
            </filter-class>
         </filter>
 
        <filter-mapping>
            <filter-name>struts2</filter-name>
-           <!--<url-pattern>/*</url-pattern>-->
-           <url-pattern>*.do</url-pattern>
+           <url-pattern>/*</url-pattern>
+           <!--<url-pattern>*.do</url-pattern>-->
        </filter-mapping>
 
     <welcome-file-list>

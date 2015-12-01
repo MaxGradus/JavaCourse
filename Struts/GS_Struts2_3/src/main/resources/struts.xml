@@ -11,7 +11,7 @@
             <result name="success">/success.jsp</result>
         </action>
 
-        <action name="inputRegister" method="input" class="action.RegisterAction">
+        <action name="inputRegister" method="input" class="action.RegisterAction"> <!--вызываем метод не по умолчанию - execute, a метод input-->
             <result name="input">/register.jsp</result>
         </action>
 

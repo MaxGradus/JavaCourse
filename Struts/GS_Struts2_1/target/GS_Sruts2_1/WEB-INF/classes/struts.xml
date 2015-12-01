@@ -9,7 +9,7 @@
             <result type="redirect">/login.jsp</result>
         </action>
 
-        <action name="LoginAction" class="action.LoginAction">
+        <action name="LoginAction" class="action.LoginAction" method="execute"> <!--можно не указывать т.к. по умолчанию вызывается метод execute, но если в экшене несколько методов то мы можем выбрать-->
             <result name="success">/success.jsp</result>
             <result name="input">/login.jsp</result>
         </action>

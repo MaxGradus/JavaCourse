@@ -25,6 +25,8 @@
         <module name="GS_Struts2_3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GS_Struts2_3" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-

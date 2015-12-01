@@ -39,14 +39,12 @@ public class LoginAction extends ActionSupport {
     @Override
     public void validate() {
         if (getUsername() == null || getUsername().length() == 0) {
-            addFieldError("username", "User Name is required");
+            addFieldError("username", "User Name is required"); // метод вызова ошибок
         } else if (getUsername().equals("test")) {
             addFieldError("username", "User Name must be normal!");
         }
         if (getPassword().length() == 0) {
-            addFieldError("password", "Passwors is required");
+            addFieldError("password", "Password is required");
         }
     }
-
-
 }

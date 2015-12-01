@@ -14,5 +14,6 @@
         <action name="inputRegister" method="input" class="action.RegisterAction">
             <result name="input">/register.jsp</result>
         </action>
+
     </package>
 </struts>

@@ -2,10 +2,7 @@ package ru.test.struts2.entity;
 
 import java.io.Serializable;
 
-/**
- *
- * @author APronchakov <artem.pronchakov@gmail.com>
- */
+
 public class LoginBean implements Serializable {
 	private String username;
 	private String password;

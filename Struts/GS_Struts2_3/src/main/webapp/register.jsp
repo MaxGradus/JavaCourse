@@ -15,6 +15,7 @@
             <s:password name="password" label="Password" />
             <s:radio name="gender" label="Gender" list="{'Male','Female'}" />
             <s:textfield name="age" label="Age"/>
+            <!--???? ??????? ?? ????? ????? ?? ??????  private ArrayList<Country> countryList;-->
             <s:select name="country" list="countryList" listKey="countryId"
                       listValue="countryName" headerKey="0" headerValue="Country"
                       label="Select a country" />
