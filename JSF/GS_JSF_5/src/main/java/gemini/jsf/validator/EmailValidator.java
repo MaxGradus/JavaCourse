@@ -9,10 +9,7 @@ import javax.faces.validator.ValidatorException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.04.13
- */
+
 @FacesValidator("gemini.jsf.validator.EmailValidator")
 public class EmailValidator implements Validator {
 

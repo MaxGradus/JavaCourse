@@ -58,7 +58,7 @@
             <tr>
                 <td>Email:</td>
                 <td><h:inputText id="email" value="#{controller.currentUser.email}" required="true" label="Email">
-                    <f:validator validatorId="gemini.jsf.validator.EmailValidator"/>
+                    <f:validator validatorId="gemini.jsf.validator.EmailValidator"/> <!--custom validator - validator which I created myself-->
                 </h:inputText>
                     <h:message for="email" style="color:red"/>
                 </td>
