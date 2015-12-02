@@ -12,8 +12,8 @@
             <h:outputText value="#{user.name}"/>!
             <h:outputText value="#{user.password}"/>!
         </h3>
-        Street  = #{user.address.street}<br/>
-        Address = #{user.showAddress()}
+        Street  = #{user.address.street}<br/> <!--обращаемся к бину адрес (к полю стрит) через бин юзер-->
+        Address = #{user.showAddress()}  <!--можем вызвать прямо тут метод-->
         Address2 = #{user.address}
 
     </body>

@@ -7,17 +7,13 @@ import javax.faces.bean.RequestScoped;
 import javax.faces.context.FacesContext;
 import java.util.Map;
 
-/**
- * Author: Georgy Gobozov
- * Date: 07.04.13
- */
+
 @ManagedBean(name = "userinfo")
 @RequestScoped
 public class UserInfo {
 
-    @ManagedProperty("#{param.username}")
+    @ManagedProperty("#{param.username}")  //значения этих полей (userName, user) будут браться из параметров, которые получаем из index.xhtml (первый link)
     private String userName;
-
     private UserBean user;
 
     @PostConstruct

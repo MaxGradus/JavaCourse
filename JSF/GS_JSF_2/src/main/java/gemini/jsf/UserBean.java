@@ -3,6 +3,7 @@ package gemini.jsf;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
+/**тоже что и первый пример, но с аннотациями*/
 @ManagedBean(name = "user")
 @SessionScoped
 public class UserBean {

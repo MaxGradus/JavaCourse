@@ -6,19 +6,26 @@
          http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
         version="2.0">
 
-   <navigation-rule>
-      <from-view-id>/index.xhtml</from-view-id>
+   <navigation-rule> <!--объявляем правила выхода (действия)-->
+      <from-view-id>/index.xhtml</from-view-id> <!--(2)...на этой странице...-->
       <navigation-case>
-         <from-outcome>login</from-outcome>
-         <to-view-id>/welcome.xhtml</to-view-id>
+         <from-outcome>login</from-outcome> <!--(1) При нажатии этой кнопки...-->
+         <to-view-id>/welcome.xhtml</to-view-id> <!--(3)...мы попадем на эту страницу-->
       </navigation-case>
    </navigation-rule>
 
-   <managed-bean> 
+   <managed-bean> <!--объявляем бины-->
       <managed-bean-name>user</managed-bean-name>
       <managed-bean-class>gemini.jsf.UserBean</managed-bean-class>
-      <managed-bean-scope>session</managed-bean-scope> 
+      <managed-bean-scope>session</managed-bean-scope> <!--значит бин сессионый (существуют различные бины)-->
    </managed-bean>
+
+    <!--
+    scope - области жизни бинов:
+    session - объект класса ( у нас UserBean) будет жить пока жива пользовательская сессия
+    request - получили данные, что-то сделали, отправили ответ, все объект уничтожен
+    view - бин живет пока я нахожусь на одной странице, перешел на другую - бин умер
+    -->
    
 </faces-config>
 

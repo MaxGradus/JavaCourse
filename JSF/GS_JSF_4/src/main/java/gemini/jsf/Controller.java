@@ -8,10 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Author: Georgy Gobozov
- * Date: 31.03.13
- */
+
 @ManagedBean(name = "controller")
 @ViewScoped
 public class Controller implements Serializable {
@@ -47,7 +44,7 @@ public class Controller implements Serializable {
             currentUser = new UserBean();
         }
 
-        // post redirect get
+        // post redirect get принято делать редирект, чтобы параметры сбросились, чтобы нельзя было обновить страницу и действие (удаление или добавление) выполнилось еще раз.
         return "index.xhtml?faces-redirect=true";
         //return "index.xhtml";
     }

@@ -15,11 +15,11 @@
             <ui:repeat value="#{controller.users}" var="u">
 
                 <li>
-                    <h:link value="#{u.name} #{u.surname}" outcome="user">
+                    <h:link value="#{u.name} #{u.surname}" outcome="user"> <!--this link (simple link h:) display name and surname, put value(u.name) to param then redirect to user.xhtml (outcome="user")-->
                         <f:param name="username" value="#{u.name}"/>
                     </h:link>
                     &nbsp;&nbsp;
-                    <h:commandLink action="#{controller.editUser(u.name)}" value="Edit"/>  &nbsp;&nbsp;
+                    <h:commandLink action="#{controller.editUser(u.name)}" value="Edit"/>  &nbsp;&nbsp;  <!--for edit we insert tag - commandLink and then we're invoke bean's methods-->
 
                     <h:commandLink action="#{controller.deleteUser}" value="Delete">
                         <f:param name="action" value="#{u.name}" />

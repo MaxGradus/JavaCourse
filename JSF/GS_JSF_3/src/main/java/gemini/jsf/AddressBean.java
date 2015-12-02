@@ -4,10 +4,6 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
 
-/**
- * Author: Georgy Gobozov
- * Date: 31.03.13
- */
 @ManagedBean(name = "address")
 @SessionScoped
 public class AddressBean implements Serializable {
