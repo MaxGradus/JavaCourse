@@ -16,10 +16,10 @@
     <h:body>
         <h:form>
 
-            Name   :<h:inputText id="name" value="#{user.name}"/> <br/>
-            Surname:<h:inputText id="surname" value="#{user.surname}"/><br/>
+            Name   :<h:inputText id="name" value="#{user.name}"/> <br/> <!--define our field from UserBean-->
+            Surname:<h:inputText id="surname" value="#{user.surname}"/><br/> <!--define our field from UserBean-->
             <h:commandButton value="Show Welcome Message">
-                <f:ajax execute="name surname" render="message"/>
+                <f:ajax execute="name surname" render="message"/> <!--atribute execute means: what we send for our bean, render means: place where it will be display-->
             </h:commandButton>
 
 

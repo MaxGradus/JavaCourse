@@ -5,10 +5,7 @@ import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 08.04.13
- */
+
 @ManagedBean(name = "formbean")
 @RequestScoped
 public class FormBean {

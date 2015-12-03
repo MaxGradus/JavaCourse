@@ -10,15 +10,12 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 08.04.13
- */
+
 @ManagedBean(name = "user")
 @ViewScoped
 public class UserBean implements Serializable {
 
-    @ManagedProperty(value = "#{userDao}")
+    @ManagedProperty(value = "#{userDao}") //в JSF спринговый бин инжектится так же, как и с другим JSF бином
     private UserDao userDao;
 
     private User user = new User();

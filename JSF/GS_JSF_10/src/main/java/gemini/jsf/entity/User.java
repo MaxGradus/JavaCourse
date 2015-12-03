@@ -2,10 +2,7 @@ package gemini.jsf.entity;
 
 import javax.persistence.*;
 
-/**
- * Author: Georgy Gobozov
- * Date: 09.04.13
- */
+
 @Entity
 @Table(name = "users")
 public class User {

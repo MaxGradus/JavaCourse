@@ -9,10 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 09.04.13
- */
+
 @Repository
 @Transactional
 public class UserDaoImpl implements UserDao {
