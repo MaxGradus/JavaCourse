@@ -8,10 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * Author: Georgy Gobozov
- * Date: 10.04.13
- */
+
 @Controller
 //@RequestMapping("/hello")
 public class MyController {
@@ -19,7 +16,7 @@ public class MyController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sayHello(ModelMap model) {
         model.addAttribute("message", "Spring 3 MVC Hello World");
-        return "hello";
+        return "hello"; //возвращает результат на jsp странцу hello.jsp
     }
 
     @RequestMapping(value = "/bye" ,method = RequestMethod.GET)
