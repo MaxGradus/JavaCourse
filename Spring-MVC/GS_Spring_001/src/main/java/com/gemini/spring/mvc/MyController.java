@@ -10,10 +10,10 @@ import javax.servlet.http.HttpSession;
 
 
 @Controller
-//@RequestMapping("/hello")
+//@RequestMapping("/hello") // можно замапить на данный URL весь класс
 public class MyController {
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)  // можно замапить на определенный метод
     public String sayHello(ModelMap model) {
         model.addAttribute("message", "Spring 3 MVC Hello World");
         return "hello"; //возвращает результат на jsp странцу hello.jsp
@@ -26,3 +26,6 @@ public class MyController {
     }
 
 }
+
+// Supported method argument types (21.3.3):
+// http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html

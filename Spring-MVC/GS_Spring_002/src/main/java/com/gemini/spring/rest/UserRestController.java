@@ -12,8 +12,6 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 
 /**
- * Author: Georgy Gobozov
- * Date: 10.04.13
  * http://java.dzone.com/articles/rest-spring
  * http://websystique.com/springmvc/spring-4-mvc-contentnegotiatingviewresolver-example/
  */
@@ -25,7 +23,7 @@ public class UserRestController {
     @Autowired
     UserService userService;
 
-    @RequestMapping(method = RequestMethod.GET, value = "/users", headers = {"accept=application/json", "accept=application/xml"})
+    @RequestMapping(method = RequestMethod.GET, value = "/users", headers = {"accept=application/json", "accept=application/xml"}) // метод может отдавать информацию не только в xml но и в json
     public Users getAllUsers(ModelMap model) {
         List<User> users = userService.getAll();
         return  new Users(users);
@@ -46,7 +44,7 @@ public class UserRestController {
     }
 
     @RequestMapping(method = RequestMethod.DELETE, value = "/users/{id}")
-    @ResponseBody
+    @ResponseBody //эта аннотация говорит - то что вернет наш метод (return "ok";) будет записано в response
     public String deleteUser(@PathVariable("id") String userId){
         User user = userService.getById(Long.parseLong(userId));
         userService.delete(user);
@@ -56,7 +54,7 @@ public class UserRestController {
 
     @RequestMapping(method = RequestMethod.PUT, value = "/users/{id}")
     @ResponseBody
-    public String updateUser(@PathVariable("id") String userId, @RequestBody User user){
+    public String updateUser(@PathVariable("id") String userId, @RequestBody User user){ //@RequestBody User user - означает - то что придет нам в этот параметр (из xml или json'a) будет преобразованно в объект User user
         user.setUserId(Long.parseLong(userId));
         userService.update(user);
         return "ok";

@@ -14,10 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 11.04.13
- */
+
 @Controller
 public class UserController {
 
@@ -33,7 +30,7 @@ public class UserController {
 
 
     @RequestMapping(method = RequestMethod.GET, value = "/users/{id}.html")
-    public ModelAndView getUser(@PathVariable("id") String userId, ModelMap model) {
+    public ModelAndView getUser(@PathVariable("id") String userId, ModelMap model) { //то что придет в URL после /users/ попадет в String userId
         model.put("user", userService.getById(Long.parseLong(userId)));
         return new ModelAndView("user", model);
     }

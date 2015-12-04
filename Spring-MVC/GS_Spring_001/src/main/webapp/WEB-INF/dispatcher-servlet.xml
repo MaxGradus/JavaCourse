@@ -7,7 +7,7 @@
 
     <context:component-scan base-package="com.gemini.spring.mvc"/>
 
-    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">   <!--позволяет контроллеру найти view и отобразить данные -->
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
         <property name="prefix" value="/jsp/"/> <!--folder name-->
         <property name="suffix" value=".jsp"/>  <!--ending of name my jsp page-->

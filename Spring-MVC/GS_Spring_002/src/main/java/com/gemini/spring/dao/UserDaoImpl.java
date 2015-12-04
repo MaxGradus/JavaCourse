@@ -10,10 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 11.04.13
- */
+
 @Repository
 public class UserDaoImpl implements UserDao {
 

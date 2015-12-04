@@ -10,10 +10,10 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 11.04.13
- */
+/**почитать про AJAX
+ * xmlhttprequest.ru
+ * */
+
 @Controller
 public class AjaxController {
 

@@ -3,10 +3,7 @@ package com.gemini.spring.entity;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- * Author: Georgy Gobozov
- * Date: 11.04.13
- */
+
 @Entity
 @Table(name = "users")
 @XmlRootElement(name="user")

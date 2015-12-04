@@ -8,12 +8,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 11.04.13
- */
+
 @Service
-public class UserService {
+public class UserService { // класс делегирует работу объекту UserDao userDao
 
     @Autowired
     private UserDao userDao;

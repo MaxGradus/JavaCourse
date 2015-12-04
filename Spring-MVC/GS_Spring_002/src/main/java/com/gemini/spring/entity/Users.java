@@ -3,10 +3,6 @@ package com.gemini.spring.entity;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 11.04.13
- */
 
 @XmlRootElement(name="users")
 public class Users {
