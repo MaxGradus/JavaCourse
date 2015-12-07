@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - expomap@localhost" uuid="804a943b-3db2-473f-a439-30e8a97e5621">
+    <database-info product="MySQL" version="5.5.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="expomap"/>
+    <table name="project" schema="" catalog="expomap" type="TABLE">
+      <column name="PROJECT_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="PROJECT_ID"/>
+      <exported-key name="FK272D853F4E41A8" table="task" schema="" catalog="expomap" columns="PROJECT_ID"/>
+    </table>
+    <table name="task" schema="" catalog="expomap" type="TABLE">
+      <column name="TASK_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PROJECT_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="TASK_ID"/>
+      <foreign-key name="FK272D853F4E41A8" columns="PROJECT_ID" ref-table="project" ref-schema="" ref-catalog="expomap" ref-columns="PROJECT_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK272D853F4E41A8" unique="false" columns="PROJECT_ID"/>
+    </table>
+    <table name="user" schema="" catalog="expomap" type="TABLE">
+      <column name="USER_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="EMAIL" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="USER_ID"/>
+    </table>
+  </data-source>
+</component>

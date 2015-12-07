@@ -8,13 +8,7 @@ import ru.expomap.test.model.User;
 
 import java.util.regex.Pattern;
 
-/**
- * Created by IntelliJ IDEA.
- * User: GGobozov
- * Date: 01.12.2011
- * Time: 17:46:40
- * To change this template use File | Settings | File Templates.
- */
+
 public class ProjectValidator implements Validator {
 
 
@@ -23,7 +17,7 @@ public class ProjectValidator implements Validator {
     }
 
     public void validate(Object o, Errors errors) {
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "", "Project name is required");
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "", "Project name is required"); // метод rejectIfEmptyOrWhitespace проверя чтобы поле name не было пустое и что не состоит из пробелов
     }
 
 

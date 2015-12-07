@@ -20,13 +20,6 @@ import javax.validation.Valid;
 import java.beans.PropertyEditorSupport;
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * User: gb
- * Date: 02.12.2011
- * Time: 0:36:43
- * To change this template use File | Settings | File Templates.
- */
 @Controller
 public class TasksController {
 

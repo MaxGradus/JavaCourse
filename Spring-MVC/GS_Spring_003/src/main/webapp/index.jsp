@@ -52,7 +52,7 @@
 <body>
 <a href="javascript:void(0);" onclick="sayHello();">Say hello ajax!</a><br/>
 
-<input type="text" id="d1"> + <input type="text" id="d2"> = <input onclick="plus();" type="button" value="Get result">
+<input type="text" id="d1"> + <input type="text" id="d2"> = <input onclick="plus();" type="button" value="Get result"> <!--input fields id for javascript function plus()-->
 <span id="result"></span>
 
 

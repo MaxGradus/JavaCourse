@@ -3,14 +3,8 @@ package ru.expomap.test.dao;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * User: GGobozov
- * Date: 01.12.2011
- * Time: 11:02:58
- * To change this template use File | Settings | File Templates.
- */
-public interface AbstractDao<T> {
+
+public interface AbstractDao<T> { //нужно бы написать AbstractDao<T, id extends Serializable>
 
     T getById(Integer id);
     List<T> findAll();

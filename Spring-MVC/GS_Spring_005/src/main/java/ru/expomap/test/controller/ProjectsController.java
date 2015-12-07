@@ -16,18 +16,12 @@ import ru.expomap.test.validation.ProjectValidator;
 
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * User: GGobozov
- * Date: 01.12.2011
- * Time: 18:16:00
- * To change this template use File | Settings | File Templates.
- */
+
 @Controller
 public class ProjectsController {
 
-    @Autowired
-    @Qualifier(value = "projectDao")
+    @Autowired // инжектит в контроллер этот объект, тоже самое если бы написали так: private AbstractDao projectDao = new AbstractDaoImpl(Project.class)
+    @Qualifier(value = "projectDao") // объясняем спрингу, какой имеено абстракт дао мы хотим тут юзать
     private AbstractDao projectDao;
 
     @Autowired
@@ -52,20 +46,20 @@ public class ProjectsController {
         return "projects";
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/projects/{action}/{id}")
+    @RequestMapping(method = RequestMethod.GET, value = "/projects/{action}/{id}") // когда приходит запрос типа гет, с юрлом типа /projects/{какое то действие}/{еще что то}
     public String handleAction(@PathVariable Integer id, @PathVariable String action, Model model) {
-        Project project = (Project) projectDao.getById(id);
-        if (action.equalsIgnoreCase("edit")) {
+        Project project = (Project) projectDao.getById(id); // создаю объект по id
+        if (action.equalsIgnoreCase("edit")) { // если {какое то действие} равно эдит тогда model.addAttribute("project", project);
             model.addAttribute("project", project);
             return "projects";
-        } else if (action.equalsIgnoreCase("delete")) {
+        } else if (action.equalsIgnoreCase("delete")) { // если "delete" то projectDao.delete(project);
             projectDao.delete(project);
         }
         return "redirect:/projects";
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public String add(@ModelAttribute("project") Project project, BindingResult result) {
+    public String add(@ModelAttribute("project") Project project, BindingResult result) {  // блягодаря этой аннотации, когда я на jsp странице заполняю новое имя, спринг пытается сразу эти данные привести к Project project
         projectValidator.validate(project, result);
         if (result.hasErrors())
             return "/projects";

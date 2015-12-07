@@ -7,13 +7,6 @@ import org.springframework.web.bind.annotation.InitBinder;
 import ru.expomap.test.model.Project;
 import ru.expomap.test.model.Task;
 
-/**
- * Created by IntelliJ IDEA.
- * User: GGobozov
- * Date: 01.12.2011
- * Time: 17:46:40
- * To change this template use File | Settings | File Templates.
- */
 public class TaskValidator implements Validator {
 
 
@@ -24,9 +17,9 @@ public class TaskValidator implements Validator {
     public void validate(Object o, Errors errors) {
         Task task = (Task)o;
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "", "Task name is required");
-        if (task.getProject() == null)
+        if (task.getProject() == null) //если у таски нет прожекта то ошибка
             errors.rejectValue("project", "", "Task project is required, choose s project");
-        if (task.getUsers() == null || task.getUsers().size() < 1)
+        if (task.getUsers() == null || task.getUsers().size() < 1) // если у таски нет юзера то ошибка
             errors.rejectValue("users", "", "Task users is required, choose at least one");
 
     }
