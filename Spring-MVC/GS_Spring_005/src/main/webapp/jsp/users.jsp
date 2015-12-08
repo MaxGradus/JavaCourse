@@ -18,7 +18,7 @@
 </table>
 <br>
 
-<form:form commandName="user" method="POST" action="/adduser" >
+<form:form commandName="user" method="POST" action="/Expomap/adduser" >  <!--I don't fckng know why! why it's start work just with /Expomap path!!!-->
     <form:hidden path="userId"/>
 
     <table>

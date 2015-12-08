@@ -19,6 +19,7 @@
       <column name="PROJECT_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="TASK_ID"/>
       <foreign-key name="FK272D853F4E41A8" columns="PROJECT_ID" ref-table="project" ref-schema="" ref-catalog="expomap" ref-columns="PROJECT_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FKADD16E574A2FCC" table="users_tasks" schema="" catalog="expomap" columns="TASK_ID"/>
       <index name="FK272D853F4E41A8" unique="false" columns="PROJECT_ID"/>
     </table>
     <table name="user" schema="" catalog="expomap" type="TABLE">
@@ -26,6 +27,15 @@
       <column name="EMAIL" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="USER_ID"/>
+      <exported-key name="FKADD16E575326420C" table="users_tasks" schema="" catalog="expomap" columns="USER_ID"/>
+    </table>
+    <table name="users_tasks" schema="" catalog="expomap" type="TABLE">
+      <column name="USER_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TASK_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="FKADD16E574A2FCC" columns="TASK_ID" ref-table="task" ref-schema="" ref-catalog="expomap" ref-columns="TASK_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FKADD16E575326420C" columns="USER_ID" ref-table="user" ref-schema="" ref-catalog="expomap" ref-columns="USER_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKADD16E574A2FCC" unique="false" columns="TASK_ID"/>
+      <index name="FKADD16E575326420C" unique="false" columns="USER_ID"/>
     </table>
   </data-source>
 </component>
