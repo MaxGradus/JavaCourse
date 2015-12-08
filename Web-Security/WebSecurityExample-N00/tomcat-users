@@ -1,0 +1,13 @@
+ <role rolename="tomcat"/>
+ <role rolename="manager-gui"/>
+ <role rolename="manager-script"/>
+ <role rolename="user"/>
+ <role rolename="super-role"/>
+ <role rolename="manager"/>
+ <role rolename="administrator"/>
+ <!--users-->
+ <user username="user" password="user" roles="user"/>
+ <user username="superman" password="crypton" roles="super-role"/>
+ <user username="tomcat" password="tomcat" roles="tomcat, manager-gui, manager-script"/>
+ <user username="manager" password="manager" roles="manager"/>
+ <user username="administrator" password="administrator" roles="administrator, manager"/>

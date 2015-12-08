@@ -1,5 +1,4 @@
 package ru.gemini.security;
-
 import ru.gemini.bean.Book;
 import ru.gemini.bean.BookStore;
 
@@ -12,10 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Author: Georgy Gobozov
- * Date: 27.04.13
- */
+
 @ServletSecurity(@HttpConstraint(rolesAllowed = { "administrator" }))
 public class AdminServlet extends HttpServlet {
 

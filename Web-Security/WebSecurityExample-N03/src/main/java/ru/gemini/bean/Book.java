@@ -1,9 +1,6 @@
 package ru.gemini.bean;
 
-/**
- * Author: Georgy Gobozov
- * Date: 26.04.13
- */
+
 public class Book {
 
     private Integer number;

@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de0e0798-e83c-4518-b056-52033b7ee841" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Expomap.war" afterPath="$PROJECT_DIR$/target/Expomap.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Expomap/WEB-INF/classes/ru/expomap/test/controller/TasksController$1.class" afterPath="$PROJECT_DIR$/target/Expomap/WEB-INF/classes/ru/expomap/test/controller/TasksController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/expomap/test/controller/TasksController$1.class" afterPath="$PROJECT_DIR$/target/classes/ru/expomap/test/controller/TasksController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Expomap/WEB-INF/classes/ru/expomap/test/controller/TasksController$2.class" afterPath="$PROJECT_DIR$/target/Expomap/WEB-INF/classes/ru/expomap/test/controller/TasksController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/expomap/test/controller/TasksController$2.class" afterPath="$PROJECT_DIR$/target/classes/ru/expomap/test/controller/TasksController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Expomap/WEB-INF/classes/ru/expomap/test/controller/TasksController.class" afterPath="$PROJECT_DIR$/target/Expomap/WEB-INF/classes/ru/expomap/test/controller/TasksController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/expomap/test/controller/TasksController.class" afterPath="$PROJECT_DIR$/target/classes/ru/expomap/test/controller/TasksController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/tasks.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/tasks.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Expomap/jsp/users.jsp" afterPath="$PROJECT_DIR$/target/Expomap/jsp/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="de0e0798-e83c-4518-b056-52033b7ee841" name="Default" comment="" />
     <ignored path="Expomap.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -168,7 +154,7 @@
       <file leaf-file-name="users.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/users.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46496814">
+            <state vertical-scroll-proportion="0.2607143">
               <caret line="20" column="147" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
               <folding />
             </state>
@@ -589,7 +575,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web-Security/GS_Spring_Security_001" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -1065,16 +1051,16 @@
       <workItem from="1449487167171" duration="1228000" />
       <workItem from="1449489536852" duration="4007000" />
       <workItem from="1444891478854" duration="36000" />
-      <workItem from="1449558530633" duration="2420000" />
+      <workItem from="1449558530633" duration="3790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13162000" />
+    <option name="totallyTimeSpent" value="14532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1094,7 +1080,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41091314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41091314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1540,7 +1526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46496814">
+        <state vertical-scroll-proportion="0.2607143">
           <caret line="20" column="147" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
           <folding />
         </state>

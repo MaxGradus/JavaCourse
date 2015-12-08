@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Author: Georgy Gobozov
- * Date: 26.04.13
- */
+
 public class BookStore {
 
     private static List<Book> books;

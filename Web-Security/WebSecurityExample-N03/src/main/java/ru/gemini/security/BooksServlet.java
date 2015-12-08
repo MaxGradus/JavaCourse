@@ -8,10 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Author: Georgy Gobozov
- * Date: 26.04.13
- */
+
 public class BooksServlet extends HttpServlet {
 
     @Override
