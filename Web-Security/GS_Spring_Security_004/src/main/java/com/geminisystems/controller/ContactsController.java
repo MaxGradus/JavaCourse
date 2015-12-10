@@ -10,13 +10,7 @@ import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * User: GGobozov
- * Date: 20.02.2012
- * Time: 16:25:15
- * To change this template use File | Settings | File Templates.
- */
+
 @Controller
 public class ContactsController {
 

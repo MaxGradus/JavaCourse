@@ -17,6 +17,6 @@ INSERT INTO users (user_name, user_pass) VALUES ('admin', 'admin');
 INSERT INTO users (user_name, user_pass) VALUES ('user', 'user');
 
 
-INSERT INTO user_roles (user_name, role_name) VALUES ('admin' 'user');
+INSERT INTO user_roles (user_name, role_name) VALUES ('admin', 'user');
 INSERT INTO user_roles (user_name, role_name) VALUES ('admin', 'administrator');
 INSERT INTO user_roles (user_name, role_name) VALUES ('user', 'user');

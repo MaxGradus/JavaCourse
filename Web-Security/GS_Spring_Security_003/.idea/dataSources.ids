@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - security@localhost" uuid="5322c422-3084-44a5-bddf-ae5e02f12728">
+    <database-info product="MySQL" version="5.5.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="security"/>
+    <table name="user_roles" schema="" catalog="security" type="TABLE">
+      <column name="USER_ROLE_ID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="USER_ID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="AUTHORITY" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="USER_ROLE_ID"/>
+      <foreign-key name="FK_user_roles" columns="USER_ID" ref-table="users" ref-schema="" ref-catalog="security" ref-columns="USER_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_user_roles" unique="false" columns="USER_ID"/>
+    </table>
+    <table name="users" schema="" catalog="security" type="TABLE">
+      <column name="USER_ID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="USERNAME" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PASSWORD" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ENABLED" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="USER_ID"/>
+      <exported-key name="FK_user_roles" table="user_roles" schema="" catalog="security" columns="USER_ID"/>
+    </table>
+  </data-source>
+</component>
