@@ -1,18 +1,39 @@
 package com.maxdegree.model;
 
+import org.hibernate.annotations.Entity;
+
+import javax.persistence.*;
 import java.util.List;
 
 /**
  * Created by gms on 11.12.2015.
  */
+
+@Entity
+@Table(name = "users")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id", nullable = false)
     private Integer userId;
+
+    @Column(name = "login", nullable = false)
     private String login;
+
+    @Column(name = "password", nullable = false)
     private String password;
+
+    @Column(name = "email", nullable = false)
     private String email;
+
+    @Column(name = "role", nullable = false)
     private String role;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "users", fetch = FetchType.LAZY)
     private List<Placement> places;
+
+
 
     public Integer getUserId() {
         return userId;

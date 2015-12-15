@@ -7,5 +7,30 @@
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <schema name="" catalog="web_depot_db"/>
+    <table name="placements" schema="" catalog="web_depot_db" type="TABLE">
+      <column name="place_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="place_name" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="price" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="date" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="place_id"/>
+      <exported-key name="FKADD16E575326420C" table="users_places" schema="" catalog="web_depot_db" columns="place_id"/>
+    </table>
+    <table name="users" schema="" catalog="web_depot_db" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="login" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="role" sqlType="VARCHAR" precision="15" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+      <exported-key name="FKADD16E574A2FCC" table="users_places" schema="" catalog="web_depot_db" columns="user_id"/>
+    </table>
+    <table name="users_places" schema="" catalog="web_depot_db" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="place_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="FKADD16E574A2FCC" columns="user_id" ref-table="users" ref-schema="" ref-catalog="web_depot_db" ref-columns="user_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FKADD16E575326420C" columns="place_id" ref-table="placements" ref-schema="" ref-catalog="web_depot_db" ref-columns="place_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKADD16E574A2FCC" unique="false" columns="place_id"/>
+      <index name="FKADD16E575326420C" unique="false" columns="user_id"/>
+    </table>
   </data-source>
 </component>

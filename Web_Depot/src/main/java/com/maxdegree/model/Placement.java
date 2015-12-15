@@ -1,30 +1,55 @@
 package com.maxdegree.model;
 
+import org.hibernate.annotations.Entity;
+
+import javax.persistence.*;
+
+
 /**
  * Created by gms on 11.12.2015.
  */
+
+@Entity
+@Table(name = "placements")
 public class Placement {
 
-    private Integer placementId;
-    private String name;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "place_id", nullable = false)
+    private Integer placeId;
+
+    @Column(name = "place_name", nullable = false)
+    private String placeName;
+
+    @Column(name = "price", nullable = false)
     private Integer price;
+
+    @Column(name = "date")
+    private Long date;
+
+    @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY)
+    @JoinTable(name = "users_places",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "place_id"))
     private User user;
-    private long date;
 
-    public Integer getPlacementId() {
-        return placementId;
+
+
+
+    public Integer getPlaceId() {
+        return placeId;
     }
 
-    public void setPlacementId(Integer placementId) {
-        this.placementId = placementId;
+    public void setPlaceId(Integer placeId) {
+        this.placeId = placeId;
     }
 
-    public String getName() {
-        return name;
+    public String getPlaceName() {
+        return placeName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPlaceName(String placeName) {
+        this.placeName = placeName;
     }
 
     public Integer getPrice() {
@@ -43,11 +68,11 @@ public class Placement {
         this.user = user;
     }
 
-    public long getDate() {
+    public Long getDate() {
         return date;
     }
 
-    public void setDate(long date) {
+    public void setDate(Long date) {
         this.date = date;
     }
 }
