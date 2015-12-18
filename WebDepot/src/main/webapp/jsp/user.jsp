@@ -5,7 +5,10 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <html>
-<body>
+<head>
+  <title>Current User</title>
+</head>
+<body bgcolor="#d3d3d3">
 
 <form method="POST" action="/users/delete">
   <input type="hidden" name="userId" value="${user.userId}">

@@ -24,8 +24,7 @@ public class PlaceController {
     @RequestMapping(method = RequestMethod.GET, value = "/places")
     public String getAllUsers(ModelMap model) {
         List<Placement> places = placeService.getAll();
-        List<Placement> myPlaces = validPlaces(places);
-        model.put("places", myPlaces);
+        model.put("places", places);
         return "places";
     }
 
@@ -35,13 +34,16 @@ public class PlaceController {
         return new ModelAndView("place", model);
     }
 
-    public static List<Placement> validPlaces(List<Placement> list) {
-        List<Placement> result = new ArrayList<Placement>();
-        for (Placement placement : list) {
+    @RequestMapping(method = RequestMethod.GET, value = "/free_places")
+    public String freePlaces(ModelMap model) {
+        List<Placement> places = placeService.getAll();
+        List<Placement> myPlaces = new ArrayList<Placement>();
+        for (Placement placement : places) {
             if (placement.getDate()== null) {
-                result.add(placement);
+                myPlaces.add(placement);
             }
         }
-        return result;
+        model.put("places", myPlaces);
+        return "places";
     }
 }
