@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -23,7 +24,8 @@ public class PlaceController {
     @RequestMapping(method = RequestMethod.GET, value = "/places")
     public String getAllUsers(ModelMap model) {
         List<Placement> places = placeService.getAll();
-        model.put("places", places);
+        List<Placement> myPlaces = validPlaces(places);
+        model.put("places", myPlaces);
         return "places";
     }
 
@@ -31,5 +33,15 @@ public class PlaceController {
     public ModelAndView getUser(@PathVariable("id") String placeId, ModelMap model) { //то что придет в URL после /places/ попадет в String placeId
         model.put("place", placeService.getById(Long.parseLong(placeId)));
         return new ModelAndView("place", model);
+    }
+
+    public static List<Placement> validPlaces(List<Placement> list) {
+        List<Placement> result = new ArrayList<Placement>();
+        for (Placement placement : list) {
+            if (placement.getDate()== null) {
+                result.add(placement);
+            }
+        }
+        return result;
     }
 }
