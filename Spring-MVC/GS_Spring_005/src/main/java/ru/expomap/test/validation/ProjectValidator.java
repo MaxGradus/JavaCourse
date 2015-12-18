@@ -19,6 +19,4 @@ public class ProjectValidator implements Validator {
     public void validate(Object o, Errors errors) {
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "", "Project name is required"); // метод rejectIfEmptyOrWhitespace проверя чтобы поле name не было пустое и что не состоит из пробелов
     }
-
-
 }

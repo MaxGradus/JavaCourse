@@ -7,5 +7,11 @@
       <schema-pattern>users.*</schema-pattern>
       <default-schemas>users.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - web_depot_db@localhost" uuid="6f028693-f49a-48f1-86d3-04d4b2e2effd">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>web_depot_db.*</schema-pattern>
+      <default-schemas>web_depot_db.*</default-schemas>
+    </data-source>
   </component>
 </project>

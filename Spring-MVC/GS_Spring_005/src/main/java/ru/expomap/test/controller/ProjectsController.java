@@ -49,7 +49,7 @@ public class ProjectsController {
     @RequestMapping(method = RequestMethod.GET, value = "/projects/{action}/{id}") // когда приходит запрос типа гет, с юрлом типа /projects/{какое то действие}/{еще что то}
     public String handleAction(@PathVariable Integer id, @PathVariable String action, Model model) {
         Project project = (Project) projectDao.getById(id); // создаю объект по id
-        if (action.equalsIgnoreCase("edit")) { // если {какое то действие} равно эдит тогда model.addAttribute("project", project);
+        if (action.equalsIgnoreCase("edit")) { // если {какое то действие} равно "edit" тогда model.addAttribute("project", project);
             model.addAttribute("project", project);
             return "projects";
         } else if (action.equalsIgnoreCase("delete")) { // если "delete" то projectDao.delete(project);
