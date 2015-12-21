@@ -44,12 +44,12 @@ public class PlaceDaoImpl implements PlaceDao {
     public List<Placement> getPlaceByUserId() {
         //noinspection JpaQlInspection
         Long userId = 1L;
-//        "SELECT p "
-//                + " FROM Placement p INNER JOIN p.users_places user"
-//                + " WHERE user.userId = :usrID "
-        SQLQuery query = sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM users_places WHERE usreId=:usrID");
-        query.addEntity(Placement.class);
-        query.setLong("usrID", userId);
+
+        Query query = sessionFactory.getCurrentSession().createQuery(
+                "SELECT p "
+                        + " FROM Placement p INNER JOIN p.users user"
+                        + " WHERE user.userId = :usrId "
+        ).setLong("usrId", userId);
         List<Placement> places = (List<Placement>)query.list();
         return places;
     }
