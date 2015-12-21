@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - bus_park_db@localhost" uuid="760f9e6f-dbe0-473d-96e1-0216b66d9e13">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>bus_park_db.*</schema-pattern>
+      <default-schemas>bus_park_db.*</default-schemas>
+    </data-source>
+  </component>
+</project>

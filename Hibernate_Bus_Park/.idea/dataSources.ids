@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - bus_park_db@localhost" uuid="760f9e6f-dbe0-473d-96e1-0216b66d9e13">
+    <database-info product="MySQL" version="5.5.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="bus_park_db"/>
+    <table name="busdriver" schema="" catalog="bus_park_db" type="TABLE">
+      <column name="bus_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="driver_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="bus_id,driver_id"/>
+      <foreign-key name="fk_bussdriver_1" columns="bus_id" ref-table="busses" ref-schema="" ref-catalog="bus_park_db" ref-columns="bus_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_bussdriver_2" columns="driver_id" ref-table="drivers" ref-schema="" ref-catalog="bus_park_db" ref-columns="driver_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_busdriver_1_idx" unique="false" columns="bus_id"/>
+      <index name="fk_busdriver_2_idx" unique="false" columns="driver_id"/>
+    </table>
+    <table name="busses" schema="" catalog="bus_park_db" type="TABLE">
+      <column name="bus_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="number" sqlType="VARCHAR" precision="65" scale="0" nullable="false" jdbcType="12"/>
+      <column name="route_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="bus_id"/>
+      <foreign-key name="fk_bus_1" columns="route_id" ref-table="routes" ref-schema="" ref-catalog="bus_park_db" ref-columns="route_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_bussdriver_1" table="busdriver" schema="" catalog="bus_park_db" columns="bus_id"/>
+      <index name="fk_busses_idx" unique="false" columns="route_id"/>
+    </table>
+    <table name="drivers" schema="" catalog="bus_park_db" type="TABLE">
+      <column name="driver_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="65" scale="0" nullable="false" jdbcType="12"/>
+      <column name="surname" sqlType="VARCHAR" precision="65" scale="0" nullable="false" jdbcType="12"/>
+      <column name="age" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="driver_id"/>
+      <exported-key name="fk_bussdriver_2" table="busdriver" schema="" catalog="bus_park_db" columns="driver_id"/>
+    </table>
+    <table name="routes" schema="" catalog="bus_park_db" type="TABLE">
+      <column name="route_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="65" scale="0" nullable="false" jdbcType="12"/>
+      <column name="number" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <exported-key name="fk_bus_1" table="busses" schema="" catalog="bus_park_db" columns="route_id"/>
+      <index name="fk_route_1_idx" unique="false" columns="route_id"/>
+    </table>
+  </data-source>
+</component>
