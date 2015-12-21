@@ -3,10 +3,12 @@ package com.maxdegree.dao;
 
 import com.maxdegree.entity.Placement;
 import org.hibernate.Query;
+import org.hibernate.SQLQuery;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Repository
@@ -37,5 +39,18 @@ public class PlaceDaoImpl implements PlaceDao {
         Query query = sessionFactory.getCurrentSession().createQuery("from Placement p where p.name = ?");
         query.setString(0, name);
         return (Placement) query.list().get(0);
+    }
+
+    public List<Placement> getPlaceByUserId() {
+        //noinspection JpaQlInspection
+        Long userId = 1L;
+//        "SELECT p "
+//                + " FROM Placement p INNER JOIN p.users_places user"
+//                + " WHERE user.userId = :usrID "
+        SQLQuery query = sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM users_places WHERE usreId=:usrID");
+        query.addEntity(Placement.class);
+        query.setLong("usrID", userId);
+        List<Placement> places = (List<Placement>)query.list();
+        return places;
     }
 }

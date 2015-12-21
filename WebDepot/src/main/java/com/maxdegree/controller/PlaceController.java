@@ -29,7 +29,7 @@ public class PlaceController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/places/{id}")
-    public ModelAndView getUser(@PathVariable("id") String placeId, ModelMap model) { //то что придет в URL после /places/ попадет в String placeId
+    public ModelAndView getPlace(@PathVariable("id") String placeId, ModelMap model) { //то что придет в URL после /places/ попадет в String placeId
         model.put("place", placeService.getById(Long.parseLong(placeId)));
         return new ModelAndView("place", model);
     }
@@ -45,5 +45,14 @@ public class PlaceController {
         }
         model.put("places", myPlaces);
         return "places";
+    }
+
+
+
+    @RequestMapping(method = RequestMethod.GET, value = "my_places")
+    public String getMyPlaces(ModelMap model) {
+        List<Placement> places = placeService.getPlaceByUserId();
+        model.put("places", places);
+        return "personal_acc";
     }
 }

@@ -23,17 +23,19 @@ public class HibernateSimple {
         // begin transaction
         session.beginTransaction();
 
-        SQLQuery q = session.createSQLQuery("select * from jc_region");
-        q.addEntity(Region.class);
-        List<Region> regionList = (List<Region>) q.list();
-        for (Region region : regionList) {
-            System.out.println("region = " + region);
-        }
+        SQLQuery q;
 
-//        q = session.createSQLQuery("select * from jc_region where region_name = 'Moscow'");
+//        q = session.createSQLQuery("select * from jc_region");
 //        q.addEntity(Region.class);
-//        Region region = (Region) q.uniqueResult();
-//        System.out.println("region = " + region);
+//        List<Region> regionList = (List<Region>) q.list();
+//        for (Region region : regionList) {
+//            System.out.println("region = " + region);
+//        }
+
+        q = session.createSQLQuery("select * from jc_region where region_name = 'Nord-East'");
+        q.addEntity(Region.class);
+        Region region = (Region) q.uniqueResult();
+        System.out.println("region = " + region);
 //
 //        q = session.createSQLQuery("select * from jc_region where region_name=:name");
 //        q.addEntity(Region.class);
@@ -42,13 +44,13 @@ public class HibernateSimple {
 //        System.out.println("region = " + region);
 //
 //
-//        q = session.createSQLQuery("select * from jc_city where region_id=:reg");
-//        q.addEntity(City.class);
-//        q.setParameter("reg", region.getRegionId());
-//        List<City> cities = (List<City>) q.list();
-//        for (City city : cities) {
-//            System.out.println("city = " + city);
-//        }
+        q = session.createSQLQuery("select * from jc_city where region_id=:reg");
+        q.addEntity(City.class);
+        q.setParameter("reg", region.getRegionId());
+        List<City> cities = (List<City>) q.list();
+        for (City city : cities) {
+            System.out.println("city = " + city);
+        }
     }
 
 

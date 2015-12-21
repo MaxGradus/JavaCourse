@@ -40,4 +40,9 @@ public class PlaceService {
     public Placement getByName(String name) {
         return placeDao.getByName(name);
     }
+
+    @Transactional
+    public List<Placement> getPlaceByUserId() {
+        return placeDao.getPlaceByUserId();
+    }
 }

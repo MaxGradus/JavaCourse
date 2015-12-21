@@ -9,11 +9,11 @@
     <schema name="" catalog="web_depot_db"/>
     <table name="placements" schema="" catalog="web_depot_db" type="TABLE">
       <column name="placeId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="placeName" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="placeName" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
       <column name="price" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="date" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
       <primary-key name="PRIMARY" columns="placeId"/>
-      <exported-key name="FKADD16E575326420C" table="users_places" schema="" catalog="web_depot_db" columns="placeId"/>
+      <exported-key name="fk_users_places_2" table="users_places" schema="" catalog="web_depot_db" columns="placeId"/>
     </table>
     <table name="users" schema="" catalog="web_depot_db" type="TABLE">
       <column name="userId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -22,15 +22,16 @@
       <column name="email" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <column name="role" sqlType="VARCHAR" precision="15" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="userId"/>
-      <exported-key name="FKADD16E574A2FCC" table="users_places" schema="" catalog="web_depot_db" columns="userId"/>
+      <exported-key name="fk_users_places_1" table="users_places" schema="" catalog="web_depot_db" columns="userId"/>
     </table>
     <table name="users_places" schema="" catalog="web_depot_db" type="TABLE">
       <column name="userId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="placeId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <foreign-key name="FKADD16E574A2FCC" columns="userId" ref-table="users" ref-schema="" ref-catalog="web_depot_db" ref-columns="userId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="FKADD16E575326420C" columns="placeId" ref-table="placements" ref-schema="" ref-catalog="web_depot_db" ref-columns="placeId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="FKADD16E574A2FCC" unique="false" columns="placeId"/>
-      <index name="FKADD16E575326420C" unique="false" columns="userId"/>
+      <primary-key name="PRIMARY" columns="userId,placeId"/>
+      <foreign-key name="fk_users_places_1" columns="userId" ref-table="users" ref-schema="" ref-catalog="web_depot_db" ref-columns="userId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_users_places_2" columns="placeId" ref-table="placements" ref-schema="" ref-catalog="web_depot_db" ref-columns="placeId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_users_places_1_idx" unique="false" columns="userId"/>
+      <index name="fk_users_places_2_idx" unique="false" columns="placeId"/>
     </table>
   </data-source>
 </component>

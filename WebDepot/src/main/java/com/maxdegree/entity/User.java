@@ -78,6 +78,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" + ", userID=" + userId + "Login=" + login + ", password=" + password + ", email=" +email;
+        return "User{userID=" + userId + "Login=" + login + ", password=" + password + ", email=" +email + "places SIZE=" + places.size() + "}";
     }
 }

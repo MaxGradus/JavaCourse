@@ -41,10 +41,6 @@ public class UserController {
         return "redirect:/users.html";
     }
 
-
-
-
-
     @RequestMapping(method = RequestMethod.GET, value = "/contacts")
     public String contactsRedirect() {
         return "contacts";
@@ -52,6 +48,14 @@ public class UserController {
     @RequestMapping(method = RequestMethod.GET, value = "/history")
     public String historyRedirect() {
         return "history";
+    }
+
+
+    @RequestMapping(method = RequestMethod.GET, value = "test")
+    public String test(ModelMap model) {
+        User user = userService.getById(3L);
+        model.put("user", user);
+        return "test";
     }
 
 }

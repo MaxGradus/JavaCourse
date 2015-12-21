@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - java_backend@localhost" uuid="9578f1a0-61ea-43dc-a986-3c36ffc38ac3">
+    <database-info product="MySQL" version="5.5.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="java_backend"/>
+    <table name="jc_address" schema="" catalog="java_backend" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="first_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="middle_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="street" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="house" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+    </table>
+    <table name="jc_author" schema="" catalog="java_backend" type="TABLE">
+      <column name="author_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="author_name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="author_id"/>
+    </table>
+    <table name="jc_book" schema="" catalog="java_backend" type="TABLE">
+      <column name="book_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="book_name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="book_id"/>
+    </table>
+    <table name="jc_book_author" schema="" catalog="java_backend" type="TABLE">
+      <column name="book_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="author_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+    </table>
+    <table name="jc_cash_payment" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="cash_desk" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_cash_payment_full" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="amount" sqlType="DECIMAL" precision="10" scale="0" nullable="true" jdbcType="3"/>
+      <column name="cash_desk" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_catalog" schema="" catalog="java_backend" type="TABLE">
+      <column name="catalog_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="catalog_name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="parent_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="catalog_id"/>
+    </table>
+    <table name="jc_cheque_payment" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="bank_id" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_cheque_payment_full" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="amount" sqlType="DECIMAL" precision="10" scale="0" nullable="true" jdbcType="3"/>
+      <column name="bank_id" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_city" schema="" catalog="java_backend" type="TABLE">
+      <column name="city_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="city_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="region_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="city_id"/>
+      <foreign-key name="ref_region_constraint" columns="region_id" ref-table="jc_region" ref-schema="" ref-catalog="java_backend" ref-columns="region_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="region_index" unique="false" columns="region_id"/>
+    </table>
+    <table name="jc_credit_payment" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="card_number" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_credit_payment_full" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="amount" sqlType="DECIMAL" precision="10" scale="0" nullable="true" jdbcType="3"/>
+      <column name="card_number" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_payment" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="payment_type" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="amount" sqlType="DECIMAL" precision="10" scale="0" nullable="true" jdbcType="3"/>
+      <column name="card_number" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="cash_desk" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="bank_id" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_payment_full" schema="" catalog="java_backend" type="TABLE">
+      <column name="payment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="amount" sqlType="DECIMAL" precision="10" scale="0" nullable="true" jdbcType="3"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+    </table>
+    <table name="jc_region" schema="" catalog="java_backend" type="TABLE">
+      <column name="region_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="region_name" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="region_id"/>
+      <exported-key name="ref_region_constraint" table="jc_city" schema="" catalog="java_backend" columns="region_id"/>
+    </table>
+    <table name="jc_region_ext" schema="" catalog="java_backend" type="TABLE">
+      <column name="region_ext_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="region_leader" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+    </table>
+    <table name="jc_region_id" schema="" catalog="java_backend" type="TABLE">
+      <column name="region_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="region_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+    </table>
+    <table name="jc_region_version" schema="" catalog="java_backend" type="TABLE">
+      <column name="region_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="region_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="version" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="region_id"/>
+    </table>
+    <table name="jc_user" schema="" catalog="java_backend" type="TABLE">
+      <column name="first_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="middle_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>
