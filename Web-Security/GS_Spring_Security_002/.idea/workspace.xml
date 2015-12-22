@@ -2,73 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b455bd-1c1d-4449-a721-37b4192d196e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GS_Spring_Security_002.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/GS_Spring_Security_002_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/GS_Spring_Security_002_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N02/target/WebSecurityExample-N02-1.0-SNAPSHOT/WEB-INF/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N02/target/WebSecurityExample-N02-1.0-SNAPSHOT/WEB-INF/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N02/target/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N02/target/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/Book.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/Book.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/BookStore.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/BookStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/BookStore.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/BookStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/BooksServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/BooksServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/BooksServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/BooksServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/ForceLoginServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/ForceLoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/ForceLoginServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/ForceLoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/target/GS_Spring_Security_001.war" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/target/GS_Spring_Security_001.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/target/GS_Spring_Security_001/WEB-INF/classes/com/geminisystems/controller/TestController.class" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/target/GS_Spring_Security_001/WEB-INF/classes/com/geminisystems/controller/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/target/classes/com/geminisystems/controller/TestController.class" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/target/classes/com/geminisystems/controller/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N01/target/WebSecurityExample-N01-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/../WebSecurityExample-N01/target/WebSecurityExample-N01-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N02/target/WebSecurityExample-N02-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/../WebSecurityExample-N02/target/WebSecurityExample-N02-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app.war" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/GS_Spring_Security_001.iml" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/GS_Spring_Security_001.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/src/main/java/com/geminisystems/controller/TestController.java" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/src/main/java/com/geminisystems/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/geminisystems/controller/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/geminisystems/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/WebSecurityExample-N03.iml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/WebSecurityExample-N03.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/artifacts/WebSecurityExample_N03_war_exploded.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/artifacts/WebSecurityExample_N03_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/webapp/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/META-INF/context.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/.idea/misc.xml" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/misc.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/pom.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/resources/script.sql" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/resources/script.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/script.sql" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/script.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/script.sql" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/script.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_1_0_RELEASE.xml" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\lib\spring-aop-3.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\lib\spring-jdbc-3.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\lib\spring-tx-3.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\classes\com\maxdegree\Main.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/WebDepot.iml" afterPath="$PROJECT_DIR$/../../WebDepot/WebDepot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/artifacts/WebDepot_war_exploded.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/artifacts/WebDepot_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/pom.xml" afterPath="$PROJECT_DIR$/../../WebDepot/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_001/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Spring_Security_001/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N02/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N02/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_003/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Spring_Security_003/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ManyToOne/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ManyToOne/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\.idea\libraries\Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_spring_aop_3_0_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\.idea\libraries\Maven__org_springframework_spring_jdbc_3_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\.idea\libraries\Maven__org_springframework_spring_tx_3_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_spring_tx_3_0_6_RELEASE.xml" />
     </list>
     <ignored path="GS_Spring_Security_002.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,20 +54,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27022058">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.888889">
+            <state vertical-scroll-proportion="0.53747714">
               <caret line="14" column="47" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
               <folding />
             </state>
@@ -124,7 +87,7 @@
       <file leaf-file-name="test.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
               <folding />
             </state>
@@ -248,8 +211,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,7 +357,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_Spring_Security_003" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
@@ -604,45 +567,47 @@
       <option name="number" value="Default" />
       <updated>1449745816464</updated>
       <workItem from="1449745819821" duration="1259000" />
+      <workItem from="1450771630819" duration="20000" />
+      <workItem from="1450773332570" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1259000" />
+    <option name="totallyTimeSpent" value="2183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13166311" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13166311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19616205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -657,28 +622,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geminisystems/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
           <folding />
         </state>
@@ -692,10 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.888889">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -710,8 +688,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27022058">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geminisystems/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53747714">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
       </provider>

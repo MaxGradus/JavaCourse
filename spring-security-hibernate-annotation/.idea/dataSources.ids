@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - test@localhost" uuid="b532a7b8-9730-4561-861e-0038e52945b5">
+    <database-info product="MySQL" version="5.5.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="test"/>
+    <table name="user_roles" schema="" catalog="test" type="TABLE">
+      <column name="user_role_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="role" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_role_id"/>
+      <foreign-key name="fk_username" columns="username" ref-table="users" ref-schema="" ref-catalog="test" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="uni_username_role" unique="true" columns="role,username"/>
+      <index name="fk_username_idx" unique="false" columns="username"/>
+    </table>
+    <table name="users" schema="" catalog="test" type="TABLE">
+      <column name="username" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="enabled" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ=="/>
+      <primary-key name="PRIMARY" columns="username"/>
+      <exported-key name="fk_username" table="user_roles" schema="" catalog="test" columns="username"/>
+    </table>
+  </data-source>
+</component>

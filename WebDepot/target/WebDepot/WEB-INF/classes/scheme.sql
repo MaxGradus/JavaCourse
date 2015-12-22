@@ -11,7 +11,6 @@ CREATE TABLE web_depot_db.users
   login VARCHAR(64) NOT NULL,
   password VARCHAR(64) NOT NULL,
   email VARCHAR(64) NOT NULL,
-  role VARCHAR(15) NOT NULL
 );
 
 CREATE TABLE web_depot_db.placements
@@ -30,7 +29,22 @@ CREATE TABLE `users_places` (
   KEY `fk_users_places_2_idx` (`placeId`),
   CONSTRAINT `fk_users_places_1` FOREIGN KEY (`userId`) REFERENCES `users` (`userId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_users_places_2` FOREIGN KEY (`placeId`) REFERENCES `placements` (`placeId`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `user_roles` (
+  `USER_ROLE_ID` int(10) NOT NULL AUTO_INCREMENT,
+  `userId` int(11) NOT NULL,
+  `AUTHORITY` varchar(45) NOT NULL,
+  PRIMARY KEY (`USER_ROLE_ID`),
+  KEY `FK_user_roles` (`userId`),
+  CONSTRAINT `FK_user_roles` FOREIGN KEY (`userId`) REFERENCES `users` (`userId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO user_roles (USER_ROLE_ID, userId, AUTHORITY) VALUES (1, 1, 'ROLE_USER');
+INSERT INTO user_roles (USER_ROLE_ID, userId, AUTHORITY) VALUES (2, 1, 'ROLE_ADMIN');
+INSERT INTO user_roles (USER_ROLE_ID, userId, AUTHORITY) VALUES (3, 2, 'ROLE_USER');
+INSERT INTO user_roles (USER_ROLE_ID, userId, AUTHORITY) VALUES (4, 3, 'ROLE_USER');
 
 # CREATE TABLE web_depot_db.users_places
 # (

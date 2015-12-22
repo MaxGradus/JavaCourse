@@ -22,11 +22,12 @@ public class User {
     @Column(name = "email", nullable = false)
     private String email;
 
-    @Column(name = "role", nullable = false)
-    private String role;
+
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "user", fetch = FetchType.LAZY)
     private List<Placement> places;
+
+
 
     public Long getUserId() {
         return userId;
@@ -60,13 +61,7 @@ public class User {
         this.email = email;
     }
 
-    public String getRole() {
-        return role;
-    }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
 
     public List<Placement> getPlaces() {
         return places;

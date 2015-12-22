@@ -3,7 +3,9 @@ package com.maxdegree.controller;
 import com.maxdegree.entity.User;
 import com.maxdegree.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.security.Principal;
 import java.util.List;
 
 
@@ -58,4 +61,32 @@ public class UserController {
         return "test";
     }
 
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login(Model model) {
+        return "login";
+
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/welcome")
+    public String welcomeIn(Model model, Principal principal) {
+        String name = principal.getName();
+        model.addAttribute("username", name);
+        model.addAttribute("roles", SecurityContextHolder.getContext().getAuthentication().getAuthorities());
+
+        return "history";
+
+    }
+
+    @RequestMapping(value="/loginfailed", method = RequestMethod.GET)
+    public String loginerror(Model model) {
+        model.addAttribute("error", "true");
+        return "login";
+
+    }
+
+    @RequestMapping(value="/logout", method = RequestMethod.GET)
+    public String logout(Model model) {
+        return "login";
+
+    }
 }
