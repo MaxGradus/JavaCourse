@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - websystique@localhost" uuid="8268f24f-8a35-4cae-a26f-00a34f72a6b3">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>websystique.*</schema-pattern>
+      <default-schemas>websystique.*</default-schemas>
+    </data-source>
+  </component>
+</project>

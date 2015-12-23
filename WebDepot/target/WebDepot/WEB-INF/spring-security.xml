@@ -27,9 +27,13 @@ http://www.springframework.org/schema/security/spring-security-3.1.xsd">
 
                                users-by-username-query="select login, password, email from users where login=?"
 
-                               authorities-by-username-query="select u.login, ur.authority from users u, user_roles ur where u.userId = ur.userId and u.login =? "
+                               authorities-by-username-query="select u.login, ur.authority from users u, user_roles ur where u.userId = ur.userId and u.login=? "
 
                     />
+            <!--<user-service>-->
+                <!--<user name="test" password="test" authorities="ROLE_USER" />-->
+            <!--</user-service>-->
+
         </authentication-provider>
     </authentication-manager>
 

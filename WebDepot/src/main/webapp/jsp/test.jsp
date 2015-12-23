@@ -6,6 +6,6 @@
   <title>TEST</title>
 </head>
 <body bgcolor="#d3d3d3">
-${user.toString()}
+${user.login} - ${user.email}
 </body>
 </html>

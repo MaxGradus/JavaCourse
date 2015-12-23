@@ -23,10 +23,8 @@ public class User {
     private String email;
 
 
-
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "user", fetch = FetchType.LAZY)
     private List<Placement> places;
-
 
 
     public Long getUserId() {

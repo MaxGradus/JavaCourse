@@ -2,99 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1303b60d-5920-447d-acb2-92ffc830f3c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_11_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_005/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-security-hibernate-annotation.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/WEB-INF/spring-security.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_security_hibernate_annotation_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_security_hibernate_annotation_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebDepot/.idea/webContexts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\lib\spring-aop-3.1.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\lib\spring-jdbc-3.1.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\lib\spring-tx-3.1.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\classes\com\maxdegree\Main.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_002/target/GS_Spring_Security_002.war" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_002/target/GS_Spring_Security_002.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_003/target/GS_Spring_Security_003.war" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_003/target/GS_Spring_Security_003.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/target/GS_Spring_Security_004.war" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/target/GS_Spring_Security_004.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/User.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/entity/User.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\classes\com\maxdegree\entity\User.class" afterPath="E:\JAVAcourse\LessonEE\WebDepot\target\classes\com\maxdegree\entity\User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot.war" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/entity/User.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/controller/UserController.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/WebDepot.iml" afterPath="$PROJECT_DIR$/../WebDepot/WebDepot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/artifacts/WebDepot_war_exploded.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/artifacts/WebDepot_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../WebDepot/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/pom.xml" afterPath="$PROJECT_DIR$/../WebDepot/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/resources/scheme.sql" afterPath="$PROJECT_DIR$/../WebDepot/src/main/resources/scheme.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/scheme.sql" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/scheme.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/scheme.sql" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/scheme.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_001/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_001/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_002/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_002/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_003/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_003/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/webapp/jsp/test.jsp" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/jsp/test.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_005/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_005/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/WebSecurityExample-N03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/WebSecurityExample-N03/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\.idea\libraries\Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_spring_aop_3_0_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\.idea\libraries\Maven__org_springframework_spring_jdbc_3_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\.idea\libraries\Maven__org_springframework_spring_tx_3_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/libraries/Maven__org_springframework_spring_tx_3_0_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-security-hibernate-annotation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,24 +79,24 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/web/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/AppConfig.java">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state vertical-scroll-proportion="-11.9">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp">
+      <file leaf-file-name=".classpath" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -189,23 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/dao/UserDaoImpl.java">
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="e#497#503#0" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="7" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -226,50 +140,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.users" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
-          <provider editor-type-id="text-editor">
+      <file leaf-file-name="403.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/mysql.sql">
+      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/service/MyUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/model/UserRole.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13103448">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-              <folding />
+              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -291,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mkyong/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/script/mysql.sql" />
         <option value="dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles" />
+        <option value="dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users" />
       </list>
     </option>
   </component>
@@ -430,10 +330,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -636,7 +532,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -749,6 +645,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -764,11 +663,12 @@
       <workItem from="1450781328524" duration="3043000" />
       <workItem from="1450786385964" duration="183000" />
       <workItem from="1450787528789" duration="16000" />
+      <workItem from="1450790127158" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4266000" />
+    <option name="totallyTimeSpent" value="5073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1108,27 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/service/MyUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1140,20 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1198,14 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1217,9 +1074,36 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/service/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1243,18 +1127,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/web/controller/MainController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.3.RELEASE/spring-security-core-3.2.3.RELEASE.jar!/org/springframework/security/authentication/BadCredentialsException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.14946619">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13103448">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state vertical-scroll-proportion="-11.9">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.3.RELEASE/spring-security-core-3.2.3.RELEASE.jar!/org/springframework/security/core/Authentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14946619">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/web/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
