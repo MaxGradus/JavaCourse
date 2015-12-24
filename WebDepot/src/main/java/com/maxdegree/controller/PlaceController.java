@@ -1,6 +1,7 @@
 package com.maxdegree.controller;
 
 import com.maxdegree.entity.Placement;
+import com.maxdegree.entity.User;
 import com.maxdegree.service.PlaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -50,9 +51,9 @@ public class PlaceController {
 
 
     @RequestMapping(method = RequestMethod.GET, value = "my_places")
-    public String getMyPlaces(ModelMap model) {
-        List<Placement> places = placeService.getPlaceByUserId();
-        model.put("places", places);
+    public String getMyPlaces(User user) {
+        List<Placement> places = placeService.getPlaceByUser(user);
+//        model.put("places", places);
         return "personal_acc";
     }
 }

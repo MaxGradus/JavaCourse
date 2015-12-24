@@ -5,6 +5,6 @@
   <title></title>
 </head>
 <body>
-<% response.sendRedirect("/users"); %>
+<% response.sendRedirect("/login"); %>
 </body>
 </html>

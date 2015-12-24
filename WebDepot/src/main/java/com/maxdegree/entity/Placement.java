@@ -23,10 +23,8 @@ public class Placement {
     @Column(name = "date")
     private Long date;
 
-    @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY)
-    @JoinTable(name = "users_places",
-            joinColumns = @JoinColumn(name = "placeId"),
-            inverseJoinColumns = @JoinColumn(name = "userId"))
+    @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY, targetEntity = User.class)
+    @JoinColumn(name = "userId")
     private User user;
 
 

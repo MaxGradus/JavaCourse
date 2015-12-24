@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f55ec46e-3e9f-463d-9c4c-09c23bdfeddf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/PlaceDaoImpl.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/PlaceDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/dao/PlaceDaoImpl.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/dao/PlaceDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_Hibernate_ManyToOne/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot.war" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/dao/PlaceDaoImpl.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/dao/PlaceDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/scheme.sql" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/scheme.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/scheme.sql" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/scheme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Hibernate_ManyToOne/hibernate-many-to-one.iml" afterPath="$PROJECT_DIR$/../GS_Hibernate_ManyToOne/hibernate-many-to-one.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/resources/scheme.sql" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/resources/scheme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SpringSecurityHibernateAnnotationExample/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../SpringSecurityHibernateAnnotationExample/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SpringSecurityHibernateAnnotationExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../SpringSecurityHibernateAnnotationExample/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Hibernate_ManyToMany/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Hibernate_ManyToMany/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Hibernate_ManyToOne/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Hibernate_ManyToOne/.idea/workspace.xml" />
     </list>
     <ignored path="hibernate-inheritance-joined-table.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,20 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/payment/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.20689656">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PaymentDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/payment/PaymentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6137931">
+            <state vertical-scroll-proportion="0.0">
               <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
               <folding>
                 <marker date="1422999027000" expanded="true" signature="3455:3479" placeholder="SELECT * FRO..jc_payment..." />
@@ -135,7 +141,7 @@
       <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
               <folding />
             </state>
@@ -229,9 +235,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,6 +303,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +321,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_Hibernate_ManyToMany" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -415,15 +421,16 @@
       <updated>1450696012756</updated>
       <workItem from="1450696022248" duration="726000" />
       <workItem from="1450701750442" duration="46000" />
+      <workItem from="1450940298363" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="772000" />
+    <option name="totallyTimeSpent" value="810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -468,11 +475,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/payment/ChequePayment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/CashPayment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/PaymentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
+          <folding>
+            <marker date="1422999027000" expanded="true" signature="3455:3479" placeholder="SELECT * FRO..jc_payment..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9578f1a0-61ea-43dc-a986-3c36ffc38ac3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/CreditCardPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/ChequePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -501,15 +584,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c87ed4a3/9578f1a0-61ea-43dc-a986-3c36ffc38ac3/java_backend..jc_payment">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -561,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,33 +706,32 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c87ed4a3/9578f1a0-61ea-43dc-a986-3c36ffc38ac3/java_backend..jc_payment">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/payment/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/payment/PaymentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6137931">
+        <state vertical-scroll-proportion="0.0">
           <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
           <folding>
             <marker date="1422999027000" expanded="true" signature="3455:3479" placeholder="SELECT * FRO..jc_payment..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payment/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20689656">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

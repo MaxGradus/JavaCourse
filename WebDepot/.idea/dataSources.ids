@@ -12,8 +12,10 @@
       <column name="placeName" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
       <column name="price" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="date" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="userId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="placeId"/>
-      <exported-key name="fk_users_places_2" table="users_places" schema="" catalog="web_depot_db" columns="placeId"/>
+      <foreign-key name="fk_place_constraint" columns="userId" ref-table="users" ref-schema="" ref-catalog="web_depot_db" ref-columns="userId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_place_index" unique="false" columns="userId"/>
     </table>
     <table name="user_roles" schema="" catalog="web_depot_db" type="TABLE">
       <column name="USER_ROLE_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -28,18 +30,10 @@
       <column name="login" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <column name="password" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <column name="email" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ENABLED" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MQ=="/>
       <primary-key name="PRIMARY" columns="userId"/>
+      <exported-key name="fk_place_constraint" table="placements" schema="" catalog="web_depot_db" columns="userId"/>
       <exported-key name="FK_user_roles" table="user_roles" schema="" catalog="web_depot_db" columns="userId"/>
-      <exported-key name="fk_users_places_1" table="users_places" schema="" catalog="web_depot_db" columns="userId"/>
-    </table>
-    <table name="users_places" schema="" catalog="web_depot_db" type="TABLE">
-      <column name="userId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="placeId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="userId,placeId"/>
-      <foreign-key name="fk_users_places_1" columns="userId" ref-table="users" ref-schema="" ref-catalog="web_depot_db" ref-columns="userId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_users_places_2" columns="placeId" ref-table="placements" ref-schema="" ref-catalog="web_depot_db" ref-columns="placeId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="fk_users_places_1_idx" unique="false" columns="userId"/>
-      <index name="fk_users_places_2_idx" unique="false" columns="placeId"/>
     </table>
   </data-source>
 </component>

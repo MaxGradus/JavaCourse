@@ -3,6 +3,7 @@ package com.maxdegree.service;
 import com.maxdegree.dao.PlaceDao;
 import com.maxdegree.dao.UserDao;
 import com.maxdegree.entity.Placement;
+import com.maxdegree.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -42,7 +43,7 @@ public class PlaceService {
     }
 
     @Transactional
-    public List<Placement> getPlaceByUserId() {
-        return placeDao.getPlaceByUserId();
+    public List<Placement> getPlaceByUser(User user) {
+        return placeDao.getPlaceByUser(user);
     }
 }

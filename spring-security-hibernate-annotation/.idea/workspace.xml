@@ -2,14 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1303b60d-5920-447d-acb2-92ffc830f3c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/User.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/User.class" />
-      <change type="MODIFICATION" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\classes\com\maxdegree\entity\User.class" afterPath="E:\JAVAcourse\LessonEE\WebDepot\target\classes\com\maxdegree\entity\User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_aspectj_aspectjrt_1_6_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_6_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_security_spring_security_acl_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_security_spring_security_config_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_security_spring_security_core_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_security_spring_security_taglibs_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_security_spring_security_web_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_aop_3_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_context_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_context_support_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_core_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_jdbc_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_tx_3_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_web_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Web-Security\GS_Spring_Security_004\.idea\libraries\Maven__org_springframework_spring_webmvc_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/target/GS_Spring_Security_004.war" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/target/GS_Spring_Security_004.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/PlaceController.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/PlaceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/controller/PlaceController.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/controller/PlaceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/PlaceDao.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/PlaceDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/dao/PlaceDao.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/dao/PlaceDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/PlaceDaoImpl.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/PlaceDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/dao/PlaceDaoImpl.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/dao/PlaceDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/service/PlaceService.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/service/PlaceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/service/PlaceService.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/service/PlaceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/Placement.class" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/Placement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/entity/Placement.class" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/com/maxdegree/entity/Placement.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot.war" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/entity/User.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/controller/PlaceController.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/controller/PlaceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/dao/PlaceDao.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/dao/PlaceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/dao/PlaceDaoImpl.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/dao/PlaceDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/service/PlaceService.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/service/PlaceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/entity/Placement.java" afterPath="$PROJECT_DIR$/../WebDepot/src/main/java/com/maxdegree/entity/Placement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/hibernate-many-to-one.iml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/hibernate-many-to-one.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/index.jsp" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../WebDepot/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/resources/scheme.sql" afterPath="$PROJECT_DIR$/../WebDepot/src/main/resources/scheme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/scheme.sql" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/classes/scheme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/classes/scheme.sql" afterPath="$PROJECT_DIR$/../WebDepot/target/classes/scheme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/WEB-INF/spring-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/src/main/webapp/jsp/test.jsp" afterPath="$PROJECT_DIR$/../WebDepot/src/main/webapp/jsp/test.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringSecurityHibernateAnnotationExample/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SpringSecurityHibernateAnnotationExample/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate__SQL/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate__SQL/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringSecurityHibernateAnnotationExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SpringSecurityHibernateAnnotationExample/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Web-Security/GS_Spring_Security_004/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebDepot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebDepot/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate_Inherite_joined_table/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate_Inherite_joined_table/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToMany/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToMany/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate_ManyToOne/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hibernate/GS_Hibernate__SQL/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hibernate/GS_Hibernate__SQL/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-security-hibernate-annotation.iws" />
@@ -85,41 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.9">
-              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".classpath" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.classpath">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.57931036">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -127,22 +148,12 @@
       </file>
       <file leaf-file-name="test.user_roles" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="403.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -150,25 +161,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/service/MyUserDetailsService.java">
+      <file leaf-file-name="test.users" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
+          <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <caret line="0" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/model/User.java">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/dao/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding>
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#497#503#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/mysql.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="403.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -330,6 +398,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,8 +583,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -645,9 +717,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Unknown" factoryName="Unknown">
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -664,11 +733,13 @@
       <workItem from="1450786385964" duration="183000" />
       <workItem from="1450787528789" duration="16000" />
       <workItem from="1450790127158" duration="807000" />
+      <workItem from="1450956712711" duration="134000" />
+      <workItem from="1450957120870" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5073000" />
+    <option name="totallyTimeSpent" value="5512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -725,14 +796,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/web/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -745,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,28 +830,28 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -808,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,28 +923,28 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -903,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,28 +1015,28 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -996,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,13 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b532a7b8-9730-4561-861e-0038e52945b5/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1033,25 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#497#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,26 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,35 +1107,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1131,13 +1117,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14946619">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.9">
+        <state vertical-scroll-proportion="0.0">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
           <folding />
         </state>
@@ -1171,7 +1156,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14946619">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a57e623/b532a7b8-9730-4561-861e-0038e52945b5/test..users">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/users/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#497#503#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,10 +1238,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57931036">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding />
         </state>
       </provider>
