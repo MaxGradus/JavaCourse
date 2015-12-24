@@ -30,7 +30,7 @@
       <column name="login" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <column name="password" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <column name="email" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
-      <column name="ENABLED" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MQ=="/>
+      <column name="ENABLED" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
       <primary-key name="PRIMARY" columns="userId"/>
       <exported-key name="fk_place_constraint" table="placements" schema="" catalog="web_depot_db" columns="userId"/>
       <exported-key name="FK_user_roles" table="user_roles" schema="" catalog="web_depot_db" columns="userId"/>
