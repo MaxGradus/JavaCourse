@@ -12,6 +12,10 @@
   ${p.placeName} - ${p.price} USD <br/>
 </c:forEach>
 
-<a href="/free_places">Free places</a>
+<sec:authorize access="hasRole('ROLE_USER')">
+  <td align="center"><a href="/free_places">Free places</a></td>
+</sec:authorize>
+
+
 </body>
 </html>

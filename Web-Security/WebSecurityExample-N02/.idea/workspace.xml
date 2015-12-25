@@ -2,35 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8e04ce-b31c-4bcc-a560-9460d0fee7b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebSecurityExample-N02-1.0-SNAPSHOT/WEB-INF/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/target/WebSecurityExample-N02-1.0-SNAPSHOT/WEB-INF/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/target/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/AdminServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/AdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/Book.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/Book.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/BookStore.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/bean/BookStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/BookStore.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/bean/BookStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/BooksServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/BooksServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/BooksServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/BooksServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/ForceLoginServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/ru/gemini/security/ForceLoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/ForceLoginServlet.class" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/ru/gemini/security/ForceLoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebSecurityExample-N02-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/WebSecurityExample-N02-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app.war" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/WebSecurityExample-N03.iml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/WebSecurityExample-N03.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/artifacts/WebSecurityExample_N03_war_exploded.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/artifacts/WebSecurityExample_N03_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/webapp/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/META-INF/context.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/misc.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/pom.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/resources/script.sql" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/src/main/resources/script.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/script.sql" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/books-app/WEB-INF/classes/script.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/script.sql" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/target/classes/script.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/com/mkyong/web/controller/MainController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/com/mkyong/web/controller/MainController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/com/mkyong/users/service/MyUserDetailsService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/com/mkyong/users/service/MyUserDetailsService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/com/mkyong/users/model/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/com/mkyong/users/model/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/com/mkyong/users/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/com/mkyong/users/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/com/mkyong/users/dao/UserDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/com/mkyong/users/dao/UserDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/com/mkyong/users/model/UserRole.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/com/mkyong/users/model/UserRole.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/antlr-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/aspectjweaver-1.7.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/commons-dbcp-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/commons-pool-1.5.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/hibernate-core-4.2.11.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/javassist-3.18.1-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/logback-classic-1.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/logback-core-1.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/mysql-connector-java-5.1.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/slf4j-api-1.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-aop-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-aspects-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-beans-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-context-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-core-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-expression-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-jdbc-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-orm-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/lib/spring-security-acl-3.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-security-acl-3.2.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-security-config-3.2.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-security-core-3.2.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/lib/spring-security-taglibs-3.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-security-taglibs-3.2.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-security-web-3.2.3.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-tx-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-web-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/lib/spring-webmvc-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/pages/403.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/pages/403.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/java/com/mkyong/web/controller/MainController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_11_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_aspects_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_orm_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_tx_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/java/com/mkyong/users/service/MyUserDetailsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/java/com/mkyong/users/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/java/com/mkyong/users/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/java/com/mkyong/users/dao/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/java/com/mkyong/users/model/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/resources/orm/UserRoles.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/orm/UserRoles.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/orm/UserRoles.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/resources/orm/Users.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/orm/Users.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/orm/Users.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/pages/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/pages/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/pages/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/pages/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/classes/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/classes/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/script/mysql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.settings/org.eclipse.wst.common.component" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/spring-database.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/spring-database.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/spring-security-hibernate.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/spring-security.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/spring-security.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/artifacts/spring_security_hibernate_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/artifacts/spring_security_hibernate_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/target/SpringSecurity/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../MkYoung-Spring-Security-Hib/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_004/target/GS_Spring_Security_004.war" afterPath="$PROJECT_DIR$/../GS_Spring_Security_004/target/GS_Spring_Security_004.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/PlaceController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/PlaceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/PlaceController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/PlaceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot.war" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/PlaceController.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/PlaceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/UserController.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/WebDepot.iml" afterPath="$PROJECT_DIR$/../../WebDepot/WebDepot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/artifacts/WebDepot_war_exploded.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/artifacts/WebDepot_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/header.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/header.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/login_best.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/login_best.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/login_best.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/login_best.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/pom.xml" afterPath="$PROJECT_DIR$/../../WebDepot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/webContexts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring-MVC/GS_Spring_005/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Spring-MVC/GS_Spring_005/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_Security_004/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Spring_Security_004/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N00/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N00/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebSecurityExample-N03/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" />
     </list>
     <ignored path="WebSecurityExample-N02.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,6 +188,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="WebSecurityExample-N02" />
@@ -56,7 +203,7 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24110219">
+            <state vertical-scroll-proportion="0.0">
               <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
               <folding />
             </state>
@@ -96,7 +243,7 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/auth/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -432,9 +579,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,7 +595,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../servlets/servlets/ServletForm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -666,43 +813,44 @@
       <workItem from="1444998466474" duration="1607000" />
       <workItem from="1449648410544" duration="110000" />
       <workItem from="1449649838691" duration="85000" />
+      <workItem from="1451036510238" duration="454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2069000" />
+    <option name="totallyTimeSpent" value="2523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1380597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17324094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.108208954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -729,6 +877,46 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/gemini/security/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/books.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/auth/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
           <folding />
         </state>
@@ -816,7 +1004,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24110219">
+        <state vertical-scroll-proportion="0.0">
           <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
           <folding />
         </state>

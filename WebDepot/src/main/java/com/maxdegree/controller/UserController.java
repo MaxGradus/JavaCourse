@@ -32,7 +32,7 @@ public class UserController {
 
 
     @RequestMapping(method = RequestMethod.GET, value = "/users/{id}")
-    public ModelAndView getUser(@PathVariable("id") String userId, ModelMap model) { //то что придет в URL после /users/ попадет в String userId
+    public ModelAndView getUser(@PathVariable("id") String userId, ModelMap model) { //пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ URL пїЅпїЅпїЅпїЅпїЅ /users/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ String userId
         model.put("user", userService.getById(Long.parseLong(userId)));
         return new ModelAndView("user", model);
     }
@@ -87,6 +87,15 @@ public class UserController {
     @RequestMapping(value="/logout", method = RequestMethod.GET)
     public String logout(Model model) {
         return "login";
+    }
 
+    @RequestMapping(value="/admin", method = RequestMethod.GET)
+    public String adminPage() {
+        return "admin";
+    }
+
+    @RequestMapping(value="/registration", method = RequestMethod.GET)
+    public String registrationPage() {
+        return "registration";
     }
 }

@@ -1,43 +1,59 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
-<%@ page session="false" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
-<body bgcolor="#d3d3d3">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Login page</title>
+  <link href="<c:url value='/static/css/bootstrap.css' />"  rel="stylesheet"/>
+  <link href="<c:url value='/static/css/app.css' />" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" />
+</head>
 
-<c:if test="${not empty error}">
-  <div style="color: red;">
-    Login failde, try again.
+<body>
+
+<div id="mainWrapper">
+  <div class="login-container">
+    <div class="login-card">
+      <div class="login-form">
+        <c:url var="loginUrl" value='/j_spring_security_check' />
+        <form action="${loginUrl}" method="post" class="form-horizontal">
+          <c:if test="${not empty error}">
+          <div style="color: red;">
+              <p>Login failde, try again.</p>
+              <p>Invalid username and password.</p>
+            </div>
+          </c:if>
+          <c:if test="${param.logout != null}">
+            <div class="alert alert-success">
+              <p>You have been logged out successfully.</p>
+            </div>
+          </c:if>
+          <div class="input-group input-sm">
+            <label class="input-group-addon" for='userId'><i class="fa fa-user"></i></label>
+            <input type="text" class="form-control" id='userId' name='j_username' placeholder="Enter Username" required>
+          </div>
+          <div class="input-group input-sm">
+            <label class="input-group-addon" for='password'><i class="fa fa-lock"></i></label>
+            <input type="password" class="form-control" id='password' name='j_password' placeholder="Enter Password" required>
+          </div>
+          <input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
+          <br/>
+
+          <div class="form-actions">
+            <input type="submit"
+                   class="btn btn-block btn-primary btn-default" value="Log in">
+          </div>
+          <br/>
+
+          <div class="link">
+            <a href="/registration" class="btn btn-block btn-primary btn-default">REGISTRATION</a>
+          </div>
+
+        </form>
+      </div>
+    </div>
   </div>
-</c:if>
-
-<form action="<c:url value='j_spring_security_check'/>" method='POST'>
-
-  <table>
-    <tr>
-      <td>Login:</td>
-      <td><input type='text' name='j_username' value=''>
-      </td>
-    </tr>
-    <tr>
-      <td>Password:</td>
-      <td><input type='password' name='j_password' />
-      </td>
-    </tr>
-    <tr>
-      <td colspan='2'>
-        <input name="submit" type="submit" value="login" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan='2'>
-        <input name="reset" type="reset" value="Reset"/>
-      </td>
-    </tr>
-  </table>
-
-</form>
-
+</div>
 
 </body>
 </html>

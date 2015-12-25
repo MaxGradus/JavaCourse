@@ -22,39 +22,4 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-
-
-
 </beans>
-
-
-
-
-
-
-
-        <!--<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>-->
-        <!--&lt;!&ndash;<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>&ndash;&gt;-->
-
-        <!--<security:global-method-security pre-post-annotations="enabled">-->
-        <!--<security:expression-handler ref="expressionHandler"/>-->
-        <!--</security:global-method-security>-->
-
-        <!--<bean id="expressionHandler"-->
-        <!--class="org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler">-->
-        <!--</bean>-->
-
-
-
-        <!--<mvc:annotation-driven/>-->
-
-        <!--<bean class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler"/>-->
-
-        <!--<mvc:resources mapping="/static/**" location="/static/" />-->
-
-        <!--&lt;!&ndash;<bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>&ndash;&gt;-->
-        <!--<bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">-->
-        <!--<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>-->
-        <!--<property name="prefix" value="/jsp/"/>-->
-        <!--<property name="suffix" value=".jsp"/>-->
-        <!--</bean>-->

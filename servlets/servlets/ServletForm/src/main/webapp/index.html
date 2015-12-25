@@ -23,18 +23,24 @@
             checkbox
                     <input type="checkbox" name="check">
 
-
-
-
             <input type="submit" value="Go"/> <!--кнопка типа submit, все данные будут тправляться туда где указанно в 11 строке (<form action=адрес куда. в нашем случае на сервлет)-->
         </form>
         <br/>
+
 
         <h1>test form post</h1>
         <form action="ShowParameter" method="post">
             Parameter 1: <input type="text" value="1" name="parameter1"/><br/>
             Parameter 2: <input type="text" value="2" name="parameter2"/><br/>
             Parameter 3: <input type="text" value="3" name="parameter3"/><br/>
+            textarea <textarea rows="3" cols="5" name="text"></textarea><br/>
+
+            select <select name="select">
+            <option>one</option>
+            <option>two</option>
+            <option>three</option>
+        </select><br/>
+
             <input type="submit" value="Go"/>
         </form>
     </body>

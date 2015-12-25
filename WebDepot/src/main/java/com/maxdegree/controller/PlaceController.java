@@ -3,6 +3,7 @@ package com.maxdegree.controller;
 import com.maxdegree.entity.Placement;
 import com.maxdegree.entity.User;
 import com.maxdegree.service.PlaceService;
+import com.maxdegree.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +24,9 @@ public class PlaceController {
     @Autowired
     PlaceService placeService;
 
+    @Autowired
+    UserService userService;
+
     @RequestMapping(method = RequestMethod.GET, value = "/places")
     public String getAllUsers(ModelMap model) {
         List<Placement> places = placeService.getAll();
@@ -30,7 +35,7 @@ public class PlaceController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/places/{id}")
-    public ModelAndView getPlace(@PathVariable("id") String placeId, ModelMap model) { //то что придет в URL после /places/ попадет в String placeId
+    public ModelAndView getPlace(@PathVariable("id") String placeId, ModelMap model) { //пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ URL пїЅпїЅпїЅпїЅпїЅ /places/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ String placeId
         model.put("place", placeService.getById(Long.parseLong(placeId)));
         return new ModelAndView("place", model);
     }
@@ -51,9 +56,11 @@ public class PlaceController {
 
 
     @RequestMapping(method = RequestMethod.GET, value = "my_places")
-    public String getMyPlaces(User user) {
+    public String getMyPlaces(User user, ModelMap model, Principal principal) {
+        String login = principal.getName();
+        user = userService.getByLogin(login);
         List<Placement> places = placeService.getPlaceByUser(user);
-//        model.put("places", places);
+        model.put("places", places);
         return "personal_acc";
     }
 }
