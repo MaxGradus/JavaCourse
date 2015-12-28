@@ -11,7 +11,7 @@
 
 
 <c:forEach items="${places}" var="p">
-  ${p.placeName} <a href="/free_places/${p.placeId}.html">Choose</a> <br/>
+  ${p.placeName} <a href="/places/${p.placeId}.html">Choose</a> <br/>
 <br/>
 </c:forEach>
 

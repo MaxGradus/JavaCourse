@@ -24,3 +24,13 @@
 
 </body>
 </html>
+
+<%--<form action="/buy_place" method="post">--%>
+
+<%--<select name="select">--%>
+<%--<option>one month</option>--%>
+<%--<option>two month</option>--%>
+<%--<option>three month</option>--%>
+<%--</select>--%>
+<%--<input type="submit" value="BUY"/>--%>
+<%--</form>--%>

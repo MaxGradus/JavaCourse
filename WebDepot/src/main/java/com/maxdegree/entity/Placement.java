@@ -12,7 +12,7 @@ public class Placement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "placeId", nullable = false)
-    private Integer placeId;
+    private Long placeId;
 
     @Column(name = "placeName", nullable = false)
     private String placeName;
@@ -28,11 +28,11 @@ public class Placement {
     private User user;
 
 
-    public Integer getPlaceId() {
+    public Long getPlaceId() {
         return placeId;
     }
 
-    public void setPlaceId(Integer placeId) {
+    public void setPlaceId(Long placeId) {
         this.placeId = placeId;
     }
 
