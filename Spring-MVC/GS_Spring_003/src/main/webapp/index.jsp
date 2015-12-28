@@ -45,6 +45,8 @@
         }
 
 
+
+
     </script>
 
     <title>Hello Ajax</title>
@@ -53,7 +55,18 @@
 <a href="javascript:void(0);" onclick="sayHello();">Say hello ajax!</a><br/>
 
 <input type="text" id="d1"> + <input type="text" id="d2"> = <input onclick="plus();" type="button" value="Get result"> <!--input fields id for javascript function plus()-->
-<span id="result"></span>
+<span id="result"></span> <br/>
+
+<select onchange="alert('Item with index ' + this.selectedIndex + ' selected.')">
+    <optgroup label="Cars">
+        <option>Volvo</option>
+        <option>Saab</option>
+        <option>Mercedes</option>
+        <option>Audi</option>
+    </optgroup>
+</select>
+
+<br/>
 
 
 </body>

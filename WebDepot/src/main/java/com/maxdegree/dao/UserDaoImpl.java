@@ -3,6 +3,7 @@ package com.maxdegree.dao;
 
 import com.maxdegree.entity.User;
 import org.hibernate.Query;
+import org.hibernate.SQLQuery;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -45,6 +46,14 @@ public class UserDaoImpl implements UserDao {
 
     public void delete(User user) {
         sessionFactory.getCurrentSession().delete(user);
+    }
+
+    public void addNewRole(Long id) {
+        SQLQuery query = sessionFactory.getCurrentSession().createSQLQuery("INSERT INTO user_roles(userId, AUTHORITY)  VALUES (:myId,'ROLE_USER')" );
+//        query.setLong(1, id);
+//        query.setString(2, "ROLE_USER");
+        query.setParameter("myId", id);
+        query.executeUpdate();
     }
 
 }

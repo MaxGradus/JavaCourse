@@ -1,11 +1,10 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ include file="header.jsp" %>
-
 <html>
 <head>
-  <title>TEST</title>
+  <title>About Us</title>
 </head>
 <body bgcolor="#d3d3d3">
-${user.login} - ${user.email}
+${month}
 </body>
 </html>

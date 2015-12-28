@@ -37,28 +37,17 @@
             <input type="password" class="form-control" id='password' name='j_password' placeholder="Enter Password" required>
           </div>
           <input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
-
           <br/>
 
           <div class="form-actions">
             <input type="submit"
                    class="btn btn-block btn-primary btn-default" value="Log in">
           </div>
-
           <br/>
 
           <div class="link">
             <a href="/registration" class="btn btn-block btn-primary btn-default">REGISTRATION</a>
           </div>
-
-
-          <%--<style>--%>
-            <%--.outer {--%>
-              <%--text-align: center;--%>
-              <%--font-size: 150%--%>
-            <%--}--%>
-          <%--</style>--%>
-          <%--<div class="outer">REGISTRATION</div>--%>
 
         </form>
       </div>

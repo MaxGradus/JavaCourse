@@ -50,17 +50,34 @@ public class PlaceController {
             }
         }
         model.put("places", myPlaces);
-        return "places";
+        return "free_places";
     }
 
-
-
-    @RequestMapping(method = RequestMethod.GET, value = "my_places")
+    @RequestMapping(method = RequestMethod.GET, value = "/my_places")
     public String getMyPlaces(User user, ModelMap model, Principal principal) {
         String login = principal.getName();
         user = userService.getByLogin(login);
         List<Placement> places = placeService.getPlaceByUser(user);
+        int size = places.size();
         model.put("places", places);
+        model.put("size", size);
         return "personal_acc";
     }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/buy_place")
+    public String buyPlace(@RequestParam("select")String month, ModelMap model) {
+
+//        int m = 0;
+//
+//        if(month.equals("one month")) {
+//            m = 1;
+//        } if(month.equals("two month")) {
+//            m = 2;
+//        } if(month.equals("three month")) {
+//            m = 3;
+//        }
+        model.put("month", month);
+        return "buy_place";
+    }
+
 }

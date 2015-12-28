@@ -2,68 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb843ad6-8da1-4f71-b8f1-884f767bfc47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/dao/AbstractDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/dao/AbstractDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_Spring_005/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_5_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_9_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_jboss_jandex_1_2_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/webapp/META-INF/contex.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/hibernate-prog-annotations.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GS_Spring_005/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/webapp/jsp/users.jsp" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Spring-MVC\GS_Spring_005\target\Expomap\WEB-INF\lib\javaee-api-6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\Spring-MVC\GS_Spring_005\target\Expomap\WEB-INF\lib\mysql-connector-java-5.1.18.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/target/Expomap.war" afterPath="$PROJECT_DIR$/../GS_Spring_005/target/Expomap.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_002/target/GS_Spring_002.war" afterPath="$PROJECT_DIR$/../GS_Spring_002/target/GS_Spring_002.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/target/classes/edu/javacourse/spring/SpringExample.class" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/target/classes/edu/javacourse/spring/SpringExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Security/WebSecurityExample-N01/target/WebSecurityExample-N01-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/../../Web-Security/WebSecurityExample-N01/target/WebSecurityExample-N01-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/Expomap.iml" afterPath="$PROJECT_DIR$/../GS_Spring_005/Expomap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/.idea/artifacts/Expomap_war_exploded.xml" afterPath="$PROJECT_DIR$/../GS_Spring_005/.idea/artifacts/Expomap_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/target/Expomap/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../GS_Spring_005/target/Expomap/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/model/Placement.java" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/model/Placement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/src/main/java/ru/expomap/test/validation/ProjectValidator.java" afterPath="$PROJECT_DIR$/../GS_Spring_005/src/main/java/ru/expomap/test/validation/ProjectValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/src/main/java/ru/expomap/test/controller/ProjectsController.java" afterPath="$PROJECT_DIR$/../GS_Spring_005/src/main/java/ru/expomap/test/controller/ProjectsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/src/main/java/edu/javacourse/spring/SpringExample.java" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/src/main/java/edu/javacourse/spring/SpringExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/model/User.java" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/java/com/maxdegree/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/Web_Depot.iml" afterPath="$PROJECT_DIR$/../../Web_Depot/Web_Depot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/.idea/artifacts/Web_Depot_war_exploded.xml" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/artifacts/Web_Depot_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../../Web_Depot/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../GS_Spring_005/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/pom.xml" afterPath="$PROJECT_DIR$/../GS_Spring_005/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/pom.xml" afterPath="$PROJECT_DIR$/../../Web_Depot/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/spring-hibernate.iml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/spring-hibernate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/src/main/webapp/jsp/users.jsp" afterPath="$PROJECT_DIR$/../GS_Spring_005/src/main/webapp/jsp/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/target/Expomap/jsp/users.jsp" afterPath="$PROJECT_DIR$/../GS_Spring_005/target/Expomap/jsp/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_002/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Spring_002/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/libraries/Maven__javax_javaee_api_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/ajax-test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/artifacts/ajax_test_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/artifacts/ajax_test_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/buy_place.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/free_places.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../JavaScript/AjaxServletExample/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\src\main\webapp\WEB-INF\jsp\test.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\JAVAcourse\LessonEE\WebDepot\target\WebDepot\WEB-INF\jsp\test.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GS_Spring_003.war" afterPath="$PROJECT_DIR$/target/GS_Spring_003.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/PlaceController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/PlaceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/PlaceController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/PlaceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/User.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/entity/User.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/UserController.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/UserDao.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/dao/UserDao.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/UserDaoImpl.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/dao/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/dao/UserDaoImpl.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/dao/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/service/UserService.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/classes/com/maxdegree/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/service/UserService.class" afterPath="$PROJECT_DIR$/../../WebDepot/target/classes/com/maxdegree/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot.war" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/PlaceController.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/PlaceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/entity/User.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/UserController.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/dao/UserDao.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/dao/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/service/UserService.java" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/java/com/maxdegree/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/header.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/header.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GS_Spring_003/index.jsp" afterPath="$PROJECT_DIR$/target/GS_Spring_003/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/personal_acc.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/personal_acc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/personal_acc.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/personal_acc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/registration.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/src/main/webapp/WEB-INF/jsp/registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/registration.jsp" afterPath="$PROJECT_DIR$/../../WebDepot/target/WebDepot/WEB-INF/jsp/registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GS_Spring_005/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GS_Spring_005/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Security/WebSecurityExample-N01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Security/WebSecurityExample-N01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web_Depot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_19_Transaction/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_19_Transaction/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../spring/GS_Spring_22_Hibernate/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\Spring-MVC\GS_Spring_005\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_18.xml" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_18.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\Web_Depot\.idea\libraries\Maven__antlr_antlr_2_7_6.xml" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\Web_Depot\.idea\libraries\Maven__commons_collections_commons_collections_3_1.xml" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\Web_Depot\.idea\libraries\Maven__javax_transaction_jta_1_1.xml" afterPath="$PROJECT_DIR$/../../hibernate/GS_Hibernate_ConfigProg_Annotation/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
-      <change type="MOVED" beforePath="E:\JAVAcourse\LessonEE\Web_Depot\.idea\libraries\Maven__org_hibernate_hibernate_core_3_5_0_Final.xml" afterPath="$PROJECT_DIR$/../../Web_Depot/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Web-Security/GS_Spring_Security_004/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Web-Security/GS_Spring_Security_004/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WebDepot/.idea/workspace.xml" />
     </list>
     <ignored path="GS_Spring_003.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +82,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/spring/controller/AjaxController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding />
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +103,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0487515">
-              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.975">
+              <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -219,8 +207,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +304,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,7 +318,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GS_Spring_005" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
@@ -553,11 +541,13 @@
       <workItem from="1449830558478" duration="35000" />
       <workItem from="1450077753508" duration="8000" />
       <workItem from="1450359220879" duration="57000" />
+      <workItem from="1451296396082" duration="295000" />
+      <workItem from="1451298683057" duration="5094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4777000" />
+    <option name="totallyTimeSpent" value="10166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -566,12 +556,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12846482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4064588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -583,14 +575,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4064588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -617,8 +607,62 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/spring/controller/AjaxController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/spring/controller/AjaxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/spring/controller/AjaxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -634,7 +678,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,7 +696,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +714,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,7 +732,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,7 +750,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,15 +782,33 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gemini/spring/controller/AjaxController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33267328">
+          <caret line="326" column="16" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1156" column="0" selection-start-line="1156" selection-start-column="0" selection-end-line="1156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0487515">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.975">
+          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding />
         </state>
       </provider>

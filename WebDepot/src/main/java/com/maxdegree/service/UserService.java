@@ -10,7 +10,7 @@ import java.util.List;
 
 
 @Service
-public class UserService { // класс делегирует работу объекту UserDao userDao
+public class UserService { // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ UserDao userDao
 
     @Autowired
     private UserDao userDao;
@@ -43,5 +43,10 @@ public class UserService { // класс делегирует работу объекту UserDao userDao
     @Transactional
     public User getByLogin(String login) {
         return userDao.getByLogin(login);
+    }
+
+    @Transactional
+    public void addNewRole(Long id) {
+        userDao.addNewRole(id);
     }
 }

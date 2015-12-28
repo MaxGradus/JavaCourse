@@ -10,7 +10,7 @@
     <sec:authorize access="hasRole('ROLE_ADMIN')">
       <td align="center"><h2><a href="<c:url value="/admin" />" > Administration</a></h2></td>
     </sec:authorize>
-    <td align="center"><h2><a href="/users">Personal Account</a></h2> </td>
+    <td align="center"><h2><a href="/my_places">Personal Account</a></h2> </td>
     <td align="center"><h2><a href="/places">Buy Placement</a></h2> </td>
     <td align="center"><h2><a href="/history">History</a></h2> </td>
     <td align="center"><h2><a href="/contacts">Contacts</a></h2> </td>

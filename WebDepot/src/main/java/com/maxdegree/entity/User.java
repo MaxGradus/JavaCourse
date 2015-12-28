@@ -26,6 +26,14 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "user", fetch = FetchType.LAZY)
     private List<Placement> places;
 
+    public User(String login, String password, String email) {
+        this.login = login;
+        this.password = password;
+        this.email = email;
+    }
+    public User() {
+
+    }
 
     public Long getUserId() {
         return userId;

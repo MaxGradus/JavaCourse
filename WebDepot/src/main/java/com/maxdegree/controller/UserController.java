@@ -54,12 +54,6 @@ public class UserController {
     }
 
 
-    @RequestMapping(method = RequestMethod.GET, value = "test")
-    public String test(ModelMap model) {
-        User user = userService.getById(3L);
-        model.put("user", user);
-        return "test";
-    }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String loginPage() {
@@ -97,5 +91,14 @@ public class UserController {
     @RequestMapping(value="/registration", method = RequestMethod.GET)
     public String registrationPage() {
         return "registration";
+    }
+
+    @RequestMapping(value = "/saveNew", method = RequestMethod.POST)
+    public String addNewUser(@RequestParam("userLogin") String login, @RequestParam("userPass") String password, @RequestParam("userEmail") String email) {
+        User user = new User(login, password, email);
+        userService.create(user);
+        Long id = user.getUserId();
+        userService.addNewRole(id);
+        return "redirect:/login";
     }
 }

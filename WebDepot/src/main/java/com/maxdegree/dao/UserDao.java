@@ -14,5 +14,6 @@ public interface UserDao {
     List<User> getAll();
     User getByLogin(String login);
     void delete(User user);
+    void addNewRole(Long userId);
 
 }
