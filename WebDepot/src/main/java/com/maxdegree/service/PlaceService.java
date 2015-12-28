@@ -33,8 +33,8 @@ public class PlaceService {
     }
 
     @Transactional
-    public Placement getById(Long userId) {
-        return placeDao.getById(userId);
+    public Placement getById(Long placeId) {
+        return placeDao.getById(placeId);
     }
 
     @Transactional

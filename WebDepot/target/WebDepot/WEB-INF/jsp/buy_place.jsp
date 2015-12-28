@@ -5,6 +5,17 @@
   <title>About Us</title>
 </head>
 <body bgcolor="#d3d3d3">
-${month}
+
+<%--<form action="/buy_place" method="post">--%>
+
+<%--<select name="select">--%>
+  <%--<option>one month</option>--%>
+  <%--<option>two month</option>--%>
+  <%--<option>three month</option>--%>
+<%--</select>--%>
+<%--<input type="submit" value="BUY"/>--%>
+<%--</form>--%>
+${price}
+
 </body>
 </html>

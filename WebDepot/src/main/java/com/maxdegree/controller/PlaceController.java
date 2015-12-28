@@ -65,18 +65,18 @@ public class PlaceController {
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/buy_place")
-    public String buyPlace(@RequestParam("select")String month, ModelMap model) {
+    public String buyPlace(@RequestParam("p")Placement place, ModelMap model) {
+        Integer price = place.getPrice();
+        model.put("price", price);
+        return "buy_place";
+    }
 
-//        int m = 0;
-//
-//        if(month.equals("one month")) {
-//            m = 1;
-//        } if(month.equals("two month")) {
-//            m = 2;
-//        } if(month.equals("three month")) {
-//            m = 3;
-//        }
-        model.put("month", month);
+    @RequestMapping(method = RequestMethod.POST, value = "/places/buy")
+    public String buyMyPlace(@RequestParam("placeId") String placeId, ModelMap model) {
+        Placement place = placeService.getById(Long.parseLong(placeId));
+        Integer price = place.getPrice();
+        //userService.delete(user);
+        model.put("price", price);
         return "buy_place";
     }
 
