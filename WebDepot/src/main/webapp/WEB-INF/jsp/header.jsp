@@ -5,8 +5,21 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
+<head>
+    <meta charset="utf-8">
+    <title>@font-face</title>
+    <style>
+        @font-face {
+            font-family: Pompadur;
+            src: url(/static/faith_collapsing/FaithCollapsing.ttf);
+        }
+        P {
+            font-family: Pompadur;
+        }
+    </style>
+</head>
 <table width="100%">
-  <tr>
+    <tr>
     <sec:authorize access="hasRole('ROLE_ADMIN')">
       <td align="center"><h2><a href="<c:url value="/admin" />" > Administration</a></h2></td>
     </sec:authorize>

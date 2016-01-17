@@ -14,7 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.security.Principal;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 
@@ -58,26 +60,64 @@ public class PlaceController {
         String login = principal.getName();
         user = userService.getByLogin(login);
         List<Placement> places = placeService.getPlaceByUser(user);
-        int size = places.size();
+        Integer size = places.size();
         model.put("places", places);
         model.put("size", size);
         return "personal_acc";
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "/buy_place")
-    public String buyPlace(@RequestParam("p")Placement place, ModelMap model) {
-        Integer price = place.getPrice();
-        model.put("price", price);
+    @RequestMapping(method = RequestMethod.POST, value = "/places/buy")
+    public String buyPlace(@RequestParam("placeId")String placeId, ModelMap model, @RequestParam("multiplier")String m, Principal principal) {
+        Placement place = placeService.getById(Long.parseLong(placeId));
+        User user = userService.getByLogin(principal.getName());
+        String date = getTime(Integer.parseInt(m));
+        place.setUser(user);
+        place.setDate(date);
+        placeService.update(place);
+//        return "buy_place";
+        return "redirect:/success";
+    }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/places/period")
+    public String chooseMyPlace(@RequestParam("placeId") String placeId, ModelMap model, @RequestParam("select")String select) {
+        Placement place = placeService.getById(Long.parseLong(placeId));
+        Integer multiplier = 0;
+        Integer resultPrice = 0;
+        if ("one month".equals(select)) {
+            multiplier = 1;
+        } if ("two month".equals(select)) {
+            multiplier = 2;
+        } if ("three month".equals(select)) {
+            multiplier = 3;
+        }
+        resultPrice = place.getPrice() * multiplier;
+        model.put("price", resultPrice);
+        model.put("place", place);
+        model.put("period", select);
+        model.put("multiplier", multiplier);
+        return "choose_place";
+
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/success")
+    public String wasBuy(){
         return "buy_place";
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "/places/buy")
-    public String buyMyPlace(@RequestParam("placeId") String placeId, ModelMap model) {
+    private String getTime(Integer mult) {
+        final Long MONTH = 2592000000L;
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Long t = new Date().getTime() + (MONTH * mult);
+        Date date = new Date(t);
+        String time = sdf.format(date).toString();
+        return time;
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/place/{id}")
+    public String getUser(@PathVariable("id") String placeId, ModelMap model) {
         Placement place = placeService.getById(Long.parseLong(placeId));
-        Integer price = place.getPrice();
-        //userService.delete(user);
-        model.put("price", price);
-        return "buy_place";
+        model.put("place", place);
+        return "user_place";
     }
 
 }

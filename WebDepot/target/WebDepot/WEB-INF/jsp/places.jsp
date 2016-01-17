@@ -3,9 +3,9 @@
 
 <html>
 <head>
-  <title>Places</title>
+  <title>All Places</title>
 </head>
-
+<center>
 <body bgcolor="#d3d3d3">
 
 <c:forEach items="${places}" var="p">
@@ -16,6 +16,6 @@
   <td align="center"><a href="/free_places">Free places</a></td>
 </sec:authorize>
 
-
+</center>
 </body>
 </html>

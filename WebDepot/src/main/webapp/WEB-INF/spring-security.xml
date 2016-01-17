@@ -13,10 +13,19 @@ http://www.springframework.org/schema/security/spring-security-3.1.xsd
         <!--<security:anonymous enabled="true"/>-->
 
         <intercept-url pattern="/welcome*" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/places/**" access="hasRole('ROLE_USER')"/>
         <intercept-url pattern="/my_places*" access="hasRole('ROLE_USER')"/>
-        <intercept-url pattern="/contacts*" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/free_places" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/success" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/history" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/contacts" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/logout" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/saveNew" access="hasRole('ROLE_USER')"/>
+
         <intercept-url pattern="/admin*" access="hasRole('ROLE_ADMIN')"/>
-        <!--<intercept-url pattern="/contacts/**" access="ROLE_ADMIN,ROLE_USER"/>-->
+        <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/place/**" access="hasRole('ROLE_ADMIN')"/>
+
 
 
         <form-login login-page="/login"

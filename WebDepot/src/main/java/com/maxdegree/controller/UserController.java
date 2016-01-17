@@ -1,6 +1,8 @@
 package com.maxdegree.controller;
 
+import com.maxdegree.entity.Placement;
 import com.maxdegree.entity.User;
+import com.maxdegree.service.PlaceService;
 import com.maxdegree.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -23,6 +25,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @Autowired
+    PlaceService placeService;
+
     @RequestMapping(method = RequestMethod.GET, value = "/users")
     public String getAllUsers(ModelMap model) {
         List<User> users = userService.getAll();
@@ -32,9 +37,14 @@ public class UserController {
 
 
     @RequestMapping(method = RequestMethod.GET, value = "/users/{id}")
-    public ModelAndView getUser(@PathVariable("id") String userId, ModelMap model) { //�� ��� ������ � URL ����� /users/ ������� � String userId
-        model.put("user", userService.getById(Long.parseLong(userId)));
-        return new ModelAndView("user", model);
+    public String getUser(@PathVariable("id") String userId, ModelMap model) {
+        User user = userService.getById(Long.parseLong(userId));
+        List<Placement> placements = placeService.getPlaceByUser(user);
+        Integer size = placements.size();
+        model.put("user", user);
+        model.put("places", placements);
+        model.put("size", size);
+        return "user";
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/users/delete")
@@ -61,15 +71,15 @@ public class UserController {
 
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/welcome")
-    public String welcomeIn(Model model, Principal principal) {
-        String name = principal.getName();
-        model.addAttribute("username", name);
-        model.addAttribute("roles", SecurityContextHolder.getContext().getAuthentication().getAuthorities());
-
-        return "history";
-
-    }
+//    @RequestMapping(method = RequestMethod.GET, value = "/welcome")
+//    public String welcomeIn(Model model, Principal principal) {
+//        String name = principal.getName();
+//        model.addAttribute("username", name);
+//        model.addAttribute("roles", SecurityContextHolder.getContext().getAuthentication().getAuthorities());
+//
+//        return "history";
+//
+//    }
 
     @RequestMapping(value="/loginfailed", method = RequestMethod.GET)
     public String loginerror(Model model) {
@@ -79,8 +89,8 @@ public class UserController {
     }
 
     @RequestMapping(value="/logout", method = RequestMethod.GET)
-    public String logout(Model model) {
-        return "login";
+    public String logout(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ) {
+        return "redirect:/login";
     }
 
     @RequestMapping(value="/admin", method = RequestMethod.GET)

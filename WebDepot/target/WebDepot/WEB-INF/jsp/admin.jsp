@@ -5,9 +5,10 @@
   <title>Admin</title>
 </head>
 <body bgcolor="#d3d3d3">
-Welcome Admin! <br/>
+<center>
+<h3>Welcome Admin!</h3> <br/>
 <a href="/users">Show All Users</a>  <br/>
 <a href="/free_places">Show Free Places</a> <br/>
-
+</center>
 </body>
 </html>

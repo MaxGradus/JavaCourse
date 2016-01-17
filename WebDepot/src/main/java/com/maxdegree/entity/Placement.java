@@ -3,6 +3,7 @@ package com.maxdegree.entity;
 import javax.persistence.*;
 import javax.persistence.CascadeType;
 import javax.persistence.Table;
+import java.util.Date;
 
 
 @Entity
@@ -21,7 +22,7 @@ public class Placement {
     private Integer price;
 
     @Column(name = "date")
-    private Long date;
+    private String date;
 
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY, targetEntity = User.class)
     @JoinColumn(name = "userId")
@@ -60,13 +61,14 @@ public class Placement {
         this.user = user;
     }
 
-    public Long getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Long date) {
+    public void setDate(String date) {
         this.date = date;
     }
+
 }
 
 

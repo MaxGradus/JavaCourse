@@ -11,7 +11,7 @@
       <column name="placeId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="placeName" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
       <column name="price" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="date" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
       <column name="userId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="placeId"/>
       <foreign-key name="fk_place_constraint" columns="userId" ref-table="users" ref-schema="" ref-catalog="web_depot_db" ref-columns="userId" update-rule="3" delete-rule="3" deferrability="2"/>

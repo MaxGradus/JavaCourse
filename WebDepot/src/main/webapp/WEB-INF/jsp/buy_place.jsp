@@ -2,11 +2,12 @@
 <%@ include file="header.jsp" %>
 <html>
 <head>
-  <title>Buy Place</title>
+  <title>Fake Robokassa</title>
 </head>
 <body bgcolor="#d3d3d3">
-
-${price}
-
+<center>
+  <h2>Fake Robokassa</h2>
+  <h2>Transfer success!</h2>
+</center>
 </body>
 </html>

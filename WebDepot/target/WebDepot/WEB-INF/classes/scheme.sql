@@ -21,7 +21,7 @@ CREATE TABLE web_depot_db.placements(
   `placeId` int(11) NOT NULL AUTO_INCREMENT,
   `placeName` varchar(64) DEFAULT NULL,
   `price` int(11) NOT NULL,
-  `date` bigint(20) DEFAULT NULL,
+  `date` DATETIME(64) DEFAULT NULL,
   `userId` int(11) DEFAULT NULL,
   PRIMARY KEY (`placeId`),
   KEY `fk_place_index` (`userId`),
@@ -44,11 +44,11 @@ INSERT INTO users (userId, login, password, email, ENABLED)  VALUES (2, 'user_1'
 INSERT INTO users (userId, login, password, email, ENABLED)  VALUES (3, 'user_2', 'user2', 'user2@gmail.com', TRUE);
 INSERT INTO users (userId, login, password, email, ENABLED)  VALUES (4, 'user_3', 'user3', 'user3@gmail.com', TRUE);
 
-INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (1, 'Place_1', 100, 11111, 1);
+INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (1, 'Place_1', 100, NULL , NULL);
 INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (2, 'Place_2', 100, NULL , NULL );
-INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (3, 'Place_3', 150, 22222, 2);
-INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (4, 'Place_4', 150, 22222, 2);
-INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (5, 'Place_5', 200, 11111, 3);
+INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (3, 'Place_3', 150, NULL , NULL);
+INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (4, 'Place_4', 150, NULL , NULL);
+INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (5, 'Place_5', 200, NULL , NULL);
 INSERT INTO placements (placeId, placeName, price, date, userId) VALUES (6, 'Place_6', 200, NULL , NULL);
 
 INSERT INTO user_roles (USER_ROLE_ID, userId, AUTHORITY) VALUES (1, 1, 'ROLE_USER');

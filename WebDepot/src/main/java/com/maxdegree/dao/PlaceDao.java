@@ -14,4 +14,5 @@ public interface PlaceDao {
     List<Placement> getAll();
     Placement getByName(String name);
     List<Placement> getPlaceByUser(User user);
+
 }
