@@ -7,7 +7,6 @@
 
 <head>
     <meta charset="utf-8">
-    <title>@font-face</title>
     <style>
         @font-face {
             font-family: Pompadur;

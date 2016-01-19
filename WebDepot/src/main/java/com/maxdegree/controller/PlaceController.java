@@ -67,14 +67,13 @@ public class PlaceController {
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/places/buy")
-    public String buyPlace(@RequestParam("placeId")String placeId, ModelMap model, @RequestParam("multiplier")String m, Principal principal) {
+    public String buyPlace(@RequestParam("placeId")String placeId, @RequestParam("multiplier")String m, Principal principal) {
         Placement place = placeService.getById(Long.parseLong(placeId));
         User user = userService.getByLogin(principal.getName());
         String date = getTime(Integer.parseInt(m));
         place.setUser(user);
         place.setDate(date);
         placeService.update(place);
-//        return "buy_place";
         return "redirect:/success";
     }
 

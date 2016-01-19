@@ -20,7 +20,6 @@ http://www.springframework.org/schema/security/spring-security-3.1.xsd
         <intercept-url pattern="/history" access="hasRole('ROLE_USER')"/>
         <intercept-url pattern="/contacts" access="hasRole('ROLE_USER')"/>
         <intercept-url pattern="/logout" access="hasRole('ROLE_USER')"/>
-        <intercept-url pattern="/saveNew" access="hasRole('ROLE_USER')"/>
 
         <intercept-url pattern="/admin*" access="hasRole('ROLE_ADMIN')"/>
         <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')"/>
